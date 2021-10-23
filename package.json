@@ -12,6 +12,14 @@
 	"scripts": {
 		"build": "rimraf bin && tsc"
 	},
+	"keywords": [
+		"language",
+		"flag",
+		"colors",
+		"crowdin",
+		"locale",
+		"iso"
+	],
 	"devDependencies": {
 		"rimraf": "^3.0.2",
 		"typescript": "^4.4.4"
