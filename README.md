@@ -4,10 +4,10 @@ A package with the color of every language's flag
 ## Instalation
 ```bash
 # npm
-npm install languages-flag-colors
+npm install language-flag-colors
 
 # yarn
-yarn add languages-flag-colors
+yarn add language-flag-colors
 ```
 
 ## Usage
