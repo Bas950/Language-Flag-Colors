@@ -720,9 +720,9 @@ const languages: Language[] = [
 		name: "English, Ireland",
 		country: "Ireland",
 		countryCode: "ie",
-		hex: "#00005C",
-		rgb: [0, 0, 92],
-		color: 92
+		hex: "#169B62",
+		rgb: [22, 155, 98],
+		color: 1481570
 	},
 	{
 		locale: "en-JM",
@@ -1307,9 +1307,9 @@ const languages: Language[] = [
 		name: "Irish",
 		country: "Ireland",
 		countryCode: "ie",
-		hex: "#00005C",
-		rgb: [0, 0, 92],
-		color: 92
+		hex: "#169B62",
+		rgb: [22, 155, 98],
+		color: 1481570
 	},
 	{
 		locale: "it-IT",
