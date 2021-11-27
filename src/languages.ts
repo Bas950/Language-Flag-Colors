@@ -6,6 +6,7 @@ const languages: Language[] = [
 		name: "Acholi",
 		country: "Uganda",
 		countryCode: "ug",
+		emoji: "🇺🇬",
 		hex: "#D90000",
 		rgb: [217, 0, 0],
 		color: 14221312
@@ -15,6 +16,7 @@ const languages: Language[] = [
 		name: "Afar",
 		country: "Eritrea",
 		countryCode: "er",
+		emoji: "🇪🇷",
 		hex: "#3C8BDC",
 		rgb: [60, 139, 220],
 		color: 3967964
@@ -24,6 +26,7 @@ const languages: Language[] = [
 		name: "Afrikaans",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -33,6 +36,7 @@ const languages: Language[] = [
 		name: "Akan",
 		country: "Ghana",
 		countryCode: "gh",
+		emoji: "🇬🇭",
 		hex: "#CF0921",
 		rgb: [207, 9, 33],
 		color: 13568289
@@ -42,6 +46,7 @@ const languages: Language[] = [
 		name: "Akan, Twi",
 		country: "Ghana",
 		countryCode: "gh",
+		emoji: "🇬🇭",
 		hex: "#CF0921",
 		rgb: [207, 9, 33],
 		color: 13568289
@@ -51,6 +56,7 @@ const languages: Language[] = [
 		name: "Albanian",
 		country: "Albania",
 		countryCode: "al",
+		emoji: "🇦🇱",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -60,6 +66,7 @@ const languages: Language[] = [
 		name: "Amharic",
 		country: "Ethiopia",
 		countryCode: "et",
+		emoji: "🇪🇹",
 		hex: "#078930",
 		rgb: [7, 137, 48],
 		color: 493872
@@ -69,6 +76,7 @@ const languages: Language[] = [
 		name: "Arabic",
 		country: "Jordan",
 		countryCode: "jo",
+		emoji: "🇯🇴",
 		hex: "#007A3D",
 		rgb: [0, 122, 61],
 		color: 31293
@@ -78,6 +86,7 @@ const languages: Language[] = [
 		name: "Arabic, Bahrain",
 		country: "Bahrain",
 		countryCode: "bh",
+		emoji: "🇧🇭",
 		hex: "#F21731",
 		rgb: [242, 23, 49],
 		color: 15865649
@@ -87,6 +96,7 @@ const languages: Language[] = [
 		name: "Arabic, Egypt",
 		country: "Egypt",
 		countryCode: "eg",
+		emoji: "🇪🇬",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -96,6 +106,7 @@ const languages: Language[] = [
 		name: "Arabic, Saudi Arabia",
 		country: "Saudi Arabia",
 		countryCode: "sa",
+		emoji: "🇸🇦",
 		hex: "#006C35",
 		rgb: [0, 108, 53],
 		color: 27701
@@ -105,6 +116,7 @@ const languages: Language[] = [
 		name: "Arabic, Yemen",
 		country: "Yemen",
 		countryCode: "ye",
+		emoji: "🇾🇪",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -114,6 +126,7 @@ const languages: Language[] = [
 		name: "Aragonese",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Aragon",
 		regionCode: "ar",
 		hex: "#FFDA0C",
@@ -125,6 +138,7 @@ const languages: Language[] = [
 		name: "Armenian",
 		country: "Armenia",
 		countryCode: "am",
+		emoji: "🇦🇲",
 		hex: "#D90012",
 		rgb: [217, 0, 18],
 		color: 14221330
@@ -134,6 +148,7 @@ const languages: Language[] = [
 		name: "Arpitan",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		region: "Arpitania",
 		regionCode: "frp",
 		hex: "#EB1C24",
@@ -145,6 +160,7 @@ const languages: Language[] = [
 		name: "Assamese",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		region: "Assam",
 		regionCode: "as",
 		hex: "#FF9933",
@@ -156,6 +172,7 @@ const languages: Language[] = [
 		name: "Asturian",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Asturias",
 		regionCode: "as",
 		hex: "#0066FF",
@@ -167,6 +184,7 @@ const languages: Language[] = [
 		name: "Atayal",
 		country: "Taiwan",
 		countryCode: "tw",
+		emoji: "🇹🇼",
 		hex: "#FE0000",
 		rgb: [254, 0, 0],
 		color: 16646144
@@ -198,6 +216,7 @@ const languages: Language[] = [
 		name: "Aymara",
 		country: "Bolivia",
 		countryCode: "bo",
+		emoji: "🇧🇴",
 		region: "Andes Mountains",
 		regionCode: "ay",
 		hex: "#FFFFFF",
@@ -209,6 +228,7 @@ const languages: Language[] = [
 		name: "Azerbaijani",
 		country: "Azerbaijan",
 		countryCode: "az",
+		emoji: "🇦🇿",
 		hex: "#0092BC",
 		rgb: [0, 146, 188],
 		color: 37564
@@ -218,6 +238,7 @@ const languages: Language[] = [
 		name: "Balinese",
 		country: "Indonesia",
 		countryCode: "id",
+		emoji: "🇮🇩",
 		region: "Bali",
 		regionCode: "ban",
 		hex: "#FF0000",
@@ -229,6 +250,7 @@ const languages: Language[] = [
 		name: "Balochi",
 		country: "Pakistan",
 		countryCode: "pk",
+		emoji: "🇵🇰",
 		region: "Balochistan",
 		regionCode: "ba",
 		hex: "#004226",
@@ -240,6 +262,7 @@ const languages: Language[] = [
 		name: "Bambara",
 		country: "Mali",
 		countryCode: "ml",
+		emoji: "🇲🇱",
 		region: "Bamana",
 		regionCode: "bm",
 		hex: "#FCD116",
@@ -262,6 +285,7 @@ const languages: Language[] = [
 		name: "Basque",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Basque Country",
 		regionCode: "pv",
 		hex: "#009B48",
@@ -273,6 +297,7 @@ const languages: Language[] = [
 		name: "Belarusian",
 		country: "Belarus",
 		countryCode: "by",
+		emoji: "🇧🇾",
 		hex: "#CF101A",
 		rgb: [207, 16, 26],
 		color: 13570074
@@ -282,6 +307,7 @@ const languages: Language[] = [
 		name: "Bengali",
 		country: "Bangladesh",
 		countryCode: "bn",
+		emoji: "🇧🇩",
 		hex: "#006747",
 		rgb: [0, 103, 71],
 		color: 26439
@@ -291,6 +317,7 @@ const languages: Language[] = [
 		name: "Bengali, India",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -311,6 +338,7 @@ const languages: Language[] = [
 		name: "Bihari",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		region: "Bihar",
 		regionCode: "br",
 		hex: "#FF9933",
@@ -322,6 +350,7 @@ const languages: Language[] = [
 		name: "Birifor",
 		country: "Burkina Faso",
 		countryCode: "bf",
+		emoji: "🇧🇫",
 		hex: "#009E49",
 		rgb: [0, 158, 73],
 		color: 40521
@@ -331,6 +360,7 @@ const languages: Language[] = [
 		name: "Bislama",
 		country: "Vanuatu",
 		countryCode: "vu",
+		emoji: "🇻🇺",
 		hex: "#FDCE12",
 		rgb: [253, 206, 18],
 		color: 16633362
@@ -340,6 +370,7 @@ const languages: Language[] = [
 		name: "Bosnian",
 		country: "Bosnia and Herzegovina",
 		countryCode: "ba",
+		emoji: "🇧🇦",
 		hex: "#001489",
 		rgb: [0, 20, 137],
 		color: 5257
@@ -349,6 +380,7 @@ const languages: Language[] = [
 		name: "Breton",
 		country: "France",
 		countryCode: "fr",
+		emoji: "🇫🇷",
 		region: "Brittany",
 		regionCode: "e",
 		hex: "#000000",
@@ -360,6 +392,7 @@ const languages: Language[] = [
 		name: "Bulgarian",
 		country: "Bulgaria",
 		countryCode: "bg",
+		emoji: "🇧🇬",
 		hex: "#009B74",
 		rgb: [0, 155, 116],
 		color: 39796
@@ -369,6 +402,7 @@ const languages: Language[] = [
 		name: "Burmese",
 		country: "Myanmar",
 		countryCode: "mm",
+		emoji: "🇲🇲",
 		hex: "#EA2839",
 		rgb: [234, 40, 57],
 		color: 15345721
@@ -378,6 +412,7 @@ const languages: Language[] = [
 		name: "Catalan",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Catalonia",
 		regionCode: "ca",
 		hex: "#DA121A",
@@ -389,6 +424,7 @@ const languages: Language[] = [
 		name: "Cebuano",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		region: "Central Visayas",
 		regionCode: "07",
 		hex: "#0038A8",
@@ -400,6 +436,7 @@ const languages: Language[] = [
 		name: "Chamorro",
 		country: "Guam",
 		countryCode: "gu",
+		emoji: "🇬🇺",
 		hex: "#00257C",
 		rgb: [0, 37, 124],
 		color: 9596
@@ -420,6 +457,7 @@ const languages: Language[] = [
 		name: "Cherokee",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		region: "Oklahoma",
 		regionCode: "ok",
 		hex: "#0A3161",
@@ -431,6 +469,7 @@ const languages: Language[] = [
 		name: "Chewa",
 		country: "Malawi",
 		countryCode: "mw",
+		emoji: "🇲🇼",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -440,6 +479,7 @@ const languages: Language[] = [
 		name: "Chinese Simplified",
 		country: "China",
 		countryCode: "cn",
+		emoji: "🇨🇳",
 		hex: "#EE1C25",
 		rgb: [238, 28, 37],
 		color: 15604773
@@ -449,6 +489,7 @@ const languages: Language[] = [
 		name: "Chinese Traditional",
 		country: "Taiwan",
 		countryCode: "tw",
+		emoji: "🇹🇼",
 		hex: "#FE0000",
 		rgb: [254, 0, 0],
 		color: 16646144
@@ -458,6 +499,7 @@ const languages: Language[] = [
 		name: "Chinese Traditional, Hong Kong",
 		country: "Hong Kong",
 		countryCode: "hk",
+		emoji: "🇭🇰",
 		hex: "#DE2408",
 		rgb: [222, 36, 8],
 		color: 14558216
@@ -476,6 +518,7 @@ const languages: Language[] = [
 		name: "Chinese Traditional, Singapore",
 		country: "Singapore",
 		countryCode: "sg",
+		emoji: "🇸🇬",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -496,6 +539,7 @@ const languages: Language[] = [
 		name: "Cornish",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		region: "Cornwall",
 		regionCode: "con",
 		hex: "#000000",
@@ -507,6 +551,7 @@ const languages: Language[] = [
 		name: "Corsican",
 		country: "France",
 		countryCode: "fr",
+		emoji: "🇫🇷",
 		region: "Corsica",
 		regionCode: "co",
 		hex: "#000000",
@@ -518,6 +563,7 @@ const languages: Language[] = [
 		name: "Cree",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		region: "Northwest Territories",
 		regionCode: "nt",
 		hex: "#2A317D",
@@ -529,6 +575,7 @@ const languages: Language[] = [
 		name: "Croatian",
 		country: "Croatia",
 		countryCode: "hr",
+		emoji: "🇭🇷",
 		hex: "#C8102E",
 		rgb: [200, 16, 46],
 		color: 13111342
@@ -547,6 +594,7 @@ const languages: Language[] = [
 		name: "Danish",
 		country: "Denmark",
 		countryCode: "dk",
+		emoji: "🇩🇰",
 		hex: "#C60C30",
 		rgb: [198, 12, 48],
 		color: 12979248
@@ -556,6 +604,7 @@ const languages: Language[] = [
 		name: "Dari",
 		country: "Afghanistan",
 		countryCode: "af",
+		emoji: "🇦🇫",
 		hex: "#D32011",
 		rgb: [211, 32, 17],
 		color: 13836305
@@ -565,6 +614,7 @@ const languages: Language[] = [
 		name: "Dhivehi",
 		country: "Maldives",
 		countryCode: "mv",
+		emoji: "🇲🇻",
 		hex: "#D21034",
 		rgb: [210, 16, 52],
 		color: 13766708
@@ -574,6 +624,7 @@ const languages: Language[] = [
 		name: "Dutch",
 		country: "Netherlands",
 		countryCode: "nl",
+		emoji: "🇳🇱",
 		hex: "#FF4F00",
 		rgb: [255, 79, 0],
 		color: 16731904
@@ -583,6 +634,7 @@ const languages: Language[] = [
 		name: "Dutch, Belgium",
 		country: "Belgium",
 		countryCode: "be",
+		emoji: "🇧🇪",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -592,6 +644,7 @@ const languages: Language[] = [
 		name: "Dutch, Suriname",
 		country: "Suriname",
 		countryCode: "sr",
+		emoji: "🇸🇷",
 		hex: "#B40A2D",
 		rgb: [180, 10, 45],
 		color: 11799085
@@ -601,6 +654,7 @@ const languages: Language[] = [
 		name: "Dzongkha",
 		country: "Bhutan",
 		countryCode: "bt",
+		emoji: "🇧🇹",
 		hex: "#FF4E12",
 		rgb: [255, 78, 18],
 		color: 16731666
@@ -610,6 +664,7 @@ const languages: Language[] = [
 		name: "English",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		hex: "#00247D",
 		rgb: [0, 36, 125],
 		color: 9341
@@ -619,6 +674,7 @@ const languages: Language[] = [
 		name: "English (upside down)",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#0A3161",
 		rgb: [10, 49, 97],
 		color: 668001
@@ -628,6 +684,7 @@ const languages: Language[] = [
 		name: "English, Arabia",
 		country: "United Arab Emirates",
 		countryCode: "ae",
+		emoji: "🇦🇪",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -637,6 +694,7 @@ const languages: Language[] = [
 		name: "English, Australia",
 		country: "Australia",
 		countryCode: "au",
+		emoji: "🇦🇺",
 		hex: "#FFCD00",
 		rgb: [255, 205, 0],
 		color: 16764160
@@ -646,6 +704,7 @@ const languages: Language[] = [
 		name: "English, Belize",
 		country: "Belize",
 		countryCode: "bz",
+		emoji: "🇧🇿",
 		hex: "#003F87",
 		rgb: [0, 63, 135],
 		color: 16263
@@ -655,6 +714,7 @@ const languages: Language[] = [
 		name: "English, Canada",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -664,6 +724,7 @@ const languages: Language[] = [
 		name: "English, Caribbean",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		region: "Caribbean",
 		regionCode: "cb",
 		hex: "#0A3161",
@@ -675,6 +736,7 @@ const languages: Language[] = [
 		name: "English, China",
 		country: "China",
 		countryCode: "cn",
+		emoji: "🇨🇳",
 		hex: "#EE1C25",
 		rgb: [238, 28, 37],
 		color: 15604773
@@ -684,6 +746,7 @@ const languages: Language[] = [
 		name: "English, Denmark",
 		country: "Denmark",
 		countryCode: "dk",
+		emoji: "🇩🇰",
 		hex: "#C60C30",
 		rgb: [198, 12, 48],
 		color: 12979248
@@ -693,6 +756,7 @@ const languages: Language[] = [
 		name: "English, Hong Kong",
 		country: "Hong Kong",
 		countryCode: "hk",
+		emoji: "🇭🇰",
 		hex: "#DE2408",
 		rgb: [222, 36, 8],
 		color: 14558216
@@ -702,6 +766,7 @@ const languages: Language[] = [
 		name: "English, India",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -711,6 +776,7 @@ const languages: Language[] = [
 		name: "English, Indonesia",
 		country: "Indonesia",
 		countryCode: "id",
+		emoji: "🇮🇩",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -720,6 +786,7 @@ const languages: Language[] = [
 		name: "English, Ireland",
 		country: "Ireland",
 		countryCode: "ie",
+		emoji: "🇮🇪",
 		hex: "#169B62",
 		rgb: [22, 155, 98],
 		color: 1481570
@@ -729,6 +796,7 @@ const languages: Language[] = [
 		name: "English, Jamaica",
 		country: "Jamaica",
 		countryCode: "jm",
+		emoji: "🇯🇲",
 		hex: "#009B3A",
 		rgb: [0, 155, 58],
 		color: 39738
@@ -738,6 +806,7 @@ const languages: Language[] = [
 		name: "English, Japan",
 		country: "Japan",
 		countryCode: "ja",
+		emoji: "🇯🇵",
 		hex: "#BC002D",
 		rgb: [188, 0, 45],
 		color: 12320813
@@ -747,6 +816,7 @@ const languages: Language[] = [
 		name: "English, Malaysia",
 		country: "Malaysia",
 		countryCode: "my",
+		emoji: "🇲🇾",
 		hex: "#FFCC00",
 		rgb: [255, 204, 0],
 		color: 16763904
@@ -756,6 +826,7 @@ const languages: Language[] = [
 		name: "English, New Zealand",
 		country: "New Zealand",
 		countryCode: "nz",
+		emoji: "🇳🇿",
 		hex: "#000000",
 		rgb: [0, 0, 0],
 		color: 0
@@ -765,6 +836,7 @@ const languages: Language[] = [
 		name: "English, Norway",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#BA0C2F",
 		rgb: [186, 12, 47],
 		color: 12192815
@@ -774,6 +846,7 @@ const languages: Language[] = [
 		name: "English, Philippines",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		hex: "#0038A8",
 		rgb: [0, 56, 168],
 		color: 14504
@@ -783,6 +856,7 @@ const languages: Language[] = [
 		name: "English, Puerto Rico",
 		country: "Puerto Rico",
 		countryCode: "pr",
+		emoji: "🇵🇷",
 		hex: "#E92228",
 		rgb: [233, 34, 40],
 		color: 15278632
@@ -792,6 +866,7 @@ const languages: Language[] = [
 		name: "English, Singapore",
 		country: "Singapore",
 		countryCode: "sg",
+		emoji: "🇸🇬",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -801,6 +876,7 @@ const languages: Language[] = [
 		name: "English, South Africa",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -810,6 +886,7 @@ const languages: Language[] = [
 		name: "English, Sweden",
 		country: "Sweden",
 		countryCode: "se",
+		emoji: "🇸🇪",
 		hex: "#FECC02",
 		rgb: [254, 204, 2],
 		color: 16698370
@@ -819,6 +896,7 @@ const languages: Language[] = [
 		name: "English, United Kingdom",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		hex: "#00247D",
 		rgb: [0, 36, 125],
 		color: 9341
@@ -828,6 +906,7 @@ const languages: Language[] = [
 		name: "English, United States",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#0A3161",
 		rgb: [10, 49, 97],
 		color: 668001
@@ -837,6 +916,7 @@ const languages: Language[] = [
 		name: "English, Zimbabwe",
 		country: "Zimbabwe",
 		countryCode: "zw",
+		emoji: "🇿🇼",
 		hex: "#FFD200",
 		rgb: [255, 210, 0],
 		color: 16765440
@@ -855,6 +935,7 @@ const languages: Language[] = [
 		name: "Estonian",
 		country: "Estonia",
 		countryCode: "ee",
+		emoji: "🇪🇪",
 		hex: "#0072CE",
 		rgb: [0, 114, 206],
 		color: 29390
@@ -864,6 +945,7 @@ const languages: Language[] = [
 		name: "Ewe",
 		country: "Ghana",
 		countryCode: "gh",
+		emoji: "🇬🇭",
 		hex: "#CF0921",
 		rgb: [207, 9, 33],
 		color: 13568289
@@ -873,6 +955,7 @@ const languages: Language[] = [
 		name: "Faroese",
 		country: "Faroe Islands",
 		countryCode: "fo",
+		emoji: "🇫🇴",
 		hex: "#0165BF",
 		rgb: [1, 101, 191],
 		color: 91583
@@ -891,6 +974,7 @@ const languages: Language[] = [
 		name: "Filipino",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		hex: "#0038A8",
 		rgb: [0, 56, 168],
 		color: 14504
@@ -900,6 +984,7 @@ const languages: Language[] = [
 		name: "Finnish",
 		country: "Finland",
 		countryCode: "fi",
+		emoji: "🇫🇮",
 		hex: "#002F6C",
 		rgb: [0, 47, 108],
 		color: 12140
@@ -909,6 +994,7 @@ const languages: Language[] = [
 		name: "Flemish",
 		country: "Belgium",
 		countryCode: "be",
+		emoji: "🇧🇪",
 		region: "Flanders",
 		regionCode: "vlg",
 		hex: "#FEEA28",
@@ -920,6 +1006,7 @@ const languages: Language[] = [
 		name: "Franconian",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		region: "Franconia",
 		regionCode: "fra",
 		hex: "#CE1126",
@@ -940,6 +1027,7 @@ const languages: Language[] = [
 		name: "French, Belgium",
 		country: "Belgium",
 		countryCode: "be",
+		emoji: "🇧🇪",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -949,6 +1037,7 @@ const languages: Language[] = [
 		name: "French, Canada",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -958,6 +1047,7 @@ const languages: Language[] = [
 		name: "French, Luxembourg",
 		country: "Luxembourg",
 		countryCode: "lu",
+		emoji: "🇱🇺",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -967,6 +1057,7 @@ const languages: Language[] = [
 		name: "French, Quebec",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		region: "Quebec",
 		regionCode: "qc",
 		hex: "#003DA5",
@@ -978,6 +1069,7 @@ const languages: Language[] = [
 		name: "French, Switzerland",
 		country: "Switzerland",
 		countryCode: "ch",
+		emoji: "🇨🇭",
 		hex: "#DA291C",
 		rgb: [218, 41, 28],
 		color: 14297372
@@ -987,6 +1079,7 @@ const languages: Language[] = [
 		name: "Frisian",
 		country: "Netherlands",
 		countryCode: "nl",
+		emoji: "🇳🇱",
 		region: "Friesland",
 		regionCode: "fr",
 		hex: "#0155A5",
@@ -998,6 +1091,7 @@ const languages: Language[] = [
 		name: "Friulian",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		region: "Friuli",
 		regionCode: "fur",
 		hex: "#196DB6",
@@ -1009,6 +1103,7 @@ const languages: Language[] = [
 		name: "Fula",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -1018,6 +1113,7 @@ const languages: Language[] = [
 		name: "Ga",
 		country: "Ghana",
 		countryCode: "gh",
+		emoji: "🇬🇭",
 		hex: "#CF0921",
 		rgb: [207, 9, 33],
 		color: 13568289
@@ -1027,6 +1123,7 @@ const languages: Language[] = [
 		name: "Galician",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Galiza",
 		regionCode: "ga",
 		hex: "#0099CC",
@@ -1038,6 +1135,7 @@ const languages: Language[] = [
 		name: "Georgian",
 		country: "Georgia",
 		countryCode: "ge",
+		emoji: "🇬🇪",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -1047,6 +1145,7 @@ const languages: Language[] = [
 		name: "German",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#DD0000",
 		rgb: [221, 0, 0],
 		color: 14483456
@@ -1056,6 +1155,7 @@ const languages: Language[] = [
 		name: "German, Austria",
 		country: "Austria",
 		countryCode: "at",
+		emoji: "🇦🇹",
 		hex: "#ED2939",
 		rgb: [237, 41, 57],
 		color: 15542585
@@ -1065,6 +1165,7 @@ const languages: Language[] = [
 		name: "German, Belgium",
 		country: "Belgium",
 		countryCode: "be",
+		emoji: "🇧🇪",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1074,6 +1175,7 @@ const languages: Language[] = [
 		name: "German, Liechtenstein",
 		country: "Liechtenstein",
 		countryCode: "li",
+		emoji: "🇱🇮",
 		hex: "#002780",
 		rgb: [0, 39, 128],
 		color: 10112
@@ -1083,6 +1185,7 @@ const languages: Language[] = [
 		name: "German, Luxembourg",
 		country: "Luxembourg",
 		countryCode: "lu",
+		emoji: "🇱🇺",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1092,6 +1195,7 @@ const languages: Language[] = [
 		name: "German, Switzerland",
 		country: "Switzerland",
 		countryCode: "ch",
+		emoji: "🇨🇭",
 		hex: "#DA291C",
 		rgb: [218, 41, 28],
 		color: 14297372
@@ -1101,6 +1205,7 @@ const languages: Language[] = [
 		name: "Gothic",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#800080",
 		rgb: [128, 0, 128],
 		color: 8388736
@@ -1110,6 +1215,7 @@ const languages: Language[] = [
 		name: "Greek",
 		country: "Greece",
 		countryCode: "gr",
+		emoji: "🇬🇷",
 		hex: "#0D5EAF",
 		rgb: [13, 94, 175],
 		color: 876207
@@ -1119,6 +1225,7 @@ const languages: Language[] = [
 		name: "Greek, Cyprus",
 		country: "Cyprus",
 		countryCode: "cy",
+		emoji: "🇨🇾",
 		hex: "#D57800",
 		rgb: [213, 120, 0],
 		color: 13989888
@@ -1128,6 +1235,7 @@ const languages: Language[] = [
 		name: "Greenlandic",
 		country: "Denmark",
 		countryCode: "dk",
+		emoji: "🇩🇰",
 		region: "Greenland",
 		regionCode: "gl",
 		hex: "#C60C30",
@@ -1139,6 +1247,7 @@ const languages: Language[] = [
 		name: "Guarani",
 		country: "Paraguay",
 		countryCode: "py",
+		emoji: "🇵🇾",
 		hex: "#D52B1E",
 		rgb: [213, 43, 30],
 		color: 13970206
@@ -1148,6 +1257,7 @@ const languages: Language[] = [
 		name: "Gujarati",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1157,6 +1267,7 @@ const languages: Language[] = [
 		name: "Haitian Creole",
 		country: "Haiti",
 		countryCode: "ht",
+		emoji: "🇭🇹",
 		hex: "#00209F",
 		rgb: [0, 32, 159],
 		color: 8351
@@ -1166,6 +1277,7 @@ const languages: Language[] = [
 		name: "Hausa",
 		country: "Nigeria",
 		countryCode: "ng",
+		emoji: "🇳🇬",
 		hex: "#008753",
 		rgb: [0, 135, 83],
 		color: 34643
@@ -1175,6 +1287,7 @@ const languages: Language[] = [
 		name: "Hawaiian",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		region: "Hawaii",
 		regionCode: "hi",
 		hex: "#00247D",
@@ -1186,6 +1299,7 @@ const languages: Language[] = [
 		name: "Hebrew",
 		country: "Israel",
 		countryCode: "il",
+		emoji: "🇮🇱",
 		hex: "#0038b8",
 		rgb: [0, 56, 184],
 		color: 14520
@@ -1195,6 +1309,7 @@ const languages: Language[] = [
 		name: "Herero",
 		country: "Namibia",
 		countryCode: "na",
+		emoji: "🇳🇦",
 		hex: "#D21034",
 		rgb: [210, 16, 52],
 		color: 13766708
@@ -1204,6 +1319,7 @@ const languages: Language[] = [
 		name: "Hiligaynon",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		region: "Western Visayas",
 		regionCode: "06",
 		hex: "#0038A8",
@@ -1215,6 +1331,7 @@ const languages: Language[] = [
 		name: "Hindi",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1224,6 +1341,7 @@ const languages: Language[] = [
 		name: "Hiri Motu",
 		country: "Papua New Guinea",
 		countryCode: "pg",
+		emoji: "🇵🇬",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -1233,6 +1351,7 @@ const languages: Language[] = [
 		name: "Hmong",
 		country: "China",
 		countryCode: "cn",
+		emoji: "🇨🇳",
 		hex: "#EE1C25",
 		rgb: [238, 28, 37],
 		color: 15604773
@@ -1242,6 +1361,7 @@ const languages: Language[] = [
 		name: "Hungarian",
 		country: "Hungary",
 		countryCode: "hu",
+		emoji: "🇭🇺",
 		hex: "#CE2939",
 		rgb: [206, 41, 57],
 		color: 13510969
@@ -1251,6 +1371,7 @@ const languages: Language[] = [
 		name: "Icelandic",
 		country: "Iceland",
 		countryCode: "is",
+		emoji: "🇮🇸",
 		hex: "#02529C",
 		rgb: [2, 82, 156],
 		color: 152220
@@ -1269,6 +1390,7 @@ const languages: Language[] = [
 		name: "Igbo",
 		country: "Nigeria",
 		countryCode: "ng",
+		emoji: "🇳🇬",
 		hex: "#008753",
 		rgb: [0, 135, 83],
 		color: 34643
@@ -1278,6 +1400,7 @@ const languages: Language[] = [
 		name: "Ilokano",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		hex: "#0038A8",
 		rgb: [0, 56, 168],
 		color: 14504
@@ -1287,6 +1410,7 @@ const languages: Language[] = [
 		name: "Indonesian",
 		country: "Indonesia",
 		countryCode: "id",
+		emoji: "🇮🇩",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1296,6 +1420,7 @@ const languages: Language[] = [
 		name: "Inuktitut",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		region: "Nunavut",
 		regionCode: "nu",
 		hex: "#D51516",
@@ -1307,6 +1432,7 @@ const languages: Language[] = [
 		name: "Irish",
 		country: "Ireland",
 		countryCode: "ie",
+		emoji: "🇮🇪",
 		hex: "#169B62",
 		rgb: [22, 155, 98],
 		color: 1481570
@@ -1316,6 +1442,7 @@ const languages: Language[] = [
 		name: "Italian",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		hex: "#008C45",
 		rgb: [0, 140, 69],
 		color: 35909
@@ -1325,6 +1452,7 @@ const languages: Language[] = [
 		name: "Italian, Switzerland",
 		country: "Switzerland",
 		countryCode: "ch",
+		emoji: "🇨🇭",
 		hex: "#DA291C",
 		rgb: [218, 41, 28],
 		color: 14297372
@@ -1334,6 +1462,7 @@ const languages: Language[] = [
 		name: "Japanese",
 		country: "Japan",
 		countryCode: "ja",
+		emoji: "🇯🇵",
 		hex: "#BC002D",
 		rgb: [188, 0, 45],
 		color: 12320813
@@ -1343,6 +1472,7 @@ const languages: Language[] = [
 		name: "Javanese",
 		country: "Indonesia",
 		countryCode: "id",
+		emoji: "🇮🇩",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1352,6 +1482,7 @@ const languages: Language[] = [
 		name: "K'iche'",
 		country: "Guatemala",
 		countryCode: "gt",
+		emoji: "🇬🇹",
 		hex: "#4997D0",
 		rgb: [73, 151, 208],
 		color: 4822992
@@ -1361,6 +1492,7 @@ const languages: Language[] = [
 		name: "Kabyle",
 		country: "Algeria",
 		countryCode: "dz",
+		emoji: "🇩🇿",
 		region: "Kabylia",
 		regionCode: "kab",
 		hex: "#CD263E",
@@ -1372,6 +1504,7 @@ const languages: Language[] = [
 		name: "Kannada",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1381,6 +1514,7 @@ const languages: Language[] = [
 		name: "Kapampangan",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		hex: "#81007F",
 		rgb: [129, 0, 127],
 		color: 8454271
@@ -1390,6 +1524,7 @@ const languages: Language[] = [
 		name: "Kashmiri",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1399,6 +1534,7 @@ const languages: Language[] = [
 		name: "Kashmiri, Pakistan",
 		country: "Pakistan",
 		countryCode: "pk",
+		emoji: "🇵🇰",
 		hex: "#00401A",
 		rgb: [0, 64, 26],
 		color: 16410
@@ -1408,6 +1544,7 @@ const languages: Language[] = [
 		name: "Kashubian",
 		country: "Poland",
 		countryCode: "pl",
+		emoji: "🇵🇱",
 		hex: "#FFFF00",
 		rgb: [255, 255, 0],
 		color: 16776960
@@ -1417,6 +1554,7 @@ const languages: Language[] = [
 		name: "Kazakh",
 		country: "Kazakhstan",
 		countryCode: "kz",
+		emoji: "🇰🇿",
 		hex: "#00AFCA",
 		rgb: [0, 175, 202],
 		color: 45002
@@ -1426,6 +1564,7 @@ const languages: Language[] = [
 		name: "Khmer",
 		country: "Cambodia",
 		countryCode: "kh",
+		emoji: "🇰🇭",
 		hex: "#032EA1",
 		rgb: [3, 46, 161],
 		color: 208545
@@ -1435,6 +1574,7 @@ const languages: Language[] = [
 		name: "Kinyarwanda",
 		country: "Rwanda",
 		countryCode: "rw",
+		emoji: "🇷🇼",
 		hex: "#E5BE01",
 		rgb: [229, 190, 1],
 		color: 15056385
@@ -1444,6 +1584,7 @@ const languages: Language[] = [
 		name: "Klingon",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#008852",
 		rgb: [0, 136, 82],
 		color: 34898
@@ -1464,6 +1605,7 @@ const languages: Language[] = [
 		name: "Kongo",
 		country: "Congo",
 		countryCode: "cd",
+		emoji: "🇨🇬",
 		hex: "#009543",
 		rgb: [0, 149, 67],
 		color: 38211
@@ -1473,6 +1615,7 @@ const languages: Language[] = [
 		name: "Konkani",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1513,6 +1656,7 @@ const languages: Language[] = [
 		name: "Kwanyama",
 		country: "Angola",
 		countryCode: "ao",
+		emoji: "🇦🇴",
 		hex: "#C8102E",
 		rgb: [204, 9, 47],
 		color: 13371695
@@ -1522,6 +1666,7 @@ const languages: Language[] = [
 		name: "Kyrgyz",
 		country: "Kyrgyzstan",
 		countryCode: "kg",
+		emoji: "🇰🇬",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -1549,6 +1694,7 @@ const languages: Language[] = [
 		name: "Latvian",
 		country: "Latvia",
 		countryCode: "lv",
+		emoji: "🇱🇻",
 		hex: "#A4343A",
 		rgb: [164, 52, 58],
 		color: 10761274
@@ -1558,6 +1704,7 @@ const languages: Language[] = [
 		name: "Ligurian",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		region: "Liguria",
 		regionCode: "lij",
 		hex: "#009C31",
@@ -1569,6 +1716,7 @@ const languages: Language[] = [
 		name: "Limburgish",
 		country: "Netherlands",
 		countryCode: "nl",
+		emoji: "🇳🇱",
 		region: "Limburg",
 		regionCode: "li",
 		hex: "#2D558E",
@@ -1580,6 +1728,7 @@ const languages: Language[] = [
 		name: "Lingala",
 		country: "Congo",
 		countryCode: "cd",
+		emoji: "🇨🇬",
 		hex: "#0085CA",
 		rgb: [0, 133, 202],
 		color: 34250
@@ -1589,6 +1738,7 @@ const languages: Language[] = [
 		name: "Lithuanian",
 		country: "Lithuania",
 		countryCode: "lt",
+		emoji: "🇱🇹",
 		hex: "#FDB913",
 		rgb: [253, 185, 19],
 		color: 16627987
@@ -1598,6 +1748,7 @@ const languages: Language[] = [
 		name: "Lojban",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#000063",
 		rgb: [0, 0, 99],
 		color: 99
@@ -1607,6 +1758,7 @@ const languages: Language[] = [
 		name: "LOLCAT",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#B8D251",
 		rgb: [184, 210, 81],
 		color: 12112465
@@ -1616,6 +1768,7 @@ const languages: Language[] = [
 		name: "Low German",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#DD0000",
 		rgb: [221, 0, 0],
 		color: 14483456
@@ -1625,6 +1778,7 @@ const languages: Language[] = [
 		name: "Lower Sorbian",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#0C4076",
 		rgb: [12, 64, 118],
 		color: 802934
@@ -1634,6 +1788,7 @@ const languages: Language[] = [
 		name: "Luganda",
 		country: "Uganda",
 		countryCode: "ug",
+		emoji: "🇺🇬",
 		hex: "#D90000",
 		rgb: [217, 0, 0],
 		color: 14221312
@@ -1643,6 +1798,7 @@ const languages: Language[] = [
 		name: "Luhya",
 		country: "Kenya",
 		countryCode: "ke",
+		emoji: "🇰🇪",
 		hex: "#BB0000",
 		rgb: [187, 0, 0],
 		color: 12255232
@@ -1652,6 +1808,7 @@ const languages: Language[] = [
 		name: "Luxembourgish",
 		country: "Luxembourg",
 		countryCode: "lu",
+		emoji: "🇱🇺",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1670,6 +1827,7 @@ const languages: Language[] = [
 		name: "Maithili",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1679,6 +1837,7 @@ const languages: Language[] = [
 		name: "Malagasy",
 		country: "Madagascar",
 		countryCode: "mg",
+		emoji: "🇲🇬",
 		hex: "#00843D",
 		rgb: [0, 132, 61],
 		color: 33853
@@ -1688,6 +1847,7 @@ const languages: Language[] = [
 		name: "Malay",
 		country: "Malaysia",
 		countryCode: "my",
+		emoji: "🇲🇾",
 		hex: "#FFCC00",
 		rgb: [255, 204, 0],
 		color: 16763904
@@ -1706,6 +1866,7 @@ const languages: Language[] = [
 		name: "Malayalam",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1715,6 +1876,7 @@ const languages: Language[] = [
 		name: "Maltese",
 		country: "Malta",
 		countryCode: "mt",
+		emoji: "🇲🇹",
 		hex: "#C01B22",
 		rgb: [192, 27, 34],
 		color: 12589858
@@ -1724,6 +1886,7 @@ const languages: Language[] = [
 		name: "Manx",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		region: "Isle of Man",
 		regionCode: "im",
 		hex: "#CF142B",
@@ -1735,6 +1898,7 @@ const languages: Language[] = [
 		name: "Maori",
 		country: "New Zealand",
 		countryCode: "nz",
+		emoji: "🇳🇿",
 		hex: "#000000",
 		rgb: [0, 0, 0],
 		color: 0
@@ -1744,6 +1908,7 @@ const languages: Language[] = [
 		name: "Mapudungun",
 		country: "Chile",
 		countryCode: "cl",
+		emoji: "🇨🇱",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -1753,6 +1918,7 @@ const languages: Language[] = [
 		name: "Marathi",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1762,6 +1928,7 @@ const languages: Language[] = [
 		name: "Marshallese",
 		country: "Marshall Islands",
 		countryCode: "mh",
+		emoji: "🇲🇭",
 		hex: "#003087",
 		rgb: [0, 48, 135],
 		color: 12423
@@ -1771,6 +1938,7 @@ const languages: Language[] = [
 		name: "Mohawk",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		hex: "#D0021B",
 		rgb: [208, 2, 27],
 		color: 13632027
@@ -1780,6 +1948,7 @@ const languages: Language[] = [
 		name: "Mongolian",
 		country: "Mongolia",
 		countryCode: "mn",
+		emoji: "🇲🇳",
 		hex: "#DA2032",
 		rgb: [218, 32, 50],
 		color: 14295090
@@ -1789,6 +1958,7 @@ const languages: Language[] = [
 		name: "Montenegrin (Cyrillic)",
 		country: "Montenegro",
 		countryCode: "me",
+		emoji: "🇲🇪",
 		hex: "#C40308",
 		rgb: [196, 3, 8],
 		color: 12845832
@@ -1798,6 +1968,7 @@ const languages: Language[] = [
 		name: "Montenegrin (Latin)",
 		country: "Montenegro",
 		countryCode: "me",
+		emoji: "🇲🇪",
 		hex: "#C40308",
 		rgb: [196, 3, 8],
 		color: 12845832
@@ -1807,6 +1978,7 @@ const languages: Language[] = [
 		name: "Mossi",
 		country: "Burkina Faso",
 		countryCode: "bf",
+		emoji: "🇧🇫",
 		hex: "#009E49",
 		rgb: [0, 158, 73],
 		color: 40521
@@ -1816,6 +1988,7 @@ const languages: Language[] = [
 		name: "Nauru",
 		country: "Nauru",
 		countryCode: "nr",
+		emoji: "🇳🇷",
 		hex: "#012169",
 		rgb: [1, 33, 105],
 		color: 74089
@@ -1825,6 +1998,7 @@ const languages: Language[] = [
 		name: "Ndonga",
 		country: "Namibia",
 		countryCode: "na",
+		emoji: "🇳🇦",
 		hex: "#C8102E",
 		rgb: [200, 16, 46],
 		color: 13111342
@@ -1834,6 +2008,7 @@ const languages: Language[] = [
 		name: "Nepali",
 		country: "Nepal",
 		countryCode: "np",
+		emoji: "🇳🇵",
 		hex: "#DC143C",
 		rgb: [220, 20, 60],
 		color: 14423100
@@ -1843,6 +2018,7 @@ const languages: Language[] = [
 		name: "Nepali, India",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1852,6 +2028,7 @@ const languages: Language[] = [
 		name: "Nigerian Pidgin",
 		country: "Nigeria",
 		countryCode: "ng",
+		emoji: "🇳🇬",
 		hex: "#008753",
 		rgb: [0, 135, 83],
 		color: 34643
@@ -1861,6 +2038,7 @@ const languages: Language[] = [
 		name: "Northern Sami",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#144997",
 		rgb: [20, 73, 151],
 		color: 1329559
@@ -1870,6 +2048,7 @@ const languages: Language[] = [
 		name: "Northern Sotho",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -1879,6 +2058,7 @@ const languages: Language[] = [
 		name: "Norwegian",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#BA0C2F",
 		rgb: [186, 12, 47],
 		color: 12192815
@@ -1888,6 +2068,7 @@ const languages: Language[] = [
 		name: "Norwegian Bokmal",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#BA0C2F",
 		rgb: [186, 12, 47],
 		color: 12192815
@@ -1897,6 +2078,7 @@ const languages: Language[] = [
 		name: "Norwegian Nynorsk",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#BA0C2F",
 		rgb: [186, 12, 47],
 		color: 12192815
@@ -1906,6 +2088,7 @@ const languages: Language[] = [
 		name: "Occitan",
 		country: "France",
 		countryCode: "fr",
+		emoji: "🇫🇷",
 		region: "Occitanie",
 		regionCode: "oc",
 		hex: "#C40026",
@@ -1917,6 +2100,7 @@ const languages: Language[] = [
 		name: "Odia",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1926,6 +2110,7 @@ const languages: Language[] = [
 		name: "Ojibwe",
 		country: "Canada",
 		countryCode: "ca",
+		emoji: "🇨🇦",
 		region: "Ojibwewaki",
 		regionCode: "oj",
 		hex: "#000000",
@@ -1937,6 +2122,7 @@ const languages: Language[] = [
 		name: "Oromo",
 		country: "Ethiopia",
 		countryCode: "et",
+		emoji: "🇪🇹",
 		hex: "#009A44",
 		rgb: [0, 154, 68],
 		color: 39492
@@ -1957,6 +2143,7 @@ const languages: Language[] = [
 		name: "Pali",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -1966,6 +2153,7 @@ const languages: Language[] = [
 		name: "Papiamento",
 		country: "Aruba",
 		countryCode: "aw",
+		emoji: "🇦🇼",
 		hex: "#FBE122",
 		rgb: [251, 225, 34],
 		color: 16507170
@@ -1975,6 +2163,7 @@ const languages: Language[] = [
 		name: "Pashto",
 		country: "Afghanistan",
 		countryCode: "af",
+		emoji: "🇦🇫",
 		hex: "#D32011",
 		rgb: [211, 32, 17],
 		color: 13836305
@@ -1993,6 +2182,7 @@ const languages: Language[] = [
 		name: "Pirate English",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		hex: "#000000",
 		rgb: [0, 0, 0],
 		color: 0
@@ -2002,6 +2192,7 @@ const languages: Language[] = [
 		name: "Polish",
 		country: "Poland",
 		countryCode: "pl",
+		emoji: "🇵🇱",
 		hex: "#D22730",
 		rgb: [210, 39, 48],
 		color: 13772592
@@ -2011,6 +2202,7 @@ const languages: Language[] = [
 		name: "Portuguese",
 		country: "Portugal",
 		countryCode: "pt",
+		emoji: "🇵🇹",
 		hex: "#FF0000",
 		rgb: [255, 0, 0],
 		color: 16711680
@@ -2020,6 +2212,7 @@ const languages: Language[] = [
 		name: "Portuguese, Brazilian",
 		country: "Brazil",
 		countryCode: "br",
+		emoji: "🇧🇷",
 		hex: "#009C3B",
 		rgb: [0, 156, 59],
 		color: 39995
@@ -2029,6 +2222,7 @@ const languages: Language[] = [
 		name: "Punjabi",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2038,6 +2232,7 @@ const languages: Language[] = [
 		name: "Punjabi, Pakistan",
 		country: "Pakistan",
 		countryCode: "pk",
+		emoji: "🇵🇰",
 		hex: "#00401A",
 		rgb: [0, 64, 26],
 		color: 16410
@@ -2047,6 +2242,7 @@ const languages: Language[] = [
 		name: "Quechua",
 		country: "Peru",
 		countryCode: "pe",
+		emoji: "🇵🇪",
 		hex: "#D91023",
 		rgb: [217, 16, 35],
 		color: 14225443
@@ -2065,6 +2261,7 @@ const languages: Language[] = [
 		name: "Romanian",
 		country: "Romania",
 		countryCode: "ro",
+		emoji: "🇷🇴",
 		hex: "#FCD116",
 		rgb: [252, 209, 22],
 		color: 16568598
@@ -2074,6 +2271,7 @@ const languages: Language[] = [
 		name: "Romansh",
 		country: "Switzerland",
 		countryCode: "ch",
+		emoji: "🇨🇭",
 		hex: "#DA291C",
 		rgb: [218, 41, 28],
 		color: 14297372
@@ -2101,6 +2299,7 @@ const languages: Language[] = [
 		name: "Russian, Belarus",
 		country: "Belarus",
 		countryCode: "by",
+		emoji: "🇧🇾",
 		hex: "#CF101A",
 		rgb: [207, 16, 26],
 		color: 13570074
@@ -2119,6 +2318,7 @@ const languages: Language[] = [
 		name: "Russian, Ukraine",
 		country: "Ukraine",
 		countryCode: "ua",
+		emoji: "🇺🇦",
 		hex: "#FFD700",
 		rgb: [255, 215, 0],
 		color: 16766720
@@ -2128,6 +2328,7 @@ const languages: Language[] = [
 		name: "Rusyn",
 		country: "Ukraine",
 		countryCode: "ua",
+		emoji: "🇺🇦",
 		hex: "#FFD700",
 		rgb: [255, 215, 0],
 		color: 16766720
@@ -2148,6 +2349,7 @@ const languages: Language[] = [
 		name: "Sango",
 		country: "Central African Republic",
 		countryCode: "cf",
+		emoji: "🇨🇫",
 		hex: "#003082",
 		rgb: [0, 48, 130],
 		color: 12418
@@ -2157,6 +2359,7 @@ const languages: Language[] = [
 		name: "Sanskrit",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2166,6 +2369,7 @@ const languages: Language[] = [
 		name: "Santali",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2175,6 +2379,7 @@ const languages: Language[] = [
 		name: "Sardinian",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		region: "Sardinia",
 		regionCode: "sc",
 		hex: "#D81921",
@@ -2186,6 +2391,7 @@ const languages: Language[] = [
 		name: "Scots",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		region: "Scotland",
 		regionCode: "sct",
 		hex: "#005EB8",
@@ -2197,6 +2403,7 @@ const languages: Language[] = [
 		name: "Scottish Gaelic",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		region: "Scotland",
 		regionCode: "sct",
 		hex: "#005EB8",
@@ -2208,6 +2415,7 @@ const languages: Language[] = [
 		name: "Serbian (Cyrillic)",
 		country: "Serbia",
 		countryCode: "rs",
+		emoji: "🇷🇸",
 		hex: "#C6363C",
 		rgb: [198, 54, 60],
 		color: 12990012
@@ -2217,6 +2425,7 @@ const languages: Language[] = [
 		name: "Serbian (Latin)",
 		country: "Serbia",
 		countryCode: "rs",
+		emoji: "🇷🇸",
 		hex: "#C6363C",
 		rgb: [198, 54, 60],
 		color: 12990012
@@ -2226,6 +2435,7 @@ const languages: Language[] = [
 		name: "Serbo-Croatian",
 		country: "Croatia",
 		countryCode: "hr",
+		emoji: "🇭🇷",
 		hex: "#C8102E",
 		rgb: [200, 16, 46],
 		color: 13111342
@@ -2235,6 +2445,7 @@ const languages: Language[] = [
 		name: "Seychellois Creole",
 		country: "Seychelles",
 		countryCode: "sc",
+		emoji: "🇸🇨",
 		hex: "#D72323",
 		rgb: [215, 35, 35],
 		color: 14099235
@@ -2244,6 +2455,7 @@ const languages: Language[] = [
 		name: "Shona",
 		country: "Zimbabwe",
 		countryCode: "zw",
+		emoji: "🇿🇼",
 		hex: "#FCE300",
 		rgb: [252, 227, 0],
 		color: 16573184
@@ -2253,6 +2465,7 @@ const languages: Language[] = [
 		name: "Sichuan Yi",
 		country: "China",
 		countryCode: "cn",
+		emoji: "🇨🇳",
 		hex: "#EE1C25",
 		rgb: [238, 28, 37],
 		color: 15604773
@@ -2262,6 +2475,7 @@ const languages: Language[] = [
 		name: "Sindhi",
 		country: "Pakistan",
 		countryCode: "pk",
+		emoji: "🇵🇰",
 		hex: "#00401A",
 		rgb: [0, 64, 26],
 		color: 16410
@@ -2271,6 +2485,7 @@ const languages: Language[] = [
 		name: "Sinhala",
 		country: "Sri Lanka",
 		countryCode: "lk",
+		emoji: "🇱🇰",
 		hex: "#FFBF24",
 		rgb: [255, 191, 36],
 		color: 16760612
@@ -2280,6 +2495,7 @@ const languages: Language[] = [
 		name: "Slovak",
 		country: "Slovakia",
 		countryCode: "sk",
+		emoji: "🇸🇰",
 		hex: "#EE1620",
 		rgb: [238, 22, 32],
 		color: 15603232
@@ -2289,6 +2505,7 @@ const languages: Language[] = [
 		name: "Slovenian",
 		country: "Slovenia",
 		countryCode: "si",
+		emoji: "🇸🇮",
 		hex: "#005CE6",
 		rgb: [0, 92, 230],
 		color: 23782
@@ -2298,6 +2515,7 @@ const languages: Language[] = [
 		name: "Somali",
 		country: "Somalia",
 		countryCode: "so",
+		emoji: "🇸🇴",
 		hex: "#4189DD",
 		rgb: [65, 137, 221],
 		color: 4295133
@@ -2307,6 +2525,7 @@ const languages: Language[] = [
 		name: "Songhay",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2327,6 +2546,7 @@ const languages: Language[] = [
 		name: "Southern Ndebele",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2336,6 +2556,7 @@ const languages: Language[] = [
 		name: "Southern Sami",
 		country: "Norway",
 		countryCode: "no",
+		emoji: "🇳🇴",
 		hex: "#BA0C2F",
 		rgb: [186, 12, 47],
 		color: 12192815
@@ -2345,6 +2566,7 @@ const languages: Language[] = [
 		name: "Southern Sotho",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2354,6 +2576,7 @@ const languages: Language[] = [
 		name: "Spanish",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		hex: "#AA151B",
 		rgb: [170, 21, 27],
 		color: 11146523
@@ -2363,6 +2586,7 @@ const languages: Language[] = [
 		name: "Spanish (Modern)",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		hex: "#AA151B",
 		rgb: [170, 21, 27],
 		color: 11146523
@@ -2372,6 +2596,7 @@ const languages: Language[] = [
 		name: "Spanish, Argentina",
 		country: "Argentina",
 		countryCode: "ar",
+		emoji: "🇦🇷",
 		hex: "#6CACE4",
 		rgb: [108, 172, 228],
 		color: 7122148
@@ -2381,6 +2606,7 @@ const languages: Language[] = [
 		name: "Spanish, Bolivia",
 		country: "Bolivia",
 		countryCode: "bo",
+		emoji: "🇧🇴",
 		hex: "#007A33",
 		rgb: [0, 122, 51],
 		color: 31283
@@ -2390,6 +2616,7 @@ const languages: Language[] = [
 		name: "Spanish, Chile",
 		country: "Chile",
 		countryCode: "cl",
+		emoji: "🇨🇱",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -2399,6 +2626,7 @@ const languages: Language[] = [
 		name: "Spanish, Colombia",
 		country: "Colombia",
 		countryCode: "co",
+		emoji: "🇨🇴",
 		hex: "#FCD116",
 		rgb: [252, 209, 22],
 		color: 16568598
@@ -2408,6 +2636,7 @@ const languages: Language[] = [
 		name: "Spanish, Costa Rica",
 		country: "Costa Rica",
 		countryCode: "cr",
+		emoji: "🇨🇷",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -2417,6 +2646,7 @@ const languages: Language[] = [
 		name: "Spanish, Dominican Republic",
 		country: "Dominican Republic",
 		countryCode: "do",
+		emoji: "🇩🇴",
 		hex: "#002D62",
 		rgb: [0, 45, 98],
 		color: 11618
@@ -2426,6 +2656,7 @@ const languages: Language[] = [
 		name: "Spanish, Ecuador",
 		country: "Ecuador",
 		countryCode: "ec",
+		emoji: "🇪🇨",
 		hex: "#FFD100",
 		rgb: [255, 209, 0],
 		color: 16765184
@@ -2435,6 +2666,7 @@ const languages: Language[] = [
 		name: "Spanish, El Salvador",
 		country: "El Salvador",
 		countryCode: "sv",
+		emoji: "🇸🇻",
 		hex: "#0047AB",
 		rgb: [0, 71, 171],
 		color: 18347
@@ -2444,6 +2676,7 @@ const languages: Language[] = [
 		name: "Spanish, Guatemala",
 		country: "Guatemala",
 		countryCode: "gt",
+		emoji: "🇬🇹",
 		hex: "#4997D0",
 		rgb: [73, 151, 208],
 		color: 4822992
@@ -2453,6 +2686,7 @@ const languages: Language[] = [
 		name: "Spanish, Honduras",
 		country: "Honduras",
 		countryCode: "hn",
+		emoji: "🇭🇳",
 		hex: "#0072CE",
 		rgb: [0, 114, 206],
 		color: 29390
@@ -2462,6 +2696,7 @@ const languages: Language[] = [
 		name: "Spanish, Latin America",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		hex: "#AA151B",
 		rgb: [170, 21, 27],
 		color: 11146523
@@ -2471,6 +2706,7 @@ const languages: Language[] = [
 		name: "Spanish, Mexico",
 		country: "Mexico",
 		countryCode: "mx",
+		emoji: "🇲🇽",
 		hex: "#006847",
 		rgb: [0, 104, 71],
 		color: 26695
@@ -2480,6 +2716,7 @@ const languages: Language[] = [
 		name: "Spanish, Nicaragua",
 		country: "Nicaragua",
 		countryCode: "ni",
+		emoji: "🇳🇮",
 		hex: "#0067C6",
 		rgb: [0, 103, 198],
 		color: 26566
@@ -2489,6 +2726,7 @@ const languages: Language[] = [
 		name: "Spanish, Panama",
 		country: "Panama",
 		countryCode: "pa",
+		emoji: "🇵🇦",
 		hex: "#DA121A",
 		rgb: [218, 18, 26],
 		color: 14291482
@@ -2498,6 +2736,7 @@ const languages: Language[] = [
 		name: "Spanish, Paraguay",
 		country: "Paraguay",
 		countryCode: "py",
+		emoji: "🇵🇾",
 		hex: "#D52B1E",
 		rgb: [213, 43, 30],
 		color: 13970206
@@ -2507,6 +2746,7 @@ const languages: Language[] = [
 		name: "Spanish, Peru",
 		country: "Peru",
 		countryCode: "pe",
+		emoji: "🇵🇪",
 		hex: "#D91023",
 		rgb: [217, 16, 35],
 		color: 14225443
@@ -2516,6 +2756,7 @@ const languages: Language[] = [
 		name: "Spanish, Puerto Rico",
 		country: "Puerto Rico",
 		countryCode: "pr",
+		emoji: "🇵🇷",
 		hex: "#E92228",
 		rgb: [233, 34, 40],
 		color: 15278632
@@ -2525,6 +2766,7 @@ const languages: Language[] = [
 		name: "Spanish, United States",
 		country: "United States",
 		countryCode: "us",
+		emoji: "🇺🇸",
 		hex: "#0A3161",
 		rgb: [10, 49, 97],
 		color: 668001
@@ -2534,6 +2776,7 @@ const languages: Language[] = [
 		name: "Spanish, Uruguay",
 		country: "Uruguay",
 		countryCode: "uy",
+		emoji: "🇺🇾",
 		hex: "#0038A8",
 		rgb: [0, 56, 168],
 		color: 14504
@@ -2543,6 +2786,7 @@ const languages: Language[] = [
 		name: "Spanish, Venezuela",
 		country: "Venezuela",
 		countryCode: "ve",
+		emoji: "🇻🇪",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -2552,6 +2796,7 @@ const languages: Language[] = [
 		name: "Sundanese",
 		country: "Indonesia",
 		countryCode: "id",
+		emoji: "🇮🇩",
 		hex: "#EF3340",
 		rgb: [239, 51, 64],
 		color: 15676224
@@ -2561,6 +2806,7 @@ const languages: Language[] = [
 		name: "Swahili",
 		country: "Kenya",
 		countryCode: "ke",
+		emoji: "🇰🇪",
 		hex: "#BB0000",
 		rgb: [187, 0, 0],
 		color: 12255232
@@ -2570,6 +2816,7 @@ const languages: Language[] = [
 		name: "Swahili, Kenya",
 		country: "Kenya",
 		countryCode: "ke",
+		emoji: "🇰🇪",
 		hex: "#BB0000",
 		rgb: [187, 0, 0],
 		color: 12255232
@@ -2597,6 +2844,7 @@ const languages: Language[] = [
 		name: "Swedish",
 		country: "Sweden",
 		countryCode: "se",
+		emoji: "🇸🇪",
 		hex: "#FECC02",
 		rgb: [254, 204, 2],
 		color: 16698370
@@ -2606,6 +2854,7 @@ const languages: Language[] = [
 		name: "Swedish, Finland",
 		country: "Finland",
 		countryCode: "fi",
+		emoji: "🇫🇮",
 		hex: "#002F6C",
 		rgb: [0, 47, 108],
 		color: 12140
@@ -2624,6 +2873,7 @@ const languages: Language[] = [
 		name: "Tagalog",
 		country: "Philippines",
 		countryCode: "ph",
+		emoji: "🇵🇭",
 		hex: "#0038A8",
 		rgb: [0, 56, 168],
 		color: 14504
@@ -2633,6 +2883,7 @@ const languages: Language[] = [
 		name: "Tahitian",
 		country: "French Polynesia",
 		countryCode: "pf",
+		emoji: "🇵🇫",
 		hex: "#CE1126",
 		rgb: [206, 17, 38],
 		color: 13504806
@@ -2642,6 +2893,7 @@ const languages: Language[] = [
 		name: "Tajik",
 		country: "Tajikistan",
 		countryCode: "tj",
+		emoji: "🇹🇯",
 		hex: "#CC0000",
 		rgb: [204, 0, 0],
 		color: 13369344
@@ -2660,6 +2912,7 @@ const languages: Language[] = [
 		name: "Tamil",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2680,6 +2933,7 @@ const languages: Language[] = [
 		name: "Telugu",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2689,6 +2943,7 @@ const languages: Language[] = [
 		name: "Tem (Kotokoli)",
 		country: "Togo",
 		countryCode: "tg",
+		emoji: "🇹🇬",
 		hex: "#006A4A",
 		rgb: [0, 106, 74],
 		color: 27210
@@ -2698,6 +2953,7 @@ const languages: Language[] = [
 		name: "Thai",
 		country: "Thailand",
 		countryCode: "th",
+		emoji: "🇹🇭",
 		hex: "#00247D",
 		rgb: [0, 36, 125],
 		color: 9341
@@ -2707,6 +2963,7 @@ const languages: Language[] = [
 		name: "Tibetan",
 		country: "Bhutan",
 		countryCode: "bt",
+		emoji: "🇧🇹",
 		hex: "#29166F",
 		rgb: [41, 22, 111],
 		color: 2692719
@@ -2716,6 +2973,7 @@ const languages: Language[] = [
 		name: "Tigrinya",
 		country: "Eritrea",
 		countryCode: "er",
+		emoji: "🇪🇷",
 		hex: "#43B02A",
 		rgb: [67, 176, 42],
 		color: 4436010
@@ -2725,6 +2983,7 @@ const languages: Language[] = [
 		name: "Tsonga",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2734,6 +2993,7 @@ const languages: Language[] = [
 		name: "Tswana",
 		country: "Botswana",
 		countryCode: "bw",
+		emoji: "🇧🇼",
 		hex: "#ABCAE9",
 		rgb: [171, 202, 233],
 		color: 11258601
@@ -2743,6 +3003,7 @@ const languages: Language[] = [
 		name: "Turkish",
 		country: "Turkey",
 		countryCode: "tr",
+		emoji: "🇹🇷",
 		hex: "#E30A17",
 		rgb: [227, 10, 23],
 		color: 14879255
@@ -2752,6 +3013,7 @@ const languages: Language[] = [
 		name: "Turkish, Cyprus",
 		country: "Cyprus",
 		countryCode: "cy",
+		emoji: "🇨🇾",
 		hex: "#D57800",
 		rgb: [213, 120, 0],
 		color: 13989888
@@ -2761,6 +3023,7 @@ const languages: Language[] = [
 		name: "Turkmen",
 		country: "Turkmenistan",
 		countryCode: "tm",
+		emoji: "🇹🇲",
 		hex: "#009639",
 		rgb: [0, 150, 57],
 		color: 38457
@@ -2770,6 +3033,7 @@ const languages: Language[] = [
 		name: "Ukrainian",
 		country: "Ukraine",
 		countryCode: "ua",
+		emoji: "🇺🇦",
 		hex: "#FFD700",
 		rgb: [255, 215, 0],
 		color: 16766720
@@ -2779,6 +3043,7 @@ const languages: Language[] = [
 		name: "Upper Sorbian",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#0C4076",
 		rgb: [12, 64, 118],
 		color: 802934
@@ -2788,6 +3053,7 @@ const languages: Language[] = [
 		name: "Urdu, India",
 		country: "India",
 		countryCode: "in",
+		emoji: "🇮🇳",
 		hex: "#FF9933",
 		rgb: [255, 153, 51],
 		color: 16750899
@@ -2797,6 +3063,7 @@ const languages: Language[] = [
 		name: "Urdu, Pakistan",
 		country: "Pakistan",
 		countryCode: "pk",
+		emoji: "🇵🇰",
 		hex: "#00401A",
 		rgb: [0, 64, 26],
 		color: 16410
@@ -2806,6 +3073,7 @@ const languages: Language[] = [
 		name: "Uyghur",
 		country: "China",
 		countryCode: "cn",
+		emoji: "🇨🇳",
 		region: "Xinjiang",
 		regionCode: "ug",
 		hex: "#0099FF",
@@ -2817,6 +3085,7 @@ const languages: Language[] = [
 		name: "Uzbek",
 		country: "Uzbekistan",
 		countryCode: "uz",
+		emoji: "🇺🇿",
 		hex: "#009AB6",
 		rgb: [0, 154, 182],
 		color: 39606
@@ -2826,6 +3095,7 @@ const languages: Language[] = [
 		name: "Valencian",
 		country: "Spain",
 		countryCode: "es",
+		emoji: "🇪🇸",
 		region: "Valencia",
 		regionCode: "val",
 		hex: "#FF0000",
@@ -2837,6 +3107,7 @@ const languages: Language[] = [
 		name: "Venda",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2846,6 +3117,7 @@ const languages: Language[] = [
 		name: "Venetian",
 		country: "Italy",
 		countryCode: "it",
+		emoji: "🇮🇹",
 		region: "Venice",
 		regionCode: "vec",
 		hex: "#980000",
@@ -2857,6 +3129,7 @@ const languages: Language[] = [
 		name: "Vietnamese",
 		country: "Vietnam",
 		countryCode: "vn",
+		emoji: "🇻🇳",
 		hex: "#DA251D",
 		rgb: [218, 37, 29],
 		color: 14296349
@@ -2866,6 +3139,7 @@ const languages: Language[] = [
 		name: "Walloon",
 		country: "Belgium",
 		countryCode: "be",
+		emoji: "🇧🇪",
 		region: "Wallonia",
 		regionCode: "wa",
 		hex: "#FFFF00",
@@ -2877,6 +3151,7 @@ const languages: Language[] = [
 		name: "Welsh",
 		country: "United Kingdom",
 		countryCode: "gb",
+		emoji: "🇬🇧",
 		region: "Wales",
 		regionCode: "cy",
 		hex: "#D30731",
@@ -2888,6 +3163,7 @@ const languages: Language[] = [
 		name: "Wolof",
 		country: "Senegal",
 		countryCode: "sn",
+		emoji: "🇸🇳",
 		hex: "#009639",
 		rgb: [0, 150, 57],
 		color: 38457
@@ -2897,6 +3173,7 @@ const languages: Language[] = [
 		name: "Xhosa",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
@@ -2906,6 +3183,7 @@ const languages: Language[] = [
 		name: "Yiddish",
 		country: "Germany",
 		countryCode: "de",
+		emoji: "🇩🇪",
 		hex: "#000000",
 		rgb: [0, 0, 0],
 		color: 0
@@ -2915,6 +3193,7 @@ const languages: Language[] = [
 		name: "Yoruba",
 		country: "Nigeria",
 		countryCode: "ng",
+		emoji: "🇳🇬",
 		hex: "#008753",
 		rgb: [0, 135, 83],
 		color: 34643
@@ -2924,6 +3203,7 @@ const languages: Language[] = [
 		name: "Zeelandic",
 		country: "Netherlands",
 		countryCode: "nl",
+		emoji: "🇳🇱",
 		region: "Zeeland",
 		regionCode: "zea",
 		hex: "#123484",
@@ -2935,6 +3215,7 @@ const languages: Language[] = [
 		name: "Zulu",
 		country: "South Africa",
 		countryCode: "za",
+		emoji: "🇿🇦",
 		hex: "#FFB81C",
 		rgb: [255, 182, 18],
 		color: 16758290
