@@ -1,6 +1,6 @@
 {
 	"name": "language-flag-colors",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"main": "bin/index.js",
 	"repository": "https://github.com/Bas950/Language-Flag-Colors.git",
 	"author": "Bas950 <me@bas950.com>",
