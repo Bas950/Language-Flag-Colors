@@ -54,6 +54,10 @@ const dutchLocale = getLocale("dutch") // Will return "nl-NL"
 // Getting the name of a language given its locale
 const ptName = getName("pt-pt") // Will return "Portuguese"
 
+const ptEmoji = getEmoji("pt-pt") // Will return "🇵🇹"
+const dutchEmoji = getEmoji("dutch") // Will return "🇳🇱"
+const ukEmoji = getEmoji("United Kingdom") // Will return "🇬🇧"
+
 // Getting the base-10 color value for a language. This method accepts both locales and names
 const ptColor = getColor("pt-pt") // Will return 16711680
 const dutchColor = getColor("dutch") // Will return 16731904
