@@ -13,8 +13,8 @@ export function getLanguage(
 	lang: string | string[]
 ): Language | null | (Language | null)[] {
 	if (Array.isArray(lang)) {
-		return lang.map(l => findLanguage(l));
-	} else return findLanguage(lang);
+		return lang.map(l => findLanguage(l) ?? null);
+	} else return findLanguage(lang) ?? null;
 }
 
 /**
@@ -125,5 +125,5 @@ function findLanguage(lang: string) {
 	language ??= languages.find(l =>
 		l.name.toLowerCase().includes(lang.toLowerCase())
 	);
-	return language ?? null;
+	return language;
 }
