@@ -22,7 +22,7 @@ export function getLanguage(
  * @param {string} name The name of the language to get the locale from
  * @returns {string|null} The locale of the language, or null if none is found
  */
-export function getLocale(name: string) {
+export function getLocale(name: string): string | null {
 	const language = languages.find(
 		l => l.name.toLowerCase() === name.toLowerCase()
 	);
@@ -34,7 +34,7 @@ export function getLocale(name: string) {
  * @param {string} locale The locale to get the name of
  * @returns {string|null} The name of the language, or null if none is found
  */
-export function getName(locale: string) {
+export function getName(locale: string): string | null {
 	const language = languages.find(
 		l => l.locale.toLowerCase() === locale.toLowerCase()
 	);
@@ -46,7 +46,7 @@ export function getName(locale: string) {
  * @param {string} lang The locale or name of the language to find the color of
  * @returns {number|null} The base-10 color of the language, or null if no language is found
  */
-export function getColor(lang: string) {
+export function getColor(lang: string): number | null {
 	const language = findLanguage(lang);
 	return language?.color ?? null;
 }
@@ -56,7 +56,7 @@ export function getColor(lang: string) {
  * @param {string} lang The locale or name of the language to find the color of
  * @returns {string|null} The HEX color of the language, or null if no language is found
  */
-export function getHex(lang: string) {
+export function getHex(lang: string): string | null {
 	const language = findLanguage(lang);
 	return language?.hex ?? null;
 }
@@ -66,7 +66,7 @@ export function getHex(lang: string) {
  * @param {string} lang The locale or name of the language to find the color of
  * @returns {[number, number, number]|null} The RGB array of colors of the language, or null if no language is found
  */
-export function getRGB(lang: string) {
+export function getRGB(lang: string): [number, number, number] | null {
 	const language = findLanguage(lang);
 	return language?.rgb ?? null;
 }
@@ -76,7 +76,7 @@ export function getRGB(lang: string) {
  * @param {string} country The country name or code to find
  * @returns {Language[]|null} An array with all the languages belonging to that country or null if none are found
  */
-export function getCountryLanguges(country: string) {
+export function getCountryLanguges(country: string): Language[] | null {
 	const countryLangs = languages.filter(
 		l =>
 			l.country.toLowerCase() === country.toLowerCase() ||
@@ -90,7 +90,7 @@ export function getCountryLanguges(country: string) {
  * @param {string} region The region name or code to find
  * @returns {Language[]|null} An array with all the languages belonging to that region or null if none are found
  */
-export function getRegionLanguges(region: string) {
+export function getRegionLanguges(region: string): Language[] | null {
 	const regionLangs = languages.filter(
 		l =>
 			l.region?.toLowerCase() === region.toLowerCase() ||
@@ -117,7 +117,7 @@ export interface Language {
  * @returns {Language|null} The corresponding language, or null if none is found
  * @private
  */
-function findLanguage(lang: string) {
+function findLanguage(lang: string): Language | undefined {
 	let language = languages.find(
 		l => l.locale.toLowerCase() === lang.toLowerCase()
 	);
