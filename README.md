@@ -1,7 +1,9 @@
 # Language-Flag-Colors [![Version](https://img.shields.io/npm/v/language-flag-colors.svg?maxAge=3600)](https://www.npmjs.com/package/language-flag-colors)
+
 A package with the color of every language's flag
 
 ## Instalation
+
 ```bash
 # npm
 npm install language-flag-colors
@@ -11,28 +13,35 @@ yarn add language-flag-colors
 ```
 
 ## Usage
+
 ### Importing
 
 #### TypeScript
+
 ```ts
 // Here we're importing the default export "languages", which is an array with all the language objects
 // as well as the getLanguage function which is used to get a language object or an array of language objects
-import languages, { getLanguage } from "language-flag-colors"
+import languages, { getLanguage } from "language-flag-colors";
 ```
 
 #### JavaScript
+
 ```js
 // Here we're importing the default export "languages", which is an array with all the language objects
 // as well as the getLanguage function which is used to get a language object or an array of language objects
-const { getLanguage, default: languages } = require("language-flag-colors")
+const { getLanguage, default: languages } = require("language-flag-colors");
 ```
+
 Or, if you only want the default array export
+
 ```js
-const languages = require("language-flag-colors")
+const languages = require("language-flag-colors");
 ```
+
 Or if you only want a function
+
 ```js
-const { getLanguage } = require("language-flag-colors")
+const { getLanguage } = require("language-flag-colors");
 ```
 
 ### Using our custom methods
@@ -42,39 +51,39 @@ const { getLanguage } = require("language-flag-colors")
 
 // Getting the full language object for one language
 // This method accepts a language's name or locale
-const dutch = getLanguage("Dutch")
-const portuguese = getLanguage("pt-pt")
+const dutch = getLanguage("Dutch");
+const portuguese = getLanguage("pt-pt");
 
 // Getting an array of language objects for multiple languages
-const [dutch, portuguese] = getLanguage(["nl-nl", "portuguese"]) // This will return an array with the language objects corresponding to Dutch and Portuguese
+const [dutch, portuguese] = getLanguage(["nl-nl", "portuguese"]); // This will return an array with the language objects corresponding to Dutch and Portuguese
 
 // Getting the locale of a language given its name
-const dutchLocale = getLocale("dutch") // Will return "nl-NL"
+const dutchLocale = getLocale("dutch"); // Will return "nl-NL"
 
 // Getting the name of a language given its locale
-const ptName = getName("pt-pt") // Will return "Portuguese"
+const ptName = getName("pt-pt"); // Will return "Portuguese"
 
-const ptEmoji = getEmoji("pt-pt") // Will return "🇵🇹"
-const dutchEmoji = getEmoji("dutch") // Will return "🇳🇱"
-const ukEmoji = getEmoji("United Kingdom") // Will return "🇬🇧"
+const ptEmoji = getEmoji("pt-pt"); // Will return "🇵🇹"
+const dutchEmoji = getEmoji("dutch"); // Will return "🇳🇱"
+const ukEmoji = getEmoji("United Kingdom"); // Will return "🇬🇧"
 
 // Getting the base-10 color value for a language. This method accepts both locales and names
-const ptColor = getColor("pt-pt") // Will return 16711680
-const dutchColor = getColor("dutch") // Will return 16731904
+const ptColor = getColor("pt-pt"); // Will return 16711680
+const dutchColor = getColor("dutch"); // Will return 16731904
 
 // Getting the hexadecimal color value for a language. This method accepts both locales and names
-const ptHex = getHex("pt-pt") // Will return "#FF0000"
-const dutchHex = getHex("dutch") // Will return "#FF4F00"
+const ptHex = getHex("pt-pt"); // Will return "#FF0000"
+const dutchHex = getHex("dutch"); // Will return "#FF4F00"
 
 // Getting the RGB color values for a language. This method accepts both locales and names
-const ptRGB = getRGB("pt-pt") // Will return [255, 0, 0]
-const dutchRGB = getRGB("dutch") // Will return [255, 79, 0]
+const ptRGB = getRGB("pt-pt"); // Will return [255, 0, 0]
+const dutchRGB = getRGB("dutch"); // Will return [255, 79, 0]
 
 // Getting all the languages in a country
-const netherlandsLangs = getCountryLanguages("netherlands") // Will return an array with the language objects for Dutch, Frisian, Limburgish and Zeelandic
+const netherlandsLangs = getCountryLanguages("netherlands"); // Will return an array with the language objects for Dutch, Frisian, Limburgish and Zeelandic
 
 // Getting all the languages specific to a region
-const scotlandLangs = getRegionLanguages("scotland") // Will return an array with the language objects for Scots and Scottish Gaelic
+const scotlandLangs = getRegionLanguages("scotland"); // Will return an array with the language objects for Scots and Scottish Gaelic
 ```
 
 ### Contributing

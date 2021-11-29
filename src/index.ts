@@ -9,9 +9,7 @@ export default languages;
  */
 export function getLanguage(lang: string): Language | null;
 export function getLanguage(lang: string[]): (Language | null)[];
-export function getLanguage(
-	lang: string | string[]
-): Language | null | (Language | null)[] {
+export function getLanguage(lang: string | string[]): Language | null | (Language | null)[] {
 	if (Array.isArray(lang)) {
 		return lang.map(l => findLanguage(l) ?? null);
 	} else return findLanguage(lang) ?? null;
@@ -23,9 +21,7 @@ export function getLanguage(
  * @returns {?string} The locale of the language, or null if none is found
  */
 export function getLocale(name: string): string | null {
-	const language = languages.find(
-		l => l.name.toLowerCase() === name.toLowerCase()
-	);
+	const language = languages.find(l => l.name.toLowerCase() === name.toLowerCase());
 	return language?.locale ?? null;
 }
 
@@ -35,9 +31,7 @@ export function getLocale(name: string): string | null {
  * @returns {?string} The name of the language, or null if none is found
  */
 export function getName(locale: string): string | null {
-	const language = languages.find(
-		l => l.locale.toLowerCase() === locale.toLowerCase()
-	);
+	const language = languages.find(l => l.locale.toLowerCase() === locale.toLowerCase());
 	return language?.name ?? null;
 }
 
@@ -89,9 +83,7 @@ export function getRGB(lang: string): [number, number, number] | null {
  */
 export function getCountryLanguges(country: string): Language[] | null {
 	const countryLangs = languages.filter(
-		l =>
-			l.country.toLowerCase() === country.toLowerCase() ||
-			l.countryCode.toLowerCase() === country.toLowerCase()
+		l => l.country.toLowerCase() === country.toLowerCase() || l.countryCode.toLowerCase() === country.toLowerCase()
 	);
 	return countryLangs.length ? countryLangs : null;
 }
@@ -102,11 +94,7 @@ export function getCountryLanguges(country: string): Language[] | null {
  * @returns {?Language[]} An array with all the languages belonging to that region or null if none are found
  */
 export function getRegionLanguges(region: string): Language[] | null {
-	const regionLangs = languages.filter(
-		l =>
-			l.region?.toLowerCase() === region.toLowerCase() ||
-			l.regionCode?.toLowerCase() === region.toLowerCase()
-	);
+	const regionLangs = languages.filter(l => l.region?.toLowerCase() === region.toLowerCase() || l.regionCode?.toLowerCase() === region.toLowerCase());
 	return regionLangs.length ? regionLangs : null;
 }
 
