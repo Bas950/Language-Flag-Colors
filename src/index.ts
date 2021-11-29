@@ -37,13 +37,14 @@ export function getName(locale: string): string | null {
 
 /**
  * Gets a country's unicode emoji flag
- * @param {string} country The country, language locale or name to get the flag of
  * @returns {string} A unicode emoji flag, or null if no language is found/the language doesn't have an emoji
+ * @param {string} country The country, country code, language locale or name to get the flag of
  */
 export function getEmoji(country: string): string | null {
-	let language = findLanguage(country);
-	language ??= languages.find(l => l.country.toLowerCase() === country.toLowerCase());
-	return language?.emoji ?? null
+	let language = languages.find(l => l.country.toLowerCase() === country.toLowerCase());
+	language ??= languages.find(l => l.countryCode.toLowerCase() === country.toLowerCase());
+	language ??= findLanguage(country);
+	return language?.emoji ?? null;
 }
 
 /**
@@ -118,12 +119,10 @@ export interface Language {
  * @private
  */
 function findLanguage(lang: string): Language | undefined {
-	let language = languages.find(
-		l => l.locale.toLowerCase() === lang.toLowerCase()
+	return (
+		languages.find(l => l.locale.toLowerCase() === lang.toLowerCase()) ??
+		languages.find(l => l.locale.toLowerCase().includes(lang.toLowerCase())) ??
+		languages.find(l => l.name.toLowerCase() === lang.toLowerCase()) ??
+		languages.find(l => l.name.toLowerCase().includes(lang.toLowerCase()))
 	);
-	language ??= languages.find(l => l.name.toLowerCase() === lang.toLowerCase());
-	language ??= languages.find(l =>
-		l.name.toLowerCase().includes(lang.toLowerCase())
-	);
-	return language;
 }
