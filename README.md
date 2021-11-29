@@ -1,4 +1,4 @@
-# Language-Flag-Colors [![Version](https://img.shields.io/npm/v/language-flag-colors.svg?maxAge=3600)](https://www.npmjs.com/package/language-flag-colors)
+# Language-Flag-Colors [![Version](https://img.shields.io/npm/v/language-flag-colors.svg)](https://www.npmjs.com/package/language-flag-colors)
 
 A package with the color of every language's flag
 
@@ -63,6 +63,8 @@ const dutchLocale = getLocale("dutch"); // Will return "nl-NL"
 // Getting the name of a language given its locale
 const ptName = getName("pt-pt"); // Will return "Portuguese"
 
+// Getting the flag unicode emoji of a language
+// This method accepts a language's name or locale, or a country's name or code
 const ptEmoji = getEmoji("pt-pt"); // Will return "🇵🇹"
 const dutchEmoji = getEmoji("dutch"); // Will return "🇳🇱"
 const ukEmoji = getEmoji("United Kingdom"); // Will return "🇬🇧"

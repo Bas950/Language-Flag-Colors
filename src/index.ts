@@ -36,9 +36,9 @@ export function getName(locale: string): string | null {
 }
 
 /**
- * Gets a country's unicode emoji flag
- * @returns {string} A unicode emoji flag, or null if no language is found/the language doesn't have an emoji
+ * Gets a country's flag unicode emoji
  * @param {string} country The country, country code, language locale or name to get the flag of
+ * @returns {string} A flag unicode emoji, or null if no language is found/the language doesn't have an emoji
  */
 export function getEmoji(country: string): string | null {
 	let language = languages.find(l => l.country.toLowerCase() === country.toLowerCase());
@@ -115,7 +115,7 @@ export interface Language {
 /**
  * Finds a language given its locale or name
  * @param {string} lang The language to find
- * @returns {?Language} The corresponding language, or null if none is found
+ * @returns {?Language} The corresponding language, or undefined if none is found
  * @private
  */
 function findLanguage(lang: string): Language | undefined {
