@@ -19,7 +19,9 @@
 		"colors",
 		"crowdin",
 		"locale",
-		"iso"
+		"iso",
+		"emoji",
+		"unicode"
 	],
 	"devDependencies": {
 		"conventional-changelog-cli": "^2.1.1",
