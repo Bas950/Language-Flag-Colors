@@ -19,7 +19,11 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           cache: yarn
 
-      - name: Install dependencies, compile and test
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Compile and test
         run: yarn test
 
       - name: Publish package
