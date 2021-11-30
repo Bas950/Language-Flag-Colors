@@ -1,9 +1,7 @@
-name: Publish Package
-on:
-  release:
-    types: [created]
+name: Test package
+on: [push, pull_request]
 jobs:
-  publish:
+  test:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -16,13 +14,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
-          registry-url: "https://registry.npmjs.org"
           cache: yarn
 
-      - name: Install dependencies, compile and test
+      - name: Test package
         run: yarn test
 
-      - name: Publish package
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
