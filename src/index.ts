@@ -82,7 +82,7 @@ export function getRGB(lang: string): [number, number, number] | null {
  * @param {string} country The country name or code to find
  * @returns {?Language[]} An array with all the languages belonging to that country or null if none are found
  */
-export function getCountryLanguges(country: string): Language[] | null {
+export function getCountryLanguages(country: string): Language[] | null {
 	const countryLangs = languages.filter(
 		l => l.country.toLowerCase() === country.toLowerCase() || l.countryCode.toLowerCase() === country.toLowerCase()
 	);
@@ -94,7 +94,7 @@ export function getCountryLanguges(country: string): Language[] | null {
  * @param {string} region The region name or code to find
  * @returns {?Language[]} An array with all the languages belonging to that region or null if none are found
  */
-export function getRegionLanguges(region: string): Language[] | null {
+export function getRegionLanguages(region: string): Language[] | null {
 	const regionLangs = languages.filter(l => l.region?.toLowerCase() === region.toLowerCase() || l.regionCode?.toLowerCase() === region.toLowerCase());
 	return regionLangs.length ? regionLangs : null;
 }
