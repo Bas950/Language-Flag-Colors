@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.1...1.2.0) (2021-12-28)
+
+### Features
+
+* nativeName and direction ([3b134b9](https://github.com/Bas950/Language-Flag-Colors/commit/3b134b9170d66e566f2541a90c4fde69d975d724))
+
 ## [1.1.1](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.0...1.1.1) (2021-11-30)
 
 ### Bug Fixes
