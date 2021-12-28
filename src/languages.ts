@@ -4,6 +4,8 @@ const languages: Language[] = [
 	{
 		locale: "ach-UG",
 		name: "Acholi",
+		nativeName: "Lwo",
+		direction: "ltr",
 		country: "Uganda",
 		countryCode: "ug",
 		emoji: "🇺🇬",
@@ -14,6 +16,8 @@ const languages: Language[] = [
 	{
 		locale: "aa-ER",
 		name: "Afar",
+		nativeName: "Qafaraf",
+		direction: "ltr",
 		country: "Eritrea",
 		countryCode: "er",
 		emoji: "🇪🇷",
@@ -24,6 +28,8 @@ const languages: Language[] = [
 	{
 		locale: "af-ZA",
 		name: "Afrikaans",
+		nativeName: "Afrikaans",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -34,6 +40,8 @@ const languages: Language[] = [
 	{
 		locale: "ak-GH",
 		name: "Akan",
+		nativeName: "Ákán",
+		direction: "ltr",
 		country: "Ghana",
 		countryCode: "gh",
 		emoji: "🇬🇭",
@@ -44,6 +52,8 @@ const languages: Language[] = [
 	{
 		locale: "tw-TW",
 		name: "Akan, Twi",
+		nativeName: "Ákán, Twi",
+		direction: "ltr",
 		country: "Ghana",
 		countryCode: "gh",
 		emoji: "🇬🇭",
@@ -54,6 +64,8 @@ const languages: Language[] = [
 	{
 		locale: "sq-AL",
 		name: "Albanian",
+		nativeName: "Shqip",
+		direction: "ltr",
 		country: "Albania",
 		countryCode: "al",
 		emoji: "🇦🇱",
@@ -64,6 +76,8 @@ const languages: Language[] = [
 	{
 		locale: "am-ET",
 		name: "Amharic",
+		nativeName: "አማርኛ",
+		direction: "ltr",
 		country: "Ethiopia",
 		countryCode: "et",
 		emoji: "🇪🇹",
@@ -74,6 +88,8 @@ const languages: Language[] = [
 	{
 		locale: "ar",
 		name: "Arabic",
+		nativeName: "العربية",
+		direction: "rtl",
 		country: "Jordan",
 		countryCode: "jo",
 		emoji: "🇯🇴",
@@ -84,6 +100,8 @@ const languages: Language[] = [
 	{
 		locale: "ar-BH",
 		name: "Arabic, Bahrain",
+		nativeName: "العربية، البحرين",
+		direction: "rtl",
 		country: "Bahrain",
 		countryCode: "bh",
 		emoji: "🇧🇭",
@@ -94,6 +112,8 @@ const languages: Language[] = [
 	{
 		locale: "ar-EG",
 		name: "Arabic, Egypt",
+		nativeName: "العربية، مصر",
+		direction: "rtl",
 		country: "Egypt",
 		countryCode: "eg",
 		emoji: "🇪🇬",
@@ -104,6 +124,8 @@ const languages: Language[] = [
 	{
 		locale: "ar-SA",
 		name: "Arabic, Saudi Arabia",
+		nativeName: "العربية، السعودية",
+		direction: "rtl",
 		country: "Saudi Arabia",
 		countryCode: "sa",
 		emoji: "🇸🇦",
@@ -114,6 +136,8 @@ const languages: Language[] = [
 	{
 		locale: "ar-YE",
 		name: "Arabic, Yemen",
+		nativeName: "العربية، اليمن",
+		direction: "rtl",
 		country: "Yemen",
 		countryCode: "ye",
 		emoji: "🇾🇪",
@@ -124,6 +148,8 @@ const languages: Language[] = [
 	{
 		locale: "an-ES",
 		name: "Aragonese",
+		nativeName: "Aragonés",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -136,6 +162,8 @@ const languages: Language[] = [
 	{
 		locale: "hy-AM",
 		name: "Armenian",
+		nativeName: "հայերեն",
+		direction: "ltr",
 		country: "Armenia",
 		countryCode: "am",
 		emoji: "🇦🇲",
@@ -146,6 +174,8 @@ const languages: Language[] = [
 	{
 		locale: "frp-IT",
 		name: "Arpitan",
+		nativeName: "Arpetan",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -158,6 +188,8 @@ const languages: Language[] = [
 	{
 		locale: "as-IN",
 		name: "Assamese",
+		nativeName: "অসমীয়া",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -170,6 +202,8 @@ const languages: Language[] = [
 	{
 		locale: "ast-ES",
 		name: "Asturian",
+		nativeName: "Asturianu",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -182,6 +216,8 @@ const languages: Language[] = [
 	{
 		locale: "tay-TW",
 		name: "Atayal",
+		nativeName: "Tayal",
+		direction: "ltr",
 		country: "Taiwan",
 		countryCode: "tw",
 		emoji: "🇹🇼",
@@ -192,6 +228,8 @@ const languages: Language[] = [
 	{
 		locale: "av-DA",
 		name: "Avaric",
+		nativeName: "MагIарул MацI",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Dagestan",
@@ -203,6 +241,8 @@ const languages: Language[] = [
 	{
 		locale: "ae-IR",
 		name: "Avestan",
+		nativeName: "𐬎𐬞𐬀𐬯𐬙𐬀𐬎𐬎𐬀𐬐𐬀𐬉𐬥𐬀",
+		direction: "ltr",
 		country: "Iran",
 		countryCode: "ir",
 		region: "Avesta",
@@ -214,6 +254,8 @@ const languages: Language[] = [
 	{
 		locale: "ay-BO",
 		name: "Aymara",
+		nativeName: "Aymar aru",
+		direction: "ltr",
 		country: "Bolivia",
 		countryCode: "bo",
 		emoji: "🇧🇴",
@@ -226,6 +268,8 @@ const languages: Language[] = [
 	{
 		locale: "az-AZ",
 		name: "Azerbaijani",
+		nativeName: "Azərbaycan",
+		direction: "ltr",
 		country: "Azerbaijan",
 		countryCode: "az",
 		emoji: "🇦🇿",
@@ -236,6 +280,8 @@ const languages: Language[] = [
 	{
 		locale: "ban-ID",
 		name: "Balinese",
+		nativeName: "ᬪᬵᬱᬩᬮᬶ",
+		direction: "ltr",
 		country: "Indonesia",
 		countryCode: "id",
 		emoji: "🇮🇩",
@@ -248,6 +294,8 @@ const languages: Language[] = [
 	{
 		locale: "bal-BA",
 		name: "Balochi",
+		nativeName: "Balòci",
+		direction: "ltr",
 		country: "Pakistan",
 		countryCode: "pk",
 		emoji: "🇵🇰",
@@ -260,6 +308,8 @@ const languages: Language[] = [
 	{
 		locale: "bm-ML",
 		name: "Bambara",
+		nativeName: "Bamanankan",
+		direction: "ltr",
 		country: "Mali",
 		countryCode: "ml",
 		emoji: "🇲🇱",
@@ -272,6 +322,8 @@ const languages: Language[] = [
 	{
 		locale: "ba-RU",
 		name: "Bashkir",
+		nativeName: "Башҡортса",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Bashkortostan",
@@ -283,6 +335,8 @@ const languages: Language[] = [
 	{
 		locale: "eu-ES",
 		name: "Basque",
+		nativeName: "Euskara",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -295,6 +349,8 @@ const languages: Language[] = [
 	{
 		locale: "be-BY",
 		name: "Belarusian",
+		nativeName: "беларуская",
+		direction: "ltr",
 		country: "Belarus",
 		countryCode: "by",
 		emoji: "🇧🇾",
@@ -305,6 +361,8 @@ const languages: Language[] = [
 	{
 		locale: "bn-BD",
 		name: "Bengali",
+		nativeName: "বাংলা",
+		direction: "ltr",
 		country: "Bangladesh",
 		countryCode: "bn",
 		emoji: "🇧🇩",
@@ -315,6 +373,8 @@ const languages: Language[] = [
 	{
 		locale: "bn-IN",
 		name: "Bengali, India",
+		nativeName: "বাংলা, ভারত",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -325,6 +385,8 @@ const languages: Language[] = [
 	{
 		locale: "ber-DZ",
 		name: "Berber",
+		nativeName: "Tamaziɣt",
+		direction: "ltr",
 		country: "Argelia",
 		countryCode: "dk",
 		region: "Berber",
@@ -336,6 +398,8 @@ const languages: Language[] = [
 	{
 		locale: "bh-IN",
 		name: "Bihari",
+		nativeName: "Bihari",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -348,6 +412,8 @@ const languages: Language[] = [
 	{
 		locale: "bfo-BF",
 		name: "Birifor",
+		nativeName: "Birifor",
+		direction: "ltr",
 		country: "Burkina Faso",
 		countryCode: "bf",
 		emoji: "🇧🇫",
@@ -358,6 +424,8 @@ const languages: Language[] = [
 	{
 		locale: "bi-VU",
 		name: "Bislama",
+		nativeName: "Bislama",
+		direction: "ltr",
 		country: "Vanuatu",
 		countryCode: "vu",
 		emoji: "🇻🇺",
@@ -368,6 +436,8 @@ const languages: Language[] = [
 	{
 		locale: "bs-BA",
 		name: "Bosnian",
+		nativeName: "Bosanski",
+		direction: "ltr",
 		country: "Bosnia and Herzegovina",
 		countryCode: "ba",
 		emoji: "🇧🇦",
@@ -378,6 +448,8 @@ const languages: Language[] = [
 	{
 		locale: "br-FR",
 		name: "Breton",
+		nativeName: "Brezhoneg",
+		direction: "ltr",
 		country: "France",
 		countryCode: "fr",
 		emoji: "🇫🇷",
@@ -390,6 +462,8 @@ const languages: Language[] = [
 	{
 		locale: "bg-BG",
 		name: "Bulgarian",
+		nativeName: "български",
+		direction: "ltr",
 		country: "Bulgaria",
 		countryCode: "bg",
 		emoji: "🇧🇬",
@@ -400,6 +474,8 @@ const languages: Language[] = [
 	{
 		locale: "my-MM",
 		name: "Burmese",
+		nativeName: "မြန်မာဘာသာ",
+		direction: "ltr",
 		country: "Myanmar",
 		countryCode: "mm",
 		emoji: "🇲🇲",
@@ -410,6 +486,8 @@ const languages: Language[] = [
 	{
 		locale: "ca-ES",
 		name: "Catalan",
+		nativeName: "Català",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -422,6 +500,8 @@ const languages: Language[] = [
 	{
 		locale: "ceb-PH",
 		name: "Cebuano",
+		nativeName: "Sugboanon",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -434,6 +514,8 @@ const languages: Language[] = [
 	{
 		locale: "ch-GU",
 		name: "Chamorro",
+		nativeName: "Chamoru",
+		direction: "ltr",
 		country: "Guam",
 		countryCode: "gu",
 		emoji: "🇬🇺",
@@ -444,6 +526,8 @@ const languages: Language[] = [
 	{
 		locale: "ce-CE",
 		name: "Chechen",
+		nativeName: "Нохчийн",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "es",
 		region: "Chechnya",
@@ -455,6 +539,8 @@ const languages: Language[] = [
 	{
 		locale: "chr-US",
 		name: "Cherokee",
+		nativeName: "ᏣᎳᎩ",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -467,6 +553,8 @@ const languages: Language[] = [
 	{
 		locale: "ny-MW",
 		name: "Chewa",
+		nativeName: "Chichewa",
+		direction: "ltr",
 		country: "Malawi",
 		countryCode: "mw",
 		emoji: "🇲🇼",
@@ -477,6 +565,8 @@ const languages: Language[] = [
 	{
 		locale: "zh-CN",
 		name: "Chinese Simplified",
+		nativeName: "简体中文",
+		direction: "ltr",
 		country: "China",
 		countryCode: "cn",
 		emoji: "🇨🇳",
@@ -487,6 +577,8 @@ const languages: Language[] = [
 	{
 		locale: "zh-TW",
 		name: "Chinese Traditional",
+		nativeName: "繁體中文",
+		direction: "ltr",
 		country: "Taiwan",
 		countryCode: "tw",
 		emoji: "🇹🇼",
@@ -497,6 +589,8 @@ const languages: Language[] = [
 	{
 		locale: "zh-HK",
 		name: "Chinese Traditional, Hong Kong",
+		nativeName: "繁體中文,香港",
+		direction: "ltr",
 		country: "Hong Kong",
 		countryCode: "hk",
 		emoji: "🇭🇰",
@@ -507,6 +601,8 @@ const languages: Language[] = [
 	{
 		locale: "zh-MO",
 		name: "Chinese Traditional, Macau",
+		nativeName: "繁體中文,澳門",
+		direction: "ltr",
 		country: "Macau",
 		countryCode: "mo",
 		hex: "#00795E",
@@ -516,6 +612,8 @@ const languages: Language[] = [
 	{
 		locale: "zh-SG",
 		name: "Chinese Traditional, Singapore",
+		nativeName: "繁體中文,新加坡",
+		direction: "ltr",
 		country: "Singapore",
 		countryCode: "sg",
 		emoji: "🇸🇬",
@@ -526,6 +624,8 @@ const languages: Language[] = [
 	{
 		locale: "cv-CU",
 		name: "Chuvash",
+		nativeName: "Căvashla",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Chuvashia",
@@ -537,6 +637,8 @@ const languages: Language[] = [
 	{
 		locale: "kw-GB",
 		name: "Cornish",
+		nativeName: "Kernowek",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -549,6 +651,8 @@ const languages: Language[] = [
 	{
 		locale: "co-FR",
 		name: "Corsican",
+		nativeName: "Corsu",
+		direction: "ltr",
 		country: "France",
 		countryCode: "fr",
 		emoji: "🇫🇷",
@@ -561,6 +665,8 @@ const languages: Language[] = [
 	{
 		locale: "cr-NT",
 		name: "Cree",
+		nativeName: "ᓀᐦᐃᔭᐍᐏᐣ",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -573,6 +679,8 @@ const languages: Language[] = [
 	{
 		locale: "hr-HR",
 		name: "Croatian",
+		nativeName: "Hrvatski",
+		direction: "ltr",
 		country: "Croatia",
 		countryCode: "hr",
 		emoji: "🇭🇷",
@@ -583,6 +691,8 @@ const languages: Language[] = [
 	{
 		locale: "cs-CZ",
 		name: "Czech",
+		nativeName: "Čeština",
+		direction: "ltr",
 		country: "Czech Republic",
 		countryCode: "cz",
 		hex: "#D7141A",
@@ -592,6 +702,8 @@ const languages: Language[] = [
 	{
 		locale: "da-DK",
 		name: "Danish",
+		nativeName: "Dansk",
+		direction: "ltr",
 		country: "Denmark",
 		countryCode: "dk",
 		emoji: "🇩🇰",
@@ -602,6 +714,8 @@ const languages: Language[] = [
 	{
 		locale: "fa-AF",
 		name: "Dari",
+		nativeName: "دری",
+		direction: "rtl",
 		country: "Afghanistan",
 		countryCode: "af",
 		emoji: "🇦🇫",
@@ -612,6 +726,8 @@ const languages: Language[] = [
 	{
 		locale: "dv-MV",
 		name: "Dhivehi",
+		nativeName: "ދިވެހި",
+		direction: "rtl",
 		country: "Maldives",
 		countryCode: "mv",
 		emoji: "🇲🇻",
@@ -622,6 +738,8 @@ const languages: Language[] = [
 	{
 		locale: "nl-NL",
 		name: "Dutch",
+		nativeName: "Nederlands",
+		direction: "ltr",
 		country: "Netherlands",
 		countryCode: "nl",
 		emoji: "🇳🇱",
@@ -632,6 +750,8 @@ const languages: Language[] = [
 	{
 		locale: "nl-BE",
 		name: "Dutch, Belgium",
+		nativeName: "Belgisch-Nederlands",
+		direction: "ltr",
 		country: "Belgium",
 		countryCode: "be",
 		emoji: "🇧🇪",
@@ -642,6 +762,8 @@ const languages: Language[] = [
 	{
 		locale: "nl-SR",
 		name: "Dutch, Suriname",
+		nativeName: "Surinaams-Nederlands",
+		direction: "ltr",
 		country: "Suriname",
 		countryCode: "sr",
 		emoji: "🇸🇷",
@@ -652,6 +774,8 @@ const languages: Language[] = [
 	{
 		locale: "dz-BT",
 		name: "Dzongkha",
+		nativeName: "རྫོང་ཁ་",
+		direction: "ltr",
 		country: "Bhutan",
 		countryCode: "bt",
 		emoji: "🇧🇹",
@@ -662,6 +786,8 @@ const languages: Language[] = [
 	{
 		locale: "en",
 		name: "English",
+		nativeName: "English",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -672,6 +798,8 @@ const languages: Language[] = [
 	{
 		locale: "en-UD",
 		name: "English (upside down)",
+		nativeName: "ɥsıןƃuƎ",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -682,6 +810,8 @@ const languages: Language[] = [
 	{
 		locale: "en-AR",
 		name: "English, Arabia",
+		nativeName: "English, Arabia",
+		direction: "ltr",
 		country: "United Arab Emirates",
 		countryCode: "ae",
 		emoji: "🇦🇪",
@@ -692,6 +822,8 @@ const languages: Language[] = [
 	{
 		locale: "en-AU",
 		name: "English, Australia",
+		nativeName: "English, Australia",
+		direction: "ltr",
 		country: "Australia",
 		countryCode: "au",
 		emoji: "🇦🇺",
@@ -702,6 +834,8 @@ const languages: Language[] = [
 	{
 		locale: "en-BZ",
 		name: "English, Belize",
+		nativeName: "English, Belize",
+		direction: "ltr",
 		country: "Belize",
 		countryCode: "bz",
 		emoji: "🇧🇿",
@@ -712,6 +846,8 @@ const languages: Language[] = [
 	{
 		locale: "en-CA",
 		name: "English, Canada",
+		nativeName: "English, Canada",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -722,6 +858,8 @@ const languages: Language[] = [
 	{
 		locale: "en-CB",
 		name: "English, Caribbean",
+		nativeName: "English, Caribbean",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -734,6 +872,8 @@ const languages: Language[] = [
 	{
 		locale: "en-CN",
 		name: "English, China",
+		nativeName: "English, China",
+		direction: "ltr",
 		country: "China",
 		countryCode: "cn",
 		emoji: "🇨🇳",
@@ -744,6 +884,8 @@ const languages: Language[] = [
 	{
 		locale: "en-DK",
 		name: "English, Denmark",
+		nativeName: "English, Denmark",
+		direction: "ltr",
 		country: "Denmark",
 		countryCode: "dk",
 		emoji: "🇩🇰",
@@ -754,6 +896,8 @@ const languages: Language[] = [
 	{
 		locale: "en-HK",
 		name: "English, Hong Kong",
+		nativeName: "English, Hong Kong",
+		direction: "ltr",
 		country: "Hong Kong",
 		countryCode: "hk",
 		emoji: "🇭🇰",
@@ -764,6 +908,8 @@ const languages: Language[] = [
 	{
 		locale: "en-IN",
 		name: "English, India",
+		nativeName: "English, India",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -774,6 +920,8 @@ const languages: Language[] = [
 	{
 		locale: "en-ID",
 		name: "English, Indonesia",
+		nativeName: "English, Indonesia",
+		direction: "ltr",
 		country: "Indonesia",
 		countryCode: "id",
 		emoji: "🇮🇩",
@@ -784,6 +932,8 @@ const languages: Language[] = [
 	{
 		locale: "en-IE",
 		name: "English, Ireland",
+		nativeName: "English, Ireland",
+		direction: "ltr",
 		country: "Ireland",
 		countryCode: "ie",
 		emoji: "🇮🇪",
@@ -794,6 +944,8 @@ const languages: Language[] = [
 	{
 		locale: "en-JM",
 		name: "English, Jamaica",
+		nativeName: "English, Jamaica",
+		direction: "ltr",
 		country: "Jamaica",
 		countryCode: "jm",
 		emoji: "🇯🇲",
@@ -804,6 +956,8 @@ const languages: Language[] = [
 	{
 		locale: "en-JA",
 		name: "English, Japan",
+		nativeName: "English, Japan",
+		direction: "ltr",
 		country: "Japan",
 		countryCode: "ja",
 		emoji: "🇯🇵",
@@ -814,6 +968,8 @@ const languages: Language[] = [
 	{
 		locale: "en-MY",
 		name: "English, Malaysia",
+		nativeName: "English, Malaysia",
+		direction: "ltr",
 		country: "Malaysia",
 		countryCode: "my",
 		emoji: "🇲🇾",
@@ -824,6 +980,8 @@ const languages: Language[] = [
 	{
 		locale: "en-NZ",
 		name: "English, New Zealand",
+		nativeName: "English, New Zealand",
+		direction: "ltr",
 		country: "New Zealand",
 		countryCode: "nz",
 		emoji: "🇳🇿",
@@ -834,6 +992,8 @@ const languages: Language[] = [
 	{
 		locale: "en-NO",
 		name: "English, Norway",
+		nativeName: "English, Norway",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -844,6 +1004,8 @@ const languages: Language[] = [
 	{
 		locale: "en-PH",
 		name: "English, Philippines",
+		nativeName: "English, Philippines",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -854,6 +1016,8 @@ const languages: Language[] = [
 	{
 		locale: "en-PR",
 		name: "English, Puerto Rico",
+		nativeName: "English, Puerto Rico",
+		direction: "ltr",
 		country: "Puerto Rico",
 		countryCode: "pr",
 		emoji: "🇵🇷",
@@ -864,6 +1028,8 @@ const languages: Language[] = [
 	{
 		locale: "en-SG",
 		name: "English, Singapore",
+		nativeName: "English, Singapore",
+		direction: "ltr",
 		country: "Singapore",
 		countryCode: "sg",
 		emoji: "🇸🇬",
@@ -874,6 +1040,8 @@ const languages: Language[] = [
 	{
 		locale: "en-ZA",
 		name: "English, South Africa",
+		nativeName: "English, South Africa",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -884,6 +1052,8 @@ const languages: Language[] = [
 	{
 		locale: "en-SE",
 		name: "English, Sweden",
+		nativeName: "English, Sweden",
+		direction: "ltr",
 		country: "Sweden",
 		countryCode: "se",
 		emoji: "🇸🇪",
@@ -894,6 +1064,8 @@ const languages: Language[] = [
 	{
 		locale: "en-GB",
 		name: "English, United Kingdom",
+		nativeName: "English, United Kingdom",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -904,6 +1076,8 @@ const languages: Language[] = [
 	{
 		locale: "en-US",
 		name: "English, United States",
+		nativeName: "English, United States",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -914,6 +1088,8 @@ const languages: Language[] = [
 	{
 		locale: "en-ZW",
 		name: "English, Zimbabwe",
+		nativeName: "English, Zimbabwe",
+		direction: "ltr",
 		country: "Zimbabwe",
 		countryCode: "zw",
 		emoji: "🇿🇼",
@@ -924,6 +1100,8 @@ const languages: Language[] = [
 	{
 		locale: "eo-UY",
 		name: "Esperanto",
+		nativeName: "Esperanto",
+		direction: "ltr",
 		country: "International",
 		countryCode: "uy",
 		hex: "#009900",
@@ -933,6 +1111,8 @@ const languages: Language[] = [
 	{
 		locale: "et-EE",
 		name: "Estonian",
+		nativeName: "Eesti keel",
+		direction: "ltr",
 		country: "Estonia",
 		countryCode: "ee",
 		emoji: "🇪🇪",
@@ -943,6 +1123,8 @@ const languages: Language[] = [
 	{
 		locale: "ee-GH",
 		name: "Ewe",
+		nativeName: "Eʋegbe",
+		direction: "ltr",
 		country: "Ghana",
 		countryCode: "gh",
 		emoji: "🇬🇭",
@@ -953,6 +1135,8 @@ const languages: Language[] = [
 	{
 		locale: "fo-FO",
 		name: "Faroese",
+		nativeName: "Føroyskt",
+		direction: "ltr",
 		country: "Faroe Islands",
 		countryCode: "fo",
 		emoji: "🇫🇴",
@@ -963,6 +1147,8 @@ const languages: Language[] = [
 	{
 		locale: "fj-FJ",
 		name: "Fijian",
+		nativeName: "Vakaviti",
+		direction: "ltr",
 		country: "Fiji Islands",
 		countryCode: "fj",
 		hex: "#68bfe5",
@@ -972,6 +1158,8 @@ const languages: Language[] = [
 	{
 		locale: "fil-PH",
 		name: "Filipino",
+		nativeName: "Wikang Filipino",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -982,6 +1170,8 @@ const languages: Language[] = [
 	{
 		locale: "fi-FI",
 		name: "Finnish",
+		nativeName: "Suomi",
+		direction: "ltr",
 		country: "Finland",
 		countryCode: "fi",
 		emoji: "🇫🇮",
@@ -992,6 +1182,8 @@ const languages: Language[] = [
 	{
 		locale: "vls-BE",
 		name: "Flemish",
+		nativeName: "Vlaams",
+		direction: "ltr",
 		country: "Belgium",
 		countryCode: "be",
 		emoji: "🇧🇪",
@@ -1004,6 +1196,8 @@ const languages: Language[] = [
 	{
 		locale: "fra-DE",
 		name: "Franconian",
+		nativeName: "Franken",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -1016,6 +1210,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-FR",
 		name: "French",
+		nativeName: "Français",
+		direction: "ltr",
 		country: "French",
 		countryCode: "fr",
 		hex: "#318CE7",
@@ -1025,6 +1221,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-BE",
 		name: "French, Belgium",
+		nativeName: "Français, Belgique",
+		direction: "ltr",
 		country: "Belgium",
 		countryCode: "be",
 		emoji: "🇧🇪",
@@ -1035,6 +1233,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-CA",
 		name: "French, Canada",
+		nativeName: "Français, Canada",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -1045,6 +1245,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-LU",
 		name: "French, Luxembourg",
+		nativeName: "Français, Luxembourgeois",
+		direction: "ltr",
 		country: "Luxembourg",
 		countryCode: "lu",
 		emoji: "🇱🇺",
@@ -1055,6 +1257,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-QC",
 		name: "French, Quebec",
+		nativeName: "Français, Québec",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -1067,6 +1271,8 @@ const languages: Language[] = [
 	{
 		locale: "fr-CH",
 		name: "French, Switzerland",
+		nativeName: "Français, Suisse",
+		direction: "ltr",
 		country: "Switzerland",
 		countryCode: "ch",
 		emoji: "🇨🇭",
@@ -1078,6 +1284,8 @@ const languages: Language[] = [
 		locale: "fy-NL",
 		name: "Frisian",
 		country: "Netherlands",
+		nativeName: "Frysk",
+		direction: "ltr",
 		countryCode: "nl",
 		emoji: "🇳🇱",
 		region: "Friesland",
@@ -1089,6 +1297,8 @@ const languages: Language[] = [
 	{
 		locale: "fur-IT",
 		name: "Friulian",
+		nativeName: "Furlan",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -1101,6 +1311,8 @@ const languages: Language[] = [
 	{
 		locale: "ff-ZA",
 		name: "Fula",
+		nativeName: "Fulfulde",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -1111,6 +1323,8 @@ const languages: Language[] = [
 	{
 		locale: "gaa-GH",
 		name: "Ga",
+		nativeName: "Gã",
+		direction: "ltr",
 		country: "Ghana",
 		countryCode: "gh",
 		emoji: "🇬🇭",
@@ -1121,6 +1335,8 @@ const languages: Language[] = [
 	{
 		locale: "gl-ES",
 		name: "Galician",
+		nativeName: "Galego",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -1133,6 +1349,8 @@ const languages: Language[] = [
 	{
 		locale: "ka-GE",
 		name: "Georgian",
+		nativeName: "ქართული",
+		direction: "ltr",
 		country: "Georgia",
 		countryCode: "ge",
 		emoji: "🇬🇪",
@@ -1143,6 +1361,8 @@ const languages: Language[] = [
 	{
 		locale: "de-DE",
 		name: "German",
+		nativeName: "Deutsch",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -1153,6 +1373,8 @@ const languages: Language[] = [
 	{
 		locale: "de-AT",
 		name: "German, Austria",
+		nativeName: "Deutsch, Österreich",
+		direction: "ltr",
 		country: "Austria",
 		countryCode: "at",
 		emoji: "🇦🇹",
@@ -1163,6 +1385,8 @@ const languages: Language[] = [
 	{
 		locale: "de-BE",
 		name: "German, Belgium",
+		nativeName: "Deutsch, Belgien",
+		direction: "ltr",
 		country: "Belgium",
 		countryCode: "be",
 		emoji: "🇧🇪",
@@ -1173,6 +1397,8 @@ const languages: Language[] = [
 	{
 		locale: "de-LI",
 		name: "German, Liechtenstein",
+		nativeName: "Deutsch, Liechtenstein",
+		direction: "ltr",
 		country: "Liechtenstein",
 		countryCode: "li",
 		emoji: "🇱🇮",
@@ -1183,6 +1409,8 @@ const languages: Language[] = [
 	{
 		locale: "de-LU",
 		name: "German, Luxembourg",
+		nativeName: "Deutsch, Luxemburg",
+		direction: "ltr",
 		country: "Luxembourg",
 		countryCode: "lu",
 		emoji: "🇱🇺",
@@ -1193,6 +1421,8 @@ const languages: Language[] = [
 	{
 		locale: "de-CH",
 		name: "German, Switzerland",
+		nativeName: "Deutsch, Schweiz",
+		direction: "ltr",
 		country: "Switzerland",
 		countryCode: "ch",
 		emoji: "🇨🇭",
@@ -1203,6 +1433,8 @@ const languages: Language[] = [
 	{
 		locale: "got-DE",
 		name: "Gothic",
+		nativeName: "𐌲𐌿𐍄𐍂𐌰𐌶𐌳𐌰",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -1213,6 +1445,8 @@ const languages: Language[] = [
 	{
 		locale: "el-GR",
 		name: "Greek",
+		nativeName: "Ελληνικά",
+		direction: "ltr",
 		country: "Greece",
 		countryCode: "gr",
 		emoji: "🇬🇷",
@@ -1223,6 +1457,8 @@ const languages: Language[] = [
 	{
 		locale: "el-CY",
 		name: "Greek, Cyprus",
+		nativeName: "Ελληνικά, Κύπρος",
+		direction: "ltr",
 		country: "Cyprus",
 		countryCode: "cy",
 		emoji: "🇨🇾",
@@ -1233,6 +1469,8 @@ const languages: Language[] = [
 	{
 		locale: "kl-GL",
 		name: "Greenlandic",
+		nativeName: "Kalaallisut",
+		direction: "ltr",
 		country: "Denmark",
 		countryCode: "dk",
 		emoji: "🇩🇰",
@@ -1245,6 +1483,8 @@ const languages: Language[] = [
 	{
 		locale: "gn-PY",
 		name: "Guarani",
+		nativeName: "Avañeʼẽ",
+		direction: "ltr",
 		country: "Paraguay",
 		countryCode: "py",
 		emoji: "🇵🇾",
@@ -1255,6 +1495,8 @@ const languages: Language[] = [
 	{
 		locale: "gu-IN",
 		name: "Gujarati",
+		nativeName: "ગુજરાતી",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1265,6 +1507,8 @@ const languages: Language[] = [
 	{
 		locale: "ht-HT",
 		name: "Haitian Creole",
+		nativeName: "Kreyòl ayisyen",
+		direction: "ltr",
 		country: "Haiti",
 		countryCode: "ht",
 		emoji: "🇭🇹",
@@ -1275,6 +1519,8 @@ const languages: Language[] = [
 	{
 		locale: "ha-HG",
 		name: "Hausa",
+		nativeName: "Hausa",
+		direction: "ltr",
 		country: "Nigeria",
 		countryCode: "ng",
 		emoji: "🇳🇬",
@@ -1285,6 +1531,8 @@ const languages: Language[] = [
 	{
 		locale: "haw-US",
 		name: "Hawaiian",
+		nativeName: "Ōlelo Hawaiʻi",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -1297,6 +1545,8 @@ const languages: Language[] = [
 	{
 		locale: "he-IL",
 		name: "Hebrew",
+		nativeName: "עִברִית",
+		direction: "rtl",
 		country: "Israel",
 		countryCode: "il",
 		emoji: "🇮🇱",
@@ -1307,6 +1557,8 @@ const languages: Language[] = [
 	{
 		locale: "hz-NA",
 		name: "Herero",
+		nativeName: "Otjiherero",
+		direction: "ltr",
 		country: "Namibia",
 		countryCode: "na",
 		emoji: "🇳🇦",
@@ -1317,6 +1569,8 @@ const languages: Language[] = [
 	{
 		locale: "hil-PH",
 		name: "Hiligaynon",
+		nativeName: "Ilonggo",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -1329,6 +1583,8 @@ const languages: Language[] = [
 	{
 		locale: "hi-IN",
 		name: "Hindi",
+		nativeName: "हिंदी",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1339,6 +1595,8 @@ const languages: Language[] = [
 	{
 		locale: "ho-PG",
 		name: "Hiri Motu",
+		nativeName: "Hiri Motu",
+		direction: "ltr",
 		country: "Papua New Guinea",
 		countryCode: "pg",
 		emoji: "🇵🇬",
@@ -1349,6 +1607,8 @@ const languages: Language[] = [
 	{
 		locale: "hmn-CN",
 		name: "Hmong",
+		nativeName: "Hmoob",
+		direction: "ltr",
 		country: "China",
 		countryCode: "cn",
 		emoji: "🇨🇳",
@@ -1359,6 +1619,8 @@ const languages: Language[] = [
 	{
 		locale: "hu-HU",
 		name: "Hungarian",
+		nativeName: "Magyar",
+		direction: "ltr",
 		country: "Hungary",
 		countryCode: "hu",
 		emoji: "🇭🇺",
@@ -1369,6 +1631,8 @@ const languages: Language[] = [
 	{
 		locale: "is-IS",
 		name: "Icelandic",
+		nativeName: "Íslenska",
+		direction: "ltr",
 		country: "Iceland",
 		countryCode: "is",
 		emoji: "🇮🇸",
@@ -1379,6 +1643,8 @@ const languages: Language[] = [
 	{
 		locale: "io-EN",
 		name: "Ido",
+		nativeName: "Ido",
+		direction: "ltr",
 		country: "International",
 		countryCode: "en",
 		hex: "#127ec9",
@@ -1388,6 +1654,8 @@ const languages: Language[] = [
 	{
 		locale: "ig-NG",
 		name: "Igbo",
+		nativeName: "Igbo",
+		direction: "ltr",
 		country: "Nigeria",
 		countryCode: "ng",
 		emoji: "🇳🇬",
@@ -1398,6 +1666,8 @@ const languages: Language[] = [
 	{
 		locale: "ilo-PH",
 		name: "Ilokano",
+		nativeName: "Ilokano",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -1408,6 +1678,8 @@ const languages: Language[] = [
 	{
 		locale: "id-ID",
 		name: "Indonesian",
+		nativeName: "Bahasa Indonesia",
+		direction: "ltr",
 		country: "Indonesia",
 		countryCode: "id",
 		emoji: "🇮🇩",
@@ -1418,6 +1690,8 @@ const languages: Language[] = [
 	{
 		locale: "iu-NU",
 		name: "Inuktitut",
+		nativeName: "ᐃᓄᒃᑎᑐᑦ",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -1430,6 +1704,8 @@ const languages: Language[] = [
 	{
 		locale: "ga-IE",
 		name: "Irish",
+		nativeName: "Gaeilge",
+		direction: "ltr",
 		country: "Ireland",
 		countryCode: "ie",
 		emoji: "🇮🇪",
@@ -1440,6 +1716,8 @@ const languages: Language[] = [
 	{
 		locale: "it-IT",
 		name: "Italian",
+		nativeName: "Italiano",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -1450,6 +1728,8 @@ const languages: Language[] = [
 	{
 		locale: "it-CH",
 		name: "Italian, Switzerland",
+		nativeName: "Italiano, Svizzera",
+		direction: "ltr",
 		country: "Switzerland",
 		countryCode: "ch",
 		emoji: "🇨🇭",
@@ -1460,6 +1740,8 @@ const languages: Language[] = [
 	{
 		locale: "ja-JP",
 		name: "Japanese",
+		nativeName: "日本語",
+		direction: "ltr",
 		country: "Japan",
 		countryCode: "ja",
 		emoji: "🇯🇵",
@@ -1470,6 +1752,8 @@ const languages: Language[] = [
 	{
 		locale: "jv-ID",
 		name: "Javanese",
+		nativeName: "Basa Jawa",
+		direction: "ltr",
 		country: "Indonesia",
 		countryCode: "id",
 		emoji: "🇮🇩",
@@ -1480,6 +1764,8 @@ const languages: Language[] = [
 	{
 		locale: "quc-GT",
 		name: "K'iche'",
+		nativeName: "Quiché",
+		direction: "ltr",
 		country: "Guatemala",
 		countryCode: "gt",
 		emoji: "🇬🇹",
@@ -1490,6 +1776,8 @@ const languages: Language[] = [
 	{
 		locale: "kab-KAB",
 		name: "Kabyle",
+		nativeName: "Taqbaylit",
+		direction: "ltr",
 		country: "Algeria",
 		countryCode: "dz",
 		emoji: "🇩🇿",
@@ -1502,6 +1790,8 @@ const languages: Language[] = [
 	{
 		locale: "kn-IN",
 		name: "Kannada",
+		nativeName: "ಕನ್ನಡ",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1512,6 +1802,8 @@ const languages: Language[] = [
 	{
 		locale: "pam-PH",
 		name: "Kapampangan",
+		nativeName: "Kapampangan",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -1522,6 +1814,8 @@ const languages: Language[] = [
 	{
 		locale: "ks-IN",
 		name: "Kashmiri",
+		nativeName: "कॉशुर",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1532,6 +1826,8 @@ const languages: Language[] = [
 	{
 		locale: "ks-PK",
 		name: "Kashmiri, Pakistan",
+		nativeName: "कॉशुर, पाकिस्तान",
+		direction: "ltr",
 		country: "Pakistan",
 		countryCode: "pk",
 		emoji: "🇵🇰",
@@ -1542,6 +1838,8 @@ const languages: Language[] = [
 	{
 		locale: "csb-PL",
 		name: "Kashubian",
+		nativeName: "Kaszëbsczi",
+		direction: "ltr",
 		country: "Poland",
 		countryCode: "pl",
 		emoji: "🇵🇱",
@@ -1552,6 +1850,8 @@ const languages: Language[] = [
 	{
 		locale: "kk-KZ",
 		name: "Kazakh",
+		nativeName: "Қазақша",
+		direction: "ltr",
 		country: "Kazakhstan",
 		countryCode: "kz",
 		emoji: "🇰🇿",
@@ -1562,6 +1862,8 @@ const languages: Language[] = [
 	{
 		locale: "km-KH",
 		name: "Khmer",
+		nativeName: "ភាសាខ្មែរ",
+		direction: "ltr",
 		country: "Cambodia",
 		countryCode: "kh",
 		emoji: "🇰🇭",
@@ -1572,6 +1874,8 @@ const languages: Language[] = [
 	{
 		locale: "rw-RW",
 		name: "Kinyarwanda",
+		nativeName: "Ikinyarwanda",
+		direction: "ltr",
 		country: "Rwanda",
 		countryCode: "rw",
 		emoji: "🇷🇼",
@@ -1582,6 +1886,8 @@ const languages: Language[] = [
 	{
 		locale: "tlh-AA",
 		name: "Klingon",
+		nativeName: "TlhIngan Hol",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -1592,6 +1898,8 @@ const languages: Language[] = [
 	{
 		locale: "kv-KO",
 		name: "Komi",
+		nativeName: "Коми кыв",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Komi",
@@ -1603,6 +1911,8 @@ const languages: Language[] = [
 	{
 		locale: "kg-CG",
 		name: "Kongo",
+		nativeName: "Kikongo",
+		direction: "ltr",
 		country: "Congo",
 		countryCode: "cd",
 		emoji: "🇨🇬",
@@ -1613,6 +1923,8 @@ const languages: Language[] = [
 	{
 		locale: "kok-IN",
 		name: "Konkani",
+		nativeName: "कोंकणी",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1623,6 +1935,8 @@ const languages: Language[] = [
 	{
 		locale: "ko-KR",
 		name: "Korean",
+		nativeName: "한국어",
+		direction: "ltr",
 		country: "South Korea",
 		countryCode: "kr",
 		hex: "#CD2E3A",
@@ -1632,6 +1946,8 @@ const languages: Language[] = [
 	{
 		locale: "ku-TR",
 		name: "Kurdish",
+		nativeName: "Kurdî",
+		direction: "ltr",
 		country: "Iran",
 		countryCode: "ir",
 		region: "Kurdistan",
@@ -1643,6 +1959,8 @@ const languages: Language[] = [
 	{
 		locale: "kmr-TR",
 		name: "Kurmanji (Kurdish)",
+		nativeName: "Kurmancî",
+		direction: "ltr",
 		country: "Iran",
 		countryCode: "ir",
 		region: "Kurdistan",
@@ -1654,6 +1972,8 @@ const languages: Language[] = [
 	{
 		locale: "kj-AO",
 		name: "Kwanyama",
+		nativeName: "Oshikwanyama",
+		direction: "ltr",
 		country: "Angola",
 		countryCode: "ao",
 		emoji: "🇦🇴",
@@ -1664,6 +1984,8 @@ const languages: Language[] = [
 	{
 		locale: "ky-KG",
 		name: "Kyrgyz",
+		nativeName: "Кыргызча",
+		direction: "ltr",
 		country: "Kyrgyzstan",
 		countryCode: "kg",
 		emoji: "🇰🇬",
@@ -1674,6 +1996,8 @@ const languages: Language[] = [
 	{
 		locale: "lo-LA",
 		name: "Lao",
+		nativeName: "ລາວ",
+		direction: "ltr",
 		country: "Laos",
 		countryCode: "la",
 		hex: "#CE1126",
@@ -1683,6 +2007,8 @@ const languages: Language[] = [
 	{
 		locale: "la-LA",
 		name: "Latin",
+		nativeName: "Latina",
+		direction: "ltr",
 		country: "Vatican City",
 		countryCode: "va",
 		hex: "#FFE000",
@@ -1692,6 +2018,8 @@ const languages: Language[] = [
 	{
 		locale: "lv-LV",
 		name: "Latvian",
+		nativeName: "Latviešu",
+		direction: "ltr",
 		country: "Latvia",
 		countryCode: "lv",
 		emoji: "🇱🇻",
@@ -1702,6 +2030,8 @@ const languages: Language[] = [
 	{
 		locale: "lij-IT",
 		name: "Ligurian",
+		nativeName: "Ligure",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -1714,6 +2044,8 @@ const languages: Language[] = [
 	{
 		locale: "li-LI",
 		name: "Limburgish",
+		nativeName: "Limburgs",
+		direction: "ltr",
 		country: "Netherlands",
 		countryCode: "nl",
 		emoji: "🇳🇱",
@@ -1726,6 +2058,8 @@ const languages: Language[] = [
 	{
 		locale: "ln-CD",
 		name: "Lingala",
+		nativeName: "Lingála",
+		direction: "ltr",
 		country: "Congo",
 		countryCode: "cd",
 		emoji: "🇨🇬",
@@ -1736,6 +2070,8 @@ const languages: Language[] = [
 	{
 		locale: "lt-LT",
 		name: "Lithuanian",
+		nativeName: "Lietuvių",
+		direction: "ltr",
 		country: "Lithuania",
 		countryCode: "lt",
 		emoji: "🇱🇹",
@@ -1746,6 +2082,8 @@ const languages: Language[] = [
 	{
 		locale: "jbo-EN",
 		name: "Lojban",
+		nativeName: "La .lojban.",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -1756,6 +2094,8 @@ const languages: Language[] = [
 	{
 		locale: "lol-US",
 		name: "LOLCAT",
+		nativeName: "LOLCAT",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -1766,6 +2106,8 @@ const languages: Language[] = [
 	{
 		locale: "nds-DE",
 		name: "Low German",
+		nativeName: "Plattdüütsch",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -1776,6 +2118,8 @@ const languages: Language[] = [
 	{
 		locale: "dsb-DE",
 		name: "Lower Sorbian",
+		nativeName: "Dolnoserbski",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -1786,6 +2130,8 @@ const languages: Language[] = [
 	{
 		locale: "lg-UG",
 		name: "Luganda",
+		nativeName: "Oluganda",
+		direction: "ltr",
 		country: "Uganda",
 		countryCode: "ug",
 		emoji: "🇺🇬",
@@ -1796,6 +2142,8 @@ const languages: Language[] = [
 	{
 		locale: "luy-KE",
 		name: "Luhya",
+		nativeName: "Oluluhya",
+		direction: "ltr",
 		country: "Kenya",
 		countryCode: "ke",
 		emoji: "🇰🇪",
@@ -1806,6 +2154,8 @@ const languages: Language[] = [
 	{
 		locale: "lb-LU",
 		name: "Luxembourgish",
+		nativeName: "Lëtzebuergesch",
+		direction: "ltr",
 		country: "Luxembourg",
 		countryCode: "lu",
 		emoji: "🇱🇺",
@@ -1816,6 +2166,8 @@ const languages: Language[] = [
 	{
 		locale: "mk-MK",
 		name: "Macedonian",
+		nativeName: "Македонски",
+		direction: "ltr",
 		country: "North Macedonia",
 		countryCode: "mk",
 		hex: "#CE2028",
@@ -1825,6 +2177,8 @@ const languages: Language[] = [
 	{
 		locale: "mai-IN",
 		name: "Maithili",
+		nativeName: "मैथिली",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1835,6 +2189,8 @@ const languages: Language[] = [
 	{
 		locale: "mg-MG",
 		name: "Malagasy",
+		nativeName: "Malagasy",
+		direction: "ltr",
 		country: "Madagascar",
 		countryCode: "mg",
 		emoji: "🇲🇬",
@@ -1845,6 +2201,8 @@ const languages: Language[] = [
 	{
 		locale: "ms-MY",
 		name: "Malay",
+		nativeName: "Bahasa Melayu",
+		direction: "ltr",
 		country: "Malaysia",
 		countryCode: "my",
 		emoji: "🇲🇾",
@@ -1855,8 +2213,11 @@ const languages: Language[] = [
 	{
 		locale: "ms-BN",
 		name: "Malay, Brunei",
+		nativeName: "Bahasa Melayu Brunei",
+		direction: "ltr",
 		country: "Brunei",
 		countryCode: "bn",
+		emoji: "🇧🇳",
 		hex: "#FCE300",
 		rgb: [252, 227, 0],
 		color: 16573184
@@ -1864,6 +2225,8 @@ const languages: Language[] = [
 	{
 		locale: "ml-IN",
 		name: "Malayalam",
+		nativeName: "മലയാളം",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1874,6 +2237,8 @@ const languages: Language[] = [
 	{
 		locale: "mt-MT",
 		name: "Maltese",
+		nativeName: "Malti",
+		direction: "ltr",
 		country: "Malta",
 		countryCode: "mt",
 		emoji: "🇲🇹",
@@ -1884,6 +2249,8 @@ const languages: Language[] = [
 	{
 		locale: "gv-IM",
 		name: "Manx",
+		nativeName: "Gaelg",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -1896,6 +2263,8 @@ const languages: Language[] = [
 	{
 		locale: "mi-NZ",
 		name: "Maori",
+		nativeName: "Māori",
+		direction: "ltr",
 		country: "New Zealand",
 		countryCode: "nz",
 		emoji: "🇳🇿",
@@ -1906,6 +2275,8 @@ const languages: Language[] = [
 	{
 		locale: "arn-CL",
 		name: "Mapudungun",
+		nativeName: "Mapudungun",
+		direction: "ltr",
 		country: "Chile",
 		countryCode: "cl",
 		emoji: "🇨🇱",
@@ -1916,6 +2287,8 @@ const languages: Language[] = [
 	{
 		locale: "mr-IN",
 		name: "Marathi",
+		nativeName: "मराठी",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -1926,6 +2299,8 @@ const languages: Language[] = [
 	{
 		locale: "mh-MH",
 		name: "Marshallese",
+		nativeName: "Kajin M̧ajeļ",
+		direction: "ltr",
 		country: "Marshall Islands",
 		countryCode: "mh",
 		emoji: "🇲🇭",
@@ -1936,6 +2311,8 @@ const languages: Language[] = [
 	{
 		locale: "moh-CA",
 		name: "Mohawk",
+		nativeName: "Kanienʼkéha",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -1946,6 +2323,8 @@ const languages: Language[] = [
 	{
 		locale: "mn-MN",
 		name: "Mongolian",
+		nativeName: "Монгол",
+		direction: "ltr",
 		country: "Mongolia",
 		countryCode: "mn",
 		emoji: "🇲🇳",
@@ -1956,6 +2335,8 @@ const languages: Language[] = [
 	{
 		locale: "sr-Cyrl-ME",
 		name: "Montenegrin (Cyrillic)",
+		nativeName: "Црногорски",
+		direction: "ltr",
 		country: "Montenegro",
 		countryCode: "me",
 		emoji: "🇲🇪",
@@ -1966,6 +2347,8 @@ const languages: Language[] = [
 	{
 		locale: "me-ME",
 		name: "Montenegrin (Latin)",
+		nativeName: "Crnogorski",
+		direction: "ltr",
 		country: "Montenegro",
 		countryCode: "me",
 		emoji: "🇲🇪",
@@ -1976,6 +2359,8 @@ const languages: Language[] = [
 	{
 		locale: "mos-MOS",
 		name: "Mossi",
+		nativeName: "Mooré",
+		direction: "ltr",
 		country: "Burkina Faso",
 		countryCode: "bf",
 		emoji: "🇧🇫",
@@ -1986,6 +2371,8 @@ const languages: Language[] = [
 	{
 		locale: "na-NR",
 		name: "Nauru",
+		nativeName: "Dorerin Naoero",
+		direction: "ltr",
 		country: "Nauru",
 		countryCode: "nr",
 		emoji: "🇳🇷",
@@ -1996,6 +2383,8 @@ const languages: Language[] = [
 	{
 		locale: "ng-NA",
 		name: "Ndonga",
+		nativeName: "Ndonga",
+		direction: "ltr",
 		country: "Namibia",
 		countryCode: "na",
 		emoji: "🇳🇦",
@@ -2006,6 +2395,8 @@ const languages: Language[] = [
 	{
 		locale: "ne-NP",
 		name: "Nepali",
+		nativeName: "नेपाली",
+		direction: "ltr",
 		country: "Nepal",
 		countryCode: "np",
 		emoji: "🇳🇵",
@@ -2016,6 +2407,8 @@ const languages: Language[] = [
 	{
 		locale: "ne-IN",
 		name: "Nepali, India",
+		nativeName: "नेपाली, भारत",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2026,6 +2419,8 @@ const languages: Language[] = [
 	{
 		locale: "pcm-NG",
 		name: "Nigerian Pidgin",
+		nativeName: "Naija",
+		direction: "ltr",
 		country: "Nigeria",
 		countryCode: "ng",
 		emoji: "🇳🇬",
@@ -2036,6 +2431,8 @@ const languages: Language[] = [
 	{
 		locale: "se-NO",
 		name: "Northern Sami",
+		nativeName: "Davvisámegiella",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -2046,6 +2443,8 @@ const languages: Language[] = [
 	{
 		locale: "ns-ZA",
 		name: "Northern Sotho",
+		nativeName: "Sesotho sa Leboa",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -2056,6 +2455,8 @@ const languages: Language[] = [
 	{
 		locale: "no-NO",
 		name: "Norwegian",
+		nativeName: "Norsk",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -2066,6 +2467,8 @@ const languages: Language[] = [
 	{
 		locale: "nb-NO",
 		name: "Norwegian Bokmal",
+		nativeName: "Norsk Bokmål",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -2076,6 +2479,8 @@ const languages: Language[] = [
 	{
 		locale: "nn-NO",
 		name: "Norwegian Nynorsk",
+		nativeName: "Norsk Nynorsk",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -2086,6 +2491,8 @@ const languages: Language[] = [
 	{
 		locale: "oc-FR",
 		name: "Occitan",
+		nativeName: "Occitan",
+		direction: "ltr",
 		country: "France",
 		countryCode: "fr",
 		emoji: "🇫🇷",
@@ -2098,6 +2505,8 @@ const languages: Language[] = [
 	{
 		locale: "or-IN",
 		name: "Odia",
+		nativeName: "ଓଡ଼ିଆ",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2108,6 +2517,8 @@ const languages: Language[] = [
 	{
 		locale: "oj-CA",
 		name: "Ojibwe",
+		nativeName: "ᐊᓂᐦᔑᓈᐯᒧᐎᓐ",
+		direction: "ltr",
 		country: "Canada",
 		countryCode: "ca",
 		emoji: "🇨🇦",
@@ -2120,6 +2531,8 @@ const languages: Language[] = [
 	{
 		locale: "om-ET",
 		name: "Oromo",
+		nativeName: "Oromoo",
+		direction: "ltr",
 		country: "Ethiopia",
 		countryCode: "et",
 		emoji: "🇪🇹",
@@ -2130,6 +2543,8 @@ const languages: Language[] = [
 	{
 		locale: "os-SE",
 		name: "Ossetian",
+		nativeName: "Ирон ӕвзаг",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "North Ossetia–Alania",
@@ -2141,6 +2556,8 @@ const languages: Language[] = [
 	{
 		locale: "pi-IN",
 		name: "Pali",
+		nativeName: "पालि",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2151,6 +2568,8 @@ const languages: Language[] = [
 	{
 		locale: "pap-PAP",
 		name: "Papiamento",
+		nativeName: "Papiamentu",
+		direction: "ltr",
 		country: "Aruba",
 		countryCode: "aw",
 		emoji: "🇦🇼",
@@ -2161,6 +2580,8 @@ const languages: Language[] = [
 	{
 		locale: "ps-AF",
 		name: "Pashto",
+		nativeName: "پښتو",
+		direction: "rtl",
 		country: "Afghanistan",
 		countryCode: "af",
 		emoji: "🇦🇫",
@@ -2171,6 +2592,8 @@ const languages: Language[] = [
 	{
 		locale: "fa-IR",
 		name: "Persian",
+		nativeName: "فارسی",
+		direction: "rtl",
 		country: "Iran",
 		countryCode: "ir",
 		hex: "#DA0000",
@@ -2180,6 +2603,8 @@ const languages: Language[] = [
 	{
 		locale: "en-PT",
 		name: "Pirate English",
+		nativeName: "Pirate English",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -2190,6 +2615,8 @@ const languages: Language[] = [
 	{
 		locale: "pl-PL",
 		name: "Polish",
+		nativeName: "Polski",
+		direction: "ltr",
 		country: "Poland",
 		countryCode: "pl",
 		emoji: "🇵🇱",
@@ -2200,6 +2627,8 @@ const languages: Language[] = [
 	{
 		locale: "pt-PT",
 		name: "Portuguese",
+		nativeName: "Português",
+		direction: "ltr",
 		country: "Portugal",
 		countryCode: "pt",
 		emoji: "🇵🇹",
@@ -2210,6 +2639,8 @@ const languages: Language[] = [
 	{
 		locale: "pt-BR",
 		name: "Portuguese, Brazilian",
+		nativeName: "Português do Brasil",
+		direction: "ltr",
 		country: "Brazil",
 		countryCode: "br",
 		emoji: "🇧🇷",
@@ -2220,6 +2651,8 @@ const languages: Language[] = [
 	{
 		locale: "pa-IN",
 		name: "Punjabi",
+		nativeName: "ਪੰਜਾਬੀ",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2230,6 +2663,8 @@ const languages: Language[] = [
 	{
 		locale: "pa-PK",
 		name: "Punjabi, Pakistan",
+		nativeName: "پن٘جابی",
+		direction: "ltr",
 		country: "Pakistan",
 		countryCode: "pk",
 		emoji: "🇵🇰",
@@ -2240,6 +2675,8 @@ const languages: Language[] = [
 	{
 		locale: "qu-PE",
 		name: "Quechua",
+		nativeName: "Kechua",
+		direction: "ltr",
 		country: "Peru",
 		countryCode: "pe",
 		emoji: "🇵🇪",
@@ -2250,6 +2687,8 @@ const languages: Language[] = [
 	{
 		locale: "qya-AA",
 		name: "Quenya",
+		nativeName: "Quenya",
+		direction: "ltr",
 		country: "Middle-earth",
 		countryCode: "aa",
 		hex: "#008852",
@@ -2259,6 +2698,8 @@ const languages: Language[] = [
 	{
 		locale: "ro-RO",
 		name: "Romanian",
+		nativeName: "Limba română",
+		direction: "ltr",
 		country: "Romania",
 		countryCode: "ro",
 		emoji: "🇷🇴",
@@ -2269,6 +2710,8 @@ const languages: Language[] = [
 	{
 		locale: "rm-CH",
 		name: "Romansh",
+		nativeName: "Rumantsch",
+		direction: "ltr",
 		country: "Switzerland",
 		countryCode: "ch",
 		emoji: "🇨🇭",
@@ -2279,6 +2722,8 @@ const languages: Language[] = [
 	{
 		locale: "rn-BI",
 		name: "Rundi",
+		nativeName: "ÍkiRǔndi",
+		direction: "ltr",
 		country: "Republic of Burundi",
 		countryCode: "bi",
 		hex: "#18B637",
@@ -2288,6 +2733,8 @@ const languages: Language[] = [
 	{
 		locale: "ru-RU",
 		name: "Russian",
+		nativeName: "Русский",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		hex: "#DB0D20",
@@ -2297,6 +2744,8 @@ const languages: Language[] = [
 	{
 		locale: "ru-BY",
 		name: "Russian, Belarus",
+		nativeName: "Русский, Беларусь",
+		direction: "ltr",
 		country: "Belarus",
 		countryCode: "by",
 		emoji: "🇧🇾",
@@ -2307,6 +2756,8 @@ const languages: Language[] = [
 	{
 		locale: "ru-MD",
 		name: "Russian, Moldova",
+		nativeName: "Русский, Молдова",
+		direction: "ltr",
 		country: "Moldova",
 		countryCode: "md",
 		hex: "#0046AE",
@@ -2316,6 +2767,8 @@ const languages: Language[] = [
 	{
 		locale: "ru-UA",
 		name: "Russian, Ukraine",
+		nativeName: "Русский, Украина",
+		direction: "ltr",
 		country: "Ukraine",
 		countryCode: "ua",
 		emoji: "🇺🇦",
@@ -2326,6 +2779,8 @@ const languages: Language[] = [
 	{
 		locale: "ry-UA",
 		name: "Rusyn",
+		nativeName: "Русины",
+		direction: "ltr",
 		country: "Ukraine",
 		countryCode: "ua",
 		emoji: "🇺🇦",
@@ -2336,6 +2791,8 @@ const languages: Language[] = [
 	{
 		locale: "sah-SAH",
 		name: "Sakha",
+		nativeName: "Саха тыла",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Republic of Sakha (Yakutia)",
@@ -2347,6 +2804,8 @@ const languages: Language[] = [
 	{
 		locale: "sg-CF",
 		name: "Sango",
+		nativeName: "Yângâ tî Sängö",
+		direction: "ltr",
 		country: "Central African Republic",
 		countryCode: "cf",
 		emoji: "🇨🇫",
@@ -2357,6 +2816,8 @@ const languages: Language[] = [
 	{
 		locale: "sa-IN",
 		name: "Sanskrit",
+		nativeName: "संस्कृतम्",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2367,6 +2828,8 @@ const languages: Language[] = [
 	{
 		locale: "sat-IN",
 		name: "Santali",
+		nativeName: "संथाली",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2377,6 +2840,8 @@ const languages: Language[] = [
 	{
 		locale: "sc-IT",
 		name: "Sardinian",
+		nativeName: "Limba Sarda",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -2389,6 +2854,8 @@ const languages: Language[] = [
 	{
 		locale: "sco-GB",
 		name: "Scots",
+		nativeName: "Scoats leid",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -2401,6 +2868,8 @@ const languages: Language[] = [
 	{
 		locale: "gd-GB",
 		name: "Scottish Gaelic",
+		nativeName: "Gàidhlig",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -2413,6 +2882,8 @@ const languages: Language[] = [
 	{
 		locale: "sr-SP",
 		name: "Serbian (Cyrillic)",
+		nativeName: "Српска ћирилица",
+		direction: "ltr",
 		country: "Serbia",
 		countryCode: "rs",
 		emoji: "🇷🇸",
@@ -2423,6 +2894,8 @@ const languages: Language[] = [
 	{
 		locale: "sr-CS",
 		name: "Serbian (Latin)",
+		nativeName: "Latinski Srpski",
+		direction: "ltr",
 		country: "Serbia",
 		countryCode: "rs",
 		emoji: "🇷🇸",
@@ -2433,6 +2906,8 @@ const languages: Language[] = [
 	{
 		locale: "sh-HR",
 		name: "Serbo-Croatian",
+		nativeName: "Srpskohrvatski",
+		direction: "ltr",
 		country: "Croatia",
 		countryCode: "hr",
 		emoji: "🇭🇷",
@@ -2443,6 +2918,8 @@ const languages: Language[] = [
 	{
 		locale: "crs-SC",
 		name: "Seychellois Creole",
+		nativeName: "Kreol",
+		direction: "ltr",
 		country: "Seychelles",
 		countryCode: "sc",
 		emoji: "🇸🇨",
@@ -2453,6 +2930,8 @@ const languages: Language[] = [
 	{
 		locale: "sn-ZW",
 		name: "Shona",
+		nativeName: "ChiShona",
+		direction: "ltr",
 		country: "Zimbabwe",
 		countryCode: "zw",
 		emoji: "🇿🇼",
@@ -2463,6 +2942,8 @@ const languages: Language[] = [
 	{
 		locale: "ii-CN",
 		name: "Sichuan Yi",
+		nativeName: "ꆈꌠꉙ",
+		direction: "ltr",
 		country: "China",
 		countryCode: "cn",
 		emoji: "🇨🇳",
@@ -2473,6 +2954,8 @@ const languages: Language[] = [
 	{
 		locale: "sd-PK",
 		name: "Sindhi",
+		nativeName: "سنڌي",
+		direction: "rtl",
 		country: "Pakistan",
 		countryCode: "pk",
 		emoji: "🇵🇰",
@@ -2483,6 +2966,8 @@ const languages: Language[] = [
 	{
 		locale: "si-LK",
 		name: "Sinhala",
+		nativeName: "සිංහල",
+		direction: "ltr",
 		country: "Sri Lanka",
 		countryCode: "lk",
 		emoji: "🇱🇰",
@@ -2493,6 +2978,8 @@ const languages: Language[] = [
 	{
 		locale: "sk-SK",
 		name: "Slovak",
+		nativeName: "Slovenčina",
+		direction: "ltr",
 		country: "Slovakia",
 		countryCode: "sk",
 		emoji: "🇸🇰",
@@ -2503,6 +2990,8 @@ const languages: Language[] = [
 	{
 		locale: "sl-SI",
 		name: "Slovenian",
+		nativeName: "Slovenščina",
+		direction: "ltr",
 		country: "Slovenia",
 		countryCode: "si",
 		emoji: "🇸🇮",
@@ -2513,6 +3002,8 @@ const languages: Language[] = [
 	{
 		locale: "so-SO",
 		name: "Somali",
+		nativeName: "Af Soomaali",
+		direction: "ltr",
 		country: "Somalia",
 		countryCode: "so",
 		emoji: "🇸🇴",
@@ -2523,6 +3014,8 @@ const languages: Language[] = [
 	{
 		locale: "son-ZA",
 		name: "Songhay",
+		nativeName: "Songhai",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -2533,6 +3026,8 @@ const languages: Language[] = [
 	{
 		locale: "ckb-IR",
 		name: "Sorani (Kurdish)",
+		nativeName: "سۆرانی",
+		direction: "rtl",
 		country: "Iran",
 		countryCode: "ir",
 		region: "Kurdistan",
@@ -2544,6 +3039,8 @@ const languages: Language[] = [
 	{
 		locale: "nr-ZA",
 		name: "Southern Ndebele",
+		nativeName: "Transvaal Ndebele",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -2554,6 +3051,8 @@ const languages: Language[] = [
 	{
 		locale: "sma-NO",
 		name: "Southern Sami",
+		nativeName: "Åarjelsaemien gïele",
+		direction: "ltr",
 		country: "Norway",
 		countryCode: "no",
 		emoji: "🇳🇴",
@@ -2564,6 +3063,8 @@ const languages: Language[] = [
 	{
 		locale: "st-ZA",
 		name: "Southern Sotho",
+		nativeName: "SeSotho",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -2574,6 +3075,8 @@ const languages: Language[] = [
 	{
 		locale: "es-ES",
 		name: "Spanish",
+		nativeName: "Español",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -2584,6 +3087,8 @@ const languages: Language[] = [
 	{
 		locale: "es-EM",
 		name: "Spanish (Modern)",
+		nativeName: "Español (Moderno)",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -2594,6 +3099,8 @@ const languages: Language[] = [
 	{
 		locale: "es-AR",
 		name: "Spanish, Argentina",
+		nativeName: "Español argentino",
+		direction: "ltr",
 		country: "Argentina",
 		countryCode: "ar",
 		emoji: "🇦🇷",
@@ -2604,6 +3111,8 @@ const languages: Language[] = [
 	{
 		locale: "es-BO",
 		name: "Spanish, Bolivia",
+		nativeName: "Español boliviano",
+		direction: "ltr",
 		country: "Bolivia",
 		countryCode: "bo",
 		emoji: "🇧🇴",
@@ -2614,6 +3123,8 @@ const languages: Language[] = [
 	{
 		locale: "es-CL",
 		name: "Spanish, Chile",
+		nativeName: "Español chileno",
+		direction: "ltr",
 		country: "Chile",
 		countryCode: "cl",
 		emoji: "🇨🇱",
@@ -2624,6 +3135,8 @@ const languages: Language[] = [
 	{
 		locale: "es-CO",
 		name: "Spanish, Colombia",
+		nativeName: "Español colombiano",
+		direction: "ltr",
 		country: "Colombia",
 		countryCode: "co",
 		emoji: "🇨🇴",
@@ -2634,6 +3147,8 @@ const languages: Language[] = [
 	{
 		locale: "es-CR",
 		name: "Spanish, Costa Rica",
+		nativeName: "Español costarricense",
+		direction: "ltr",
 		country: "Costa Rica",
 		countryCode: "cr",
 		emoji: "🇨🇷",
@@ -2644,6 +3159,8 @@ const languages: Language[] = [
 	{
 		locale: "es-DO",
 		name: "Spanish, Dominican Republic",
+		nativeName: "Español dominicano",
+		direction: "ltr",
 		country: "Dominican Republic",
 		countryCode: "do",
 		emoji: "🇩🇴",
@@ -2654,6 +3171,8 @@ const languages: Language[] = [
 	{
 		locale: "es-EC",
 		name: "Spanish, Ecuador",
+		nativeName: "Español ecuatoriano",
+		direction: "ltr",
 		country: "Ecuador",
 		countryCode: "ec",
 		emoji: "🇪🇨",
@@ -2664,6 +3183,8 @@ const languages: Language[] = [
 	{
 		locale: "es-SV",
 		name: "Spanish, El Salvador",
+		nativeName: "Español salvadoreño",
+		direction: "ltr",
 		country: "El Salvador",
 		countryCode: "sv",
 		emoji: "🇸🇻",
@@ -2674,6 +3195,8 @@ const languages: Language[] = [
 	{
 		locale: "es-GT",
 		name: "Spanish, Guatemala",
+		nativeName: "Español guatemalteco",
+		direction: "ltr",
 		country: "Guatemala",
 		countryCode: "gt",
 		emoji: "🇬🇹",
@@ -2684,6 +3207,8 @@ const languages: Language[] = [
 	{
 		locale: "es-HN",
 		name: "Spanish, Honduras",
+		nativeName: "Español hondureño",
+		direction: "ltr",
 		country: "Honduras",
 		countryCode: "hn",
 		emoji: "🇭🇳",
@@ -2694,6 +3219,8 @@ const languages: Language[] = [
 	{
 		locale: "es-419",
 		name: "Spanish, Latin America",
+		nativeName: "Español latinoamericano",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -2704,6 +3231,8 @@ const languages: Language[] = [
 	{
 		locale: "es-MX",
 		name: "Spanish, Mexico",
+		nativeName: "Español mexicano",
+		direction: "ltr",
 		country: "Mexico",
 		countryCode: "mx",
 		emoji: "🇲🇽",
@@ -2714,6 +3243,8 @@ const languages: Language[] = [
 	{
 		locale: "es-NI",
 		name: "Spanish, Nicaragua",
+		nativeName: "Español nicaragüense",
+		direction: "ltr",
 		country: "Nicaragua",
 		countryCode: "ni",
 		emoji: "🇳🇮",
@@ -2724,6 +3255,8 @@ const languages: Language[] = [
 	{
 		locale: "es-PA",
 		name: "Spanish, Panama",
+		nativeName: "Español panameño",
+		direction: "ltr",
 		country: "Panama",
 		countryCode: "pa",
 		emoji: "🇵🇦",
@@ -2734,6 +3267,8 @@ const languages: Language[] = [
 	{
 		locale: "es-PY",
 		name: "Spanish, Paraguay",
+		nativeName: "Español paraguayo",
+		direction: "ltr",
 		country: "Paraguay",
 		countryCode: "py",
 		emoji: "🇵🇾",
@@ -2744,6 +3279,8 @@ const languages: Language[] = [
 	{
 		locale: "es-PE",
 		name: "Spanish, Peru",
+		nativeName: "Español peruano",
+		direction: "ltr",
 		country: "Peru",
 		countryCode: "pe",
 		emoji: "🇵🇪",
@@ -2754,6 +3291,8 @@ const languages: Language[] = [
 	{
 		locale: "es-PR",
 		name: "Spanish, Puerto Rico",
+		nativeName: "Español puertorriqueño",
+		direction: "ltr",
 		country: "Puerto Rico",
 		countryCode: "pr",
 		emoji: "🇵🇷",
@@ -2764,6 +3303,8 @@ const languages: Language[] = [
 	{
 		locale: "es-US",
 		name: "Spanish, United States",
+		nativeName: "Español estadounidense",
+		direction: "ltr",
 		country: "United States",
 		countryCode: "us",
 		emoji: "🇺🇸",
@@ -2774,6 +3315,8 @@ const languages: Language[] = [
 	{
 		locale: "es-UY",
 		name: "Spanish, Uruguay",
+		nativeName: "Español uruguayo",
+		direction: "ltr",
 		country: "Uruguay",
 		countryCode: "uy",
 		emoji: "🇺🇾",
@@ -2784,6 +3327,8 @@ const languages: Language[] = [
 	{
 		locale: "es-VE",
 		name: "Spanish, Venezuela",
+		nativeName: "Español venezolano",
+		direction: "ltr",
 		country: "Venezuela",
 		countryCode: "ve",
 		emoji: "🇻🇪",
@@ -2794,6 +3339,8 @@ const languages: Language[] = [
 	{
 		locale: "su-ID",
 		name: "Sundanese",
+		nativeName: "Basa Sunda",
+		direction: "ltr",
 		country: "Indonesia",
 		countryCode: "id",
 		emoji: "🇮🇩",
@@ -2804,6 +3351,8 @@ const languages: Language[] = [
 	{
 		locale: "sw",
 		name: "Swahili",
+		nativeName: "Kiswahili",
+		direction: "ltr",
 		country: "Kenya",
 		countryCode: "ke",
 		emoji: "🇰🇪",
@@ -2814,6 +3363,8 @@ const languages: Language[] = [
 	{
 		locale: "sw-KE",
 		name: "Swahili, Kenya",
+		nativeName: "Kiswahili, Kenya",
+		direction: "ltr",
 		country: "Kenya",
 		countryCode: "ke",
 		emoji: "🇰🇪",
@@ -2824,6 +3375,8 @@ const languages: Language[] = [
 	{
 		locale: "sw-TZ",
 		name: "Swahili, Tanzania",
+		nativeName: "Kiswahili, Tanzania",
+		direction: "ltr",
 		country: "Tanzania",
 		countryCode: "tz",
 		hex: "#00A3DD",
@@ -2833,6 +3386,8 @@ const languages: Language[] = [
 	{
 		locale: "ss-ZA",
 		name: "Swati",
+		nativeName: "SiSwati",
+		direction: "ltr",
 		country: "Eswatini",
 		countryCode: "sz",
 		hex: "#3E5EB9",
@@ -2842,6 +3397,8 @@ const languages: Language[] = [
 	{
 		locale: "sv-SE",
 		name: "Swedish",
+		nativeName: "Svenska",
+		direction: "ltr",
 		country: "Sweden",
 		countryCode: "se",
 		emoji: "🇸🇪",
@@ -2852,6 +3409,8 @@ const languages: Language[] = [
 	{
 		locale: "sv-FI",
 		name: "Swedish, Finland",
+		nativeName: "Svenska, Finland",
+		direction: "ltr",
 		country: "Finland",
 		countryCode: "fi",
 		emoji: "🇫🇮",
@@ -2862,6 +3421,8 @@ const languages: Language[] = [
 	{
 		locale: "syc-SY",
 		name: "Syriac",
+		nativeName: "ܠܫܵܢܵܐ ܣܘܪܝܝܐ",
+		direction: "rtl",
 		country: "Syria",
 		countryCode: "sy",
 		hex: "#CE1126",
@@ -2871,6 +3432,8 @@ const languages: Language[] = [
 	{
 		locale: "tl-PH",
 		name: "Tagalog",
+		nativeName: "Tagalog",
+		direction: "ltr",
 		country: "Philippines",
 		countryCode: "ph",
 		emoji: "🇵🇭",
@@ -2881,6 +3444,8 @@ const languages: Language[] = [
 	{
 		locale: "ty-PF",
 		name: "Tahitian",
+		nativeName: "Te reo tahiti",
+		direction: "ltr",
 		country: "French Polynesia",
 		countryCode: "pf",
 		emoji: "🇵🇫",
@@ -2891,6 +3456,8 @@ const languages: Language[] = [
 	{
 		locale: "tg-TJ",
 		name: "Tajik",
+		nativeName: "Тоҷики",
+		direction: "ltr",
 		country: "Tajikistan",
 		countryCode: "tj",
 		emoji: "🇹🇯",
@@ -2901,6 +3468,8 @@ const languages: Language[] = [
 	{
 		locale: "tzl-TZL",
 		name: "Talossan",
+		nativeName: "El bel glheþ Talossan",
+		direction: "ltr",
 		country: "Talossa",
 		countryCode: "tzl",
 		hex: "#707070",
@@ -2910,6 +3479,8 @@ const languages: Language[] = [
 	{
 		locale: "ta-IN",
 		name: "Tamil",
+		nativeName: "தமிழ்",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2920,6 +3491,8 @@ const languages: Language[] = [
 	{
 		locale: "tt-RU",
 		name: "Tatar",
+		nativeName: "Татарча",
+		direction: "ltr",
 		country: "Russia",
 		countryCode: "ru",
 		region: "Tatarstan",
@@ -2931,6 +3504,8 @@ const languages: Language[] = [
 	{
 		locale: "te-IN",
 		name: "Telugu",
+		nativeName: "తెలుగు",
+		direction: "ltr",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -2941,6 +3516,8 @@ const languages: Language[] = [
 	{
 		locale: "kdh-KDH",
 		name: "Tem (Kotokoli)",
+		nativeName: "Temba",
+		direction: "ltr",
 		country: "Togo",
 		countryCode: "tg",
 		emoji: "🇹🇬",
@@ -2951,6 +3528,8 @@ const languages: Language[] = [
 	{
 		locale: "th-TH",
 		name: "Thai",
+		nativeName: "ไทย",
+		direction: "ltr",
 		country: "Thailand",
 		countryCode: "th",
 		emoji: "🇹🇭",
@@ -2961,6 +3540,8 @@ const languages: Language[] = [
 	{
 		locale: "bo-BT",
 		name: "Tibetan",
+		nativeName: "བོད་སྐད་",
+		direction: "ltr",
 		country: "Bhutan",
 		countryCode: "bt",
 		emoji: "🇧🇹",
@@ -2971,6 +3552,8 @@ const languages: Language[] = [
 	{
 		locale: "ti-ER",
 		name: "Tigrinya",
+		nativeName: "ትግርኛ",
+		direction: "ltr",
 		country: "Eritrea",
 		countryCode: "er",
 		emoji: "🇪🇷",
@@ -2981,6 +3564,8 @@ const languages: Language[] = [
 	{
 		locale: "ts-ZA",
 		name: "Tsonga",
+		nativeName: "XiTsonga",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -2991,6 +3576,8 @@ const languages: Language[] = [
 	{
 		locale: "tn-ZA",
 		name: "Tswana",
+		nativeName: "Setswana",
+		direction: "ltr",
 		country: "Botswana",
 		countryCode: "bw",
 		emoji: "🇧🇼",
@@ -3001,6 +3588,8 @@ const languages: Language[] = [
 	{
 		locale: "tr-TR",
 		name: "Turkish",
+		nativeName: "Türkçe",
+		direction: "ltr",
 		country: "Turkey",
 		countryCode: "tr",
 		emoji: "🇹🇷",
@@ -3011,6 +3600,8 @@ const languages: Language[] = [
 	{
 		locale: "tr-CY",
 		name: "Turkish, Cyprus",
+		nativeName: "Türkçe, Kıbrıs",
+		direction: "ltr",
 		country: "Cyprus",
 		countryCode: "cy",
 		emoji: "🇨🇾",
@@ -3021,6 +3612,8 @@ const languages: Language[] = [
 	{
 		locale: "tk-TM",
 		name: "Turkmen",
+		nativeName: "Түркmенче",
+		direction: "ltr",
 		country: "Turkmenistan",
 		countryCode: "tm",
 		emoji: "🇹🇲",
@@ -3031,6 +3624,8 @@ const languages: Language[] = [
 	{
 		locale: "uk-UA",
 		name: "Ukrainian",
+		nativeName: "Українська",
+		direction: "ltr",
 		country: "Ukraine",
 		countryCode: "ua",
 		emoji: "🇺🇦",
@@ -3041,6 +3636,8 @@ const languages: Language[] = [
 	{
 		locale: "hsb-DE",
 		name: "Upper Sorbian",
+		nativeName: "Hornjoserbsce",
+		direction: "ltr",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -3051,6 +3648,8 @@ const languages: Language[] = [
 	{
 		locale: "ur-IN",
 		name: "Urdu, India",
+		nativeName: "اردو، ہندوستان",
+		direction: "rtl",
 		country: "India",
 		countryCode: "in",
 		emoji: "🇮🇳",
@@ -3061,6 +3660,8 @@ const languages: Language[] = [
 	{
 		locale: "ur-PK",
 		name: "Urdu, Pakistan",
+		nativeName: "اردو، پاکستان",
+		direction: "rtl",
 		country: "Pakistan",
 		countryCode: "pk",
 		emoji: "🇵🇰",
@@ -3071,6 +3672,8 @@ const languages: Language[] = [
 	{
 		locale: "ug-CN",
 		name: "Uyghur",
+		nativeName: "Уйғур",
+		direction: "rtl",
 		country: "China",
 		countryCode: "cn",
 		emoji: "🇨🇳",
@@ -3083,6 +3686,8 @@ const languages: Language[] = [
 	{
 		locale: "uz-UZ",
 		name: "Uzbek",
+		nativeName: "O’zbek",
+		direction: "ltr",
 		country: "Uzbekistan",
 		countryCode: "uz",
 		emoji: "🇺🇿",
@@ -3093,6 +3698,8 @@ const languages: Language[] = [
 	{
 		locale: "val-ES",
 		name: "Valencian",
+		nativeName: "Valencià",
+		direction: "ltr",
 		country: "Spain",
 		countryCode: "es",
 		emoji: "🇪🇸",
@@ -3105,6 +3712,8 @@ const languages: Language[] = [
 	{
 		locale: "ve-ZA",
 		name: "Venda",
+		nativeName: "TshiVenḓa",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -3115,6 +3724,8 @@ const languages: Language[] = [
 	{
 		locale: "vec-IT",
 		name: "Venetian",
+		nativeName: "Vèneto",
+		direction: "ltr",
 		country: "Italy",
 		countryCode: "it",
 		emoji: "🇮🇹",
@@ -3127,6 +3738,8 @@ const languages: Language[] = [
 	{
 		locale: "vi-VN",
 		name: "Vietnamese",
+		nativeName: "Tiếng việt",
+		direction: "ltr",
 		country: "Vietnam",
 		countryCode: "vn",
 		emoji: "🇻🇳",
@@ -3137,6 +3750,8 @@ const languages: Language[] = [
 	{
 		locale: "wa-BE",
 		name: "Walloon",
+		nativeName: "Walon",
+		direction: "ltr",
 		country: "Belgium",
 		countryCode: "be",
 		emoji: "🇧🇪",
@@ -3149,6 +3764,8 @@ const languages: Language[] = [
 	{
 		locale: "cy-GB",
 		name: "Welsh",
+		nativeName: "Cymraeg",
+		direction: "ltr",
 		country: "United Kingdom",
 		countryCode: "gb",
 		emoji: "🇬🇧",
@@ -3161,6 +3778,8 @@ const languages: Language[] = [
 	{
 		locale: "wo-SN",
 		name: "Wolof",
+		nativeName: "Wollof",
+		direction: "ltr",
 		country: "Senegal",
 		countryCode: "sn",
 		emoji: "🇸🇳",
@@ -3171,6 +3790,8 @@ const languages: Language[] = [
 	{
 		locale: "xh-ZA",
 		name: "Xhosa",
+		nativeName: "IsiXhosa",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",
@@ -3181,6 +3802,8 @@ const languages: Language[] = [
 	{
 		locale: "yi-DE",
 		name: "Yiddish",
+		nativeName: "ייִדיש",
+		direction: "rtl",
 		country: "Germany",
 		countryCode: "de",
 		emoji: "🇩🇪",
@@ -3191,6 +3814,8 @@ const languages: Language[] = [
 	{
 		locale: "yo-NG",
 		name: "Yoruba",
+		nativeName: "Yorùbá",
+		direction: "ltr",
 		country: "Nigeria",
 		countryCode: "ng",
 		emoji: "🇳🇬",
@@ -3201,6 +3826,8 @@ const languages: Language[] = [
 	{
 		locale: "zea-ZEA",
 		name: "Zeelandic",
+		nativeName: "Zeêuws",
+		direction: "ltr",
 		country: "Netherlands",
 		countryCode: "nl",
 		emoji: "🇳🇱",
@@ -3213,6 +3840,8 @@ const languages: Language[] = [
 	{
 		locale: "zu-ZA",
 		name: "Zulu",
+		nativeName: "IsiZulu",
+		direction: "ltr",
 		country: "South Africa",
 		countryCode: "za",
 		emoji: "🇿🇦",

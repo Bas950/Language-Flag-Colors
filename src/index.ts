@@ -99,9 +99,31 @@ export function getRegionLanguages(region: string): Language[] | null {
 	return regionLangs.length ? regionLangs : null;
 }
 
+/**
+ * Gets the native name of a language
+ * @param {string} lang The locale or name of the language to find the native name of
+ * @returns {?string} The native name of the language, or null if no language is found
+ */
+export function getNativeName(lang: string): string | null {
+	const language = findLanguage(lang);
+	return language?.nativeName ?? null;
+}
+
+/**
+ * Gets the direction of a language's text
+ * @param {string} lang The locale or name of the language to find the direction of
+ * @returns {?Direction} The direction of the language, or null if no language is found
+ */
+export function getDirection(lang: string): Direction | null {
+	const language = findLanguage(lang);
+	return language?.direction ?? null;
+}
+
 export interface Language {
 	locale: string;
 	name: string;
+	nativeName: string;
+	direction: Direction;
 	country: string;
 	countryCode: string;
 	emoji?: string;
@@ -111,6 +133,8 @@ export interface Language {
 	rgb: [number, number, number];
 	color: number;
 }
+
+export type Direction = "ltr" | "rtl";
 
 /**
  * Finds a language given its locale or name

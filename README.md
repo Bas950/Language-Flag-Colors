@@ -62,6 +62,7 @@ const dutchLocale = getLocale("dutch"); // Will return "nl-NL"
 
 // Getting the name of a language given its locale
 const ptName = getName("pt-pt"); // Will return "Portuguese"
+const ptNativeName = getNativeName("pt-pt"); // Will return "Português"
 
 // Getting the flag unicode emoji of a language
 // This method accepts a language's name or locale, or a country's name or code
@@ -87,6 +88,9 @@ const netherlandsLangs = getCountryLanguages("netherlands"); // Will return an a
 
 // Getting all the languages specific to a region
 const scotlandLangs = getRegionLanguages("scotland"); // Will return an array with the language objects for Scots and Scottish Gaelic
+
+const dutchDirection = getDirection("Dutch"); // Will return "ltr"
+const arabicDirection = getDirection("ar"); // Will return "rtl"
 ```
 
 ### Contributing

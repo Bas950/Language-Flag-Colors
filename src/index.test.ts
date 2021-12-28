@@ -1,11 +1,13 @@
 import languages, {
   getColor,
   getCountryLanguages,
+  getDirection,
   getEmoji,
   getHex,
   getLanguage,
   getLocale,
   getName,
+  getNativeName,
   getRegionLanguages,
   getRGB,
 } from ".";
@@ -127,5 +129,25 @@ describe("getRegionLanguges()", () => {
 		expect(getRegionLanguages("sct")?.[0]).toBeInstanceOf(Object);
 		expect(getRegionLanguages("sct")?.length).toStrictEqual(2);
 		expect(getRegionLanguages("sct")).toStrictEqual([scots, scottishGaelic]);
+	});
+});
+
+describe("getNativeName()", () => {
+	test("Getting the native name of a language given its locale", () => {
+		expect(getNativeName("pt-pt")).toStrictEqual("Português");
+	});
+
+	test("Getting the native name of a language given its name", () => {
+		expect(getNativeName("Dutch")).toStrictEqual("Nederlands");
+	});
+});
+
+describe("getDirection()", () => {
+	test("Getting the direction of a language given its locale", () => {
+		expect(getDirection("pt-pt")).toStrictEqual("ltr");
+	});
+
+	test("Getting the direction of a language given its name", () => {
+		expect(getDirection("Dutch")).toStrictEqual("ltr");
 	});
 });
