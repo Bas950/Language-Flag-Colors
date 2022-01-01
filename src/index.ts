@@ -1,152 +1,107 @@
+import getBase10FlagColors from "./functions/flag/flagColors/getBase10FlagColors";
+import getCMYKFlagColors from "./functions/flag/flagColors/getCMYKFlagColors";
+import getFlagColors from "./functions/flag/flagColors/getFlagColors";
+import getHexFlagColors from "./functions/flag/flagColors/getHexFlagColors";
+import getRGBFlagColors from "./functions/flag/flagColors/getRGBFlagColors";
+import getEmoji from "./functions/flag/getEmoji";
+import getFlag from "./functions/flag/getFlag";
+import getImage from "./functions/flag/getImage";
+import getPrimaryBase10 from "./functions/flag/primaryColor/getPrimaryBase10";
+import getPrimaryCMYK from "./functions/flag/primaryColor/getPrimaryCMYK";
+import getPrimaryColor from "./functions/flag/primaryColor/getPrimaryColor";
+import getPrimaryHex from "./functions/flag/primaryColor/getPrimaryHex";
+import getPrimaryRGB from "./functions/flag/primaryColor/getPrimaryRGB";
+import getCountry from "./functions/getCountry";
+import getCountryCode from "./functions/getCountryCode";
+import getCountryLanguages from "./functions/getCountryLanguages";
+import getDirection from "./functions/getDirection";
+import getLanguage from "./functions/getLanguage";
+import getName from "./functions/getName";
+import getNativeName from "./functions/getNativeName";
+import getRegion from "./functions/getRegion";
+import getRegionCode from "./functions/getRegionCode";
+import getRegionLanguages from "./functions/getRegionLanguages";
+import getAndroidCode from "./functions/ids/getAndroidCode";
+import getGlottolog from "./functions/ids/getGlottolog";
+import getIds from "./functions/ids/getIds";
+import getISO_639_1 from "./functions/ids/getISO_639_1";
+import getISO_639_2 from "./functions/ids/getISO_639_2";
+import getISO_639_3 from "./functions/ids/getISO_639_3";
+import getLocale from "./functions/ids/getLocale";
+import getOSXCode from "./functions/ids/getOSXCode";
+import getOSXLocale from "./functions/ids/getOSXLocale";
 import languages from "./languages";
 
 export default languages;
 
-/**
- * Gets a full language object matching the given input, or an array of languages if input is an array
- * @param {string|string[]} lang The locale(s) or name(s) of the language(s) to find
- * @returns {?Language|(Language|null)[]} null if no languages are found, otherwise a Language object or an array of Language objects
- */
-export function getLanguage(lang: string): Language | null;
-export function getLanguage(lang: string[]): (Language | null)[];
-export function getLanguage(lang: string | string[]): Language | null | (Language | null)[] {
-	if (Array.isArray(lang)) {
-		return lang.map(l => findLanguage(l) ?? null);
-	} else return findLanguage(lang) ?? null;
-}
-
-/**
- * Gets the locale of a language given its name
- * @param {string} name The name of the language to get the locale from
- * @returns {?string} The locale of the language, or null if none is found
- */
-export function getLocale(name: string): string | null {
-	const language = languages.find(l => l.name.toLowerCase() === name.toLowerCase());
-	return language?.locale ?? null;
-}
-
-/**
- * Gets the name of a language given its locale
- * @param {string} locale The locale to get the name of
- * @returns {?string} The name of the language, or null if none is found
- */
-export function getName(locale: string): string | null {
-	const language = languages.find(l => l.locale.toLowerCase() === locale.toLowerCase());
-	return language?.name ?? null;
-}
-
-/**
- * Gets a country's flag unicode emoji
- * @param {string} country The country, country code, language locale or name to get the flag of
- * @returns {string} A flag unicode emoji, or null if no language is found/the language doesn't have an emoji
- */
-export function getEmoji(country: string): string | null {
-	let language = languages.find(l => l.country.toLowerCase() === country.toLowerCase());
-	language ??= languages.find(l => l.countryCode.toLowerCase() === country.toLowerCase());
-	language ??= findLanguage(country);
-	return language?.emoji ?? null;
-}
-
-/**
- * Gets the base-10 color of a language
- * @param {string} lang The locale or name of the language to find the color of
- * @returns {?number} The base-10 color of the language, or null if no language is found
- */
-export function getColor(lang: string): number | null {
-	const language = findLanguage(lang);
-	return language?.color ?? null;
-}
-
-/**
- * Gets the HEX color of a language
- * @param {string} lang The locale or name of the language to find the color of
- * @returns {?string} The HEX color of the language, or null if no language is found
- */
-export function getHex(lang: string): string | null {
-	const language = findLanguage(lang);
-	return language?.hex ?? null;
-}
-
-/**
- * Gets the RGB color of a language
- * @param {string} lang The locale or name of the language to find the color of
- * @returns {?[number, number, number]} The RGB array of colors of the language, or null if no language is found
- */
-export function getRGB(lang: string): [number, number, number] | null {
-	const language = findLanguage(lang);
-	return language?.rgb ?? null;
-}
-
-/**
- * Gets an array with all the languages belonging to a given country
- * @param {string} country The country name or code to find
- * @returns {?Language[]} An array with all the languages belonging to that country or null if none are found
- */
-export function getCountryLanguages(country: string): Language[] | null {
-	const countryLangs = languages.filter(
-		l => l.country.toLowerCase() === country.toLowerCase() || l.countryCode.toLowerCase() === country.toLowerCase()
-	);
-	return countryLangs.length ? countryLangs : null;
-}
-
-/**
- * Gets an array with all the languages belonging to a given region
- * @param {string} region The region name or code to find
- * @returns {?Language[]} An array with all the languages belonging to that region or null if none are found
- */
-export function getRegionLanguages(region: string): Language[] | null {
-	const regionLangs = languages.filter(l => l.region?.toLowerCase() === region.toLowerCase() || l.regionCode?.toLowerCase() === region.toLowerCase());
-	return regionLangs.length ? regionLangs : null;
-}
-
-/**
- * Gets the native name of a language
- * @param {string} lang The locale or name of the language to find the native name of
- * @returns {?string} The native name of the language, or null if no language is found
- */
-export function getNativeName(lang: string): string | null {
-	const language = findLanguage(lang);
-	return language?.nativeName ?? null;
-}
-
-/**
- * Gets the direction of a language's text
- * @param {string} lang The locale or name of the language to find the direction of
- * @returns {?Direction} The direction of the language, or null if no language is found
- */
-export function getDirection(lang: string): Direction | null {
-	const language = findLanguage(lang);
-	return language?.direction ?? null;
-}
+export {
+	getLanguage,
+	getName,
+	getNativeName,
+	getIds,
+	getLocale,
+	getISO_639_1,
+	getISO_639_2,
+	getISO_639_3,
+	getAndroidCode,
+	getOSXCode,
+	getOSXLocale,
+	getGlottolog,
+	getDirection,
+	getCountry,
+	getCountryCode,
+	getCountryLanguages,
+	getFlag,
+	getImage,
+	getEmoji,
+	getPrimaryColor,
+	getPrimaryHex,
+	getPrimaryRGB,
+	getPrimaryCMYK,
+	getPrimaryBase10,
+	getFlagColors,
+	getHexFlagColors,
+	getRGBFlagColors,
+	getCMYKFlagColors,
+	getBase10FlagColors,
+	getRegion,
+	getRegionCode,
+	getRegionLanguages
+};
 
 export interface Language {
-	locale: string;
 	name: string;
 	nativeName: string;
-	direction: Direction;
+	ids: LanguageIds;
+	direction: "ltr" | "rtl";
 	country: string;
 	countryCode: string;
-	emoji?: string;
+	flag: LanguageFlag;
 	region?: string;
 	regionCode?: string;
-	hex: `#${string}`;
-	rgb: [number, number, number];
-	color: number;
 }
 
-export type Direction = "ltr" | "rtl";
+export interface LanguageIds {
+	locale: string;
+	ISO_639_1?: string;
+	ISO_639_2?: string;
+	ISO_639_3?: string;
+	androidCode: string;
+	osxCode: string;
+	osxLocale: string;
+	glottolog?: string;
+}
 
-/**
- * Finds a language given its locale or name
- * @param {string} lang The language to find
- * @returns {?Language} The corresponding language, or undefined if none is found
- * @private
- */
-function findLanguage(lang: string): Language | undefined {
-	return (
-		languages.find(l => l.locale.toLowerCase() === lang.toLowerCase()) ??
-		languages.find(l => l.locale.toLowerCase().includes(lang.toLowerCase())) ??
-		languages.find(l => l.name.toLowerCase() === lang.toLowerCase()) ??
-		languages.find(l => l.name.toLowerCase().includes(lang.toLowerCase()))
-	);
+export interface LanguageFlag {
+	image: `https://crowdin.com/images/flags/${string}.png`;
+	emoji?: string;
+	primaryColor: Color;
+	flagColors: Color[];
+}
+
+export interface Color {
+	hex: `#${string}`;
+	rgb: [number, number, number];
+	cmyk: [number, number, number, number];
+	base10: number;
 }
