@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.0...2.0.1) - (2022-01-01)
+
+## Documentation
+
+- Fix space ([7e311d1](https://github.com/Bas950/Language-Flag-Colors/commit/7e311d13dbbb33cc3bdc59f0c18e89db7c9b8793))
+
 # [2.0.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.2.0...2.0.0) - (2022-01-01)
 
 ## Documentation
