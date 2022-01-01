@@ -6,16 +6,14 @@
 	"author": "Bas950 <me@bas950.com>",
 	"license": "MIT",
 	"files": [
-		"bin/index.js",
-		"bin/index.d.ts",
-		"bin/languages.js",
-		"bin/languages.d.ts"
+		"bin"
 	],
 	"types": "bin/index.d.ts",
 	"scripts": {
-		"build": "rimraf bin && tsc",
-		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-		"test": "yarn build && jest"
+		"test": "jest",
+		"build": "rimraf bin && tsc && yarn test",
+		"build:prod": "yarn build && rimraf bin/tests",
+		"changelog": "git cliff --prepend CHANGELOG.md -l"
 	},
 	"keywords": [
 		"language",
@@ -25,14 +23,14 @@
 		"locale",
 		"iso",
 		"emoji",
-		"unicode"
+		"unicode",
+		"glottolog"
 	],
 	"devDependencies": {
 		"@types/jest": "^27.0.3",
-		"conventional-changelog-cli": "^2.1.1",
-		"jest": "^27.4.2",
+		"jest": "^27.4.5",
 		"rimraf": "^3.0.2",
-		"ts-jest": "^27.0.7",
-		"typescript": "^4.5.2"
+		"ts-jest": "^27.1.2",
+		"typescript": "^4.5.4"
 	}
 }
