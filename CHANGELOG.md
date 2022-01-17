@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-# [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.1...2.0.2) - (17-01-2022)
+# [2.0.2](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.1...2.0.2) - (17-01-2022)
 
 ## Bug Fixes
 
