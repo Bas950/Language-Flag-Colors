@@ -2,7 +2,7 @@
 	"trailingComma": "none",
 	"useTabs": true,
 	"endOfLine": "lf",
-	"proseWrap": "always",
+	"proseWrap": "never",
 	"arrowParens": "avoid",
 	"printWidth": 150,
 	"semi": true

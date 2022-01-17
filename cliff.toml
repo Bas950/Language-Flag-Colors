@@ -13,7 +13,7 @@ body = """
             (https://github.com/Bas950/Language-Flag-Colors/tree/{{ version }}\
         {% endif %}\
     {% endif %} \
-    - ({{ timestamp | date(format="%Y-%m-%d") }})
+    - ({{ timestamp | date(format="%d-%m-%Y") }})
 {% else %}\
     # [unreleased]
 {% endif %}\

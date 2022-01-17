@@ -1,13 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-# [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.0...2.0.1) - (2022-01-01)
+# [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.0...2.0.1) - (01-01-2022)
 
 ## Documentation
 
 - Fix space ([7e311d1](https://github.com/Bas950/Language-Flag-Colors/commit/7e311d13dbbb33cc3bdc59f0c18e89db7c9b8793))
 
-# [2.0.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.2.0...2.0.0) - (2022-01-01)
+# [2.0.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.2.0...2.0.0) - (01-01-2022)
 
 ## Documentation
 
@@ -39,13 +39,13 @@ All notable changes to this project will be documented in this file.
 - **index:** Use functions from files ([9c36893](https://github.com/Bas950/Language-Flag-Colors/commit/9c36893900861844b8052331f05e9f463fe19d95))
 - Move functions to their own files, tests too ([ff8cc19](https://github.com/Bas950/Language-Flag-Colors/commit/ff8cc191802dd648f44eb528694dc5fecbc524b9))
 
-# [1.2.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.1...1.2.0) - (2021-12-28)
+# [1.2.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.1...1.2.0) - (28-12-2021)
 
 ## Features
 
 - NativeName and direction ([3b134b9](https://github.com/Bas950/Language-Flag-Colors/commit/3b134b9170d66e566f2541a90c4fde69d975d724))
 
-# [1.1.1](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.0...1.1.1) - (2021-11-30)
+# [1.1.1](https://github.com/Bas950/Language-Flag-Colors/compare/1.1.0...1.1.1) - (30-11-2021)
 
 ## Bug Fixes
 
@@ -64,7 +64,7 @@ All notable changes to this project will be documented in this file.
 
 - Added tests ([ab258c1](https://github.com/Bas950/Language-Flag-Colors/commit/ab258c15ffcd8316d695430f6f110987bdd40341))
 
-# [1.1.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.0.2...1.1.0) - (2021-11-27)
+# [1.1.0](https://github.com/Bas950/Language-Flag-Colors/compare/1.0.2...1.1.0) - (27-11-2021)
 
 ## Documentation
 
@@ -83,18 +83,20 @@ All notable changes to this project will be documented in this file.
 
 - Specify return types for all methods ([610c581](https://github.com/Bas950/Language-Flag-Colors/commit/610c58193430884f8923f3d4c13eee91b5a81f4e))
 
-# [1.0.2](https://github.com/Bas950/Language-Flag-Colors/compare/1.0.1...1.0.2) - (2021-10-27)
+# [1.0.2](https://github.com/Bas950/Language-Flag-Colors/compare/1.0.1...1.0.2) - (27-10-2021)
 
 ## Bug Fixes
 
 - **Languages:** Make Irish green ([6787383](https://github.com/Bas950/Language-Flag-Colors/commit/67873838028f3a7a4d7ffa9a6a4d6474e98dbfb3))
 
-# [1.0.1]
-(https://github.com/Bas950/Language-Flag-Colors/tree/1.0.1 - (2021-10-23)
+# [1.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/1.0.0...1.0.1) - (23-10-2021)
 
 ## Documentation
 
 - Fix installation script ([1145812](https://github.com/Bas950/Language-Flag-Colors/commit/11458121e174bb7b381300d4fa5bca241211849f))
+
+# [1.0.0]
+(https://github.com/Bas950/Language-Flag-Colors/tree/1.0.0 - (23-10-2021)
 
 ## Features
 

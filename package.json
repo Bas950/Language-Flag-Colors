@@ -13,7 +13,7 @@
 		"test": "jest",
 		"build": "rimraf bin && tsc && yarn test",
 		"build:prod": "yarn build && rimraf bin/tests",
-		"changelog": "git cliff --prepend CHANGELOG.md -l"
+		"changelog": "git cliff --output CHANGELOG.md"
 	},
 	"keywords": [
 		"language",
