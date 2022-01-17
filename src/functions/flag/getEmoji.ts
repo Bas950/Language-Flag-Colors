@@ -8,6 +8,8 @@ import findLanguage from "../findLanguage";
  */
 export default function getEmoji(country: string) {
 	const language =
+		languages.find(l => l.country.toLowerCase() === country.toLowerCase() && l.flag.emoji) ??
+		languages.find(l => l.countryCode.toLowerCase() === country.toLowerCase() && l.flag.emoji) ??
 		languages.find(l => l.country.toLowerCase() === country.toLowerCase()) ??
 		languages.find(l => l.countryCode.toLowerCase() === country.toLowerCase()) ??
 		findLanguage(country);
