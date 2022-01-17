@@ -832,8 +832,8 @@ const languages: Language[] = [
 			glottolog: "berb1260"
 		},
 		direction: "ltr",
-		country: "Argelia",
-		countryCode: "dk",
+		country: "Algeria",
+		countryCode: "dz",
 		flag: {
 			image: "https://crowdin.com/images/flags/ber.png",
 			primaryColor: { hex: "#99CC33", rgb: [153, 204, 51], cmyk: [25, 0, 75, 20], base10: 10079283 },
@@ -1129,7 +1129,7 @@ const languages: Language[] = [
 		},
 		direction: "ltr",
 		country: "Russia",
-		countryCode: "es",
+		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/ce.png",
 			primaryColor: { hex: "#2B7338", rgb: [43, 115, 56], cmyk: [63, 0, 51, 55], base10: 2847544 },
