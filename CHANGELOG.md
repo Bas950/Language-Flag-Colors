@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.1...2.0.2) - (17-01-2022)
+
+## Bug Fixes
+
+- Add missing emojis ([111deb2](https://github.com/Bas950/Language-Flag-Colors/commit/111deb27b6d87b651029da4fdc30d38f173368c3))
+
 # [2.0.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.0...2.0.1) - (01-01-2022)
 
 ## Documentation
