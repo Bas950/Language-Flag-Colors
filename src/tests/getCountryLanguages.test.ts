@@ -48,7 +48,6 @@ describe("getCountryLanguages()", () => {
 				countryCode: "nl",
 				flag: {
 					image: "https://crowdin.com/images/flags/fy-NL.png",
-					emoji: "🇳🇱",
 					primaryColor: { hex: "#0155A5", rgb: [1, 85, 165], cmyk: [99, 48, 0, 35], base10: 87461 },
 					flagColors: [
 						{ hex: "#0155A5", rgb: [1, 85, 165], cmyk: [99, 48, 0, 35], base10: 87461 },
@@ -77,7 +76,6 @@ describe("getCountryLanguages()", () => {
 				countryCode: "nl",
 				flag: {
 					image: "https://crowdin.com/images/flags/li.png",
-					emoji: "🇳🇱",
 					primaryColor: { hex: "#2D558E", rgb: [45, 85, 142], cmyk: [68, 40, 0, 44], base10: 2971022 },
 					flagColors: [
 						{ hex: "#FFFFFF", rgb: [255, 255, 255], cmyk: [0, 0, 0, 0], base10: 16777215 },
@@ -98,7 +96,6 @@ describe("getCountryLanguages()", () => {
 				countryCode: "nl",
 				flag: {
 					image: "https://crowdin.com/images/flags/zea.png",
-					emoji: "🇳🇱",
 					primaryColor: { hex: "#1E09A2", rgb: [30, 9, 162], cmyk: [81, 94, 0, 36], base10: 1968546 },
 					flagColors: [
 						{ hex: "#1E09A2", rgb: [30, 9, 162], cmyk: [81, 94, 0, 36], base10: 1968546 },
@@ -173,7 +170,12 @@ describe("getCountryLanguages()", () => {
 			{
 				name: "English (upside down)",
 				nativeName: "ɥsıןƃuƎ",
-				ids: { locale: "en-UD", androidCode: "en-rUD", osxCode: "en-UD.lproj", osxLocale: "en_UD" },
+				ids: {
+					locale: "en-UD",
+					androidCode: "en-rUD",
+					osxCode: "en-UD.lproj",
+					osxLocale: "en_UD"
+				},
 				direction: "ltr",
 				country: "United States",
 				countryCode: "us",
@@ -261,7 +263,6 @@ describe("getCountryLanguages()", () => {
 				countryCode: "us",
 				flag: {
 					image: "https://crowdin.com/images/flags/haw.png",
-					emoji: "🇺🇸",
 					primaryColor: { hex: "#00247D", rgb: [0, 36, 125], cmyk: [100, 71, 0, 51], base10: 9341 },
 					flagColors: [
 						{ hex: "#012169", rgb: [1, 33, 105], cmyk: [99, 69, 0, 59], base10: 74089 },
@@ -326,13 +327,17 @@ describe("getCountryLanguages()", () => {
 			{
 				name: "LOLCAT",
 				nativeName: "LOLCAT",
-				ids: { locale: "lol-US", androidCode: "lol-rUS", osxCode: "lol.lproj", osxLocale: "lol" },
+				ids: {
+					locale: "lol-US",
+					androidCode: "lol-rUS",
+					osxCode: "lol.lproj",
+					osxLocale: "lol"
+				},
 				direction: "ltr",
 				country: "United States",
 				countryCode: "us",
 				flag: {
 					image: "https://crowdin.com/images/flags/lol.png",
-					emoji: "🇺🇸",
 					primaryColor: { hex: "#B8D251", rgb: [184, 210, 81], cmyk: [12, 0, 61, 18], base10: 12112465 },
 					flagColors: [
 						{ hex: "#B8D251", rgb: [184, 210, 81], cmyk: [12, 0, 61, 18], base10: 12112465 },

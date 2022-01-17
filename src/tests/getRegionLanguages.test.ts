@@ -19,7 +19,7 @@ describe("getRegionLanguges()", () => {
 			countryCode: "gb",
 			flag: {
 				image: "https://crowdin.com/images/flags/sco.png",
-				emoji: "🇬🇧",
+				emoji: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
 				primaryColor: { hex: "#005EB8", rgb: [0, 94, 184], cmyk: [100, 49, 0, 28], base10: 24248 },
 				flagColors: [
 					{ hex: "#005EB8", rgb: [0, 94, 184], cmyk: [100, 56, 0, 3], base10: 24248 },
@@ -47,7 +47,7 @@ describe("getRegionLanguges()", () => {
 			countryCode: "gb",
 			flag: {
 				image: "https://crowdin.com/images/flags/gd.png",
-				emoji: "🇬🇧",
+				emoji: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
 				primaryColor: { hex: "#005EB8", rgb: [0, 94, 184], cmyk: [100, 49, 0, 28], base10: 24248 },
 				flagColors: [
 					{ hex: "#005EB8", rgb: [0, 94, 184], cmyk: [100, 56, 0, 3], base10: 24248 },
