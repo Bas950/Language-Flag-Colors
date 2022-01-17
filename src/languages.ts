@@ -503,6 +503,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/av.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#0039A6", rgb: [0, 57, 166], cmyk: [100, 66, 0, 35], base10: 14758 },
 			flagColors: [
 				{ hex: "#00923F", rgb: [0, 146, 63], cmyk: [100, 0, 57, 43], base10: 37439 },
@@ -531,6 +532,7 @@ const languages: Language[] = [
 		countryCode: "ir",
 		flag: {
 			image: "https://crowdin.com/images/flags/ae.png",
+			emoji: "🇮🇷",
 			primaryColor: { hex: "#da0000", rgb: [218, 0, 0], cmyk: [0, 100, 100, 15], base10: 14286848 },
 			flagColors: [
 				{ hex: "#239F40", rgb: [35, 159, 64], cmyk: [100, 0, 67, 23], base10: 2334528 },
@@ -703,6 +705,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/ba.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#0070FF", rgb: [0, 112, 255], cmyk: [100, 56, 0, 0], base10: 28927 },
 			flagColors: [
 				{ hex: "#0070FF", rgb: [0, 112, 255], cmyk: [100, 56, 0, 0], base10: 28927 },
@@ -841,6 +844,7 @@ const languages: Language[] = [
 		countryCode: "dk",
 		flag: {
 			image: "https://crowdin.com/images/flags/ber.png",
+			emoji: "🇩🇰",
 			primaryColor: { hex: "#99CC33", rgb: [153, 204, 51], cmyk: [25, 0, 75, 20], base10: 10079283 },
 			flagColors: [
 				{ hex: "#0099CC", rgb: [0, 153, 204], cmyk: [100, 25, 0, 20], base10: 39372 },
@@ -1139,6 +1143,7 @@ const languages: Language[] = [
 		countryCode: "es",
 		flag: {
 			image: "https://crowdin.com/images/flags/ce.png",
+			emoji: "🇪🇸",
 			primaryColor: { hex: "#2B7338", rgb: [43, 115, 56], cmyk: [63, 0, 51, 55], base10: 2847544 },
 			flagColors: [
 				{ hex: "#2B7338", rgb: [43, 115, 56], cmyk: [63, 0, 51, 55], base10: 2847544 },
@@ -1302,6 +1307,7 @@ const languages: Language[] = [
 		countryCode: "mo",
 		flag: {
 			image: "https://crowdin.com/images/flags/zh-MO.png",
+			emoji: "🇲🇴",
 			primaryColor: { hex: "#00795E", rgb: [0, 121, 94], cmyk: [100, 0, 22, 53], base10: 31070 },
 			flagColors: [
 				{ hex: "#077662", rgb: [7, 118, 98], cmyk: [94, 0, 17, 54], base10: 489058 },
@@ -1354,6 +1360,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/cv.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#FFDF00", rgb: [255, 223, 0], cmyk: [0, 13, 100, 0], base10: 16768768 },
 			flagColors: [
 				{ hex: "#FFDF00", rgb: [255, 223, 0], cmyk: [0, 13, 100, 0], base10: 16768768 },
@@ -2403,6 +2410,7 @@ const languages: Language[] = [
 		countryCode: "uy",
 		flag: {
 			image: "https://crowdin.com/images/flags/eo.png",
+			emoji: "🇺🇾",
 			primaryColor: { hex: "#009900", rgb: [0, 153, 0], cmyk: [100, 0, 100, 40], base10: 39168 },
 			flagColors: [
 				{ hex: "#009900", rgb: [0, 153, 0], cmyk: [100, 0, 100, 40], base10: 39168 },
@@ -4128,6 +4136,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/kv.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#009B3A", rgb: [0, 155, 58], cmyk: [100, 0, 63, 39], base10: 39738 },
 			flagColors: [
 				{ hex: "#0039A6", rgb: [0, 57, 166], cmyk: [100, 66, 0, 35], base10: 14758 },
@@ -4210,6 +4219,7 @@ const languages: Language[] = [
 		countryCode: "kr",
 		flag: {
 			image: "https://crowdin.com/images/flags/ko.png",
+			emoji: "🇰🇷",
 			primaryColor: { hex: "#CD2E3A", rgb: [205, 46, 58], cmyk: [0, 78, 72, 20], base10: 13446714 },
 			flagColors: [
 				{ hex: "#CD2E3A", rgb: [205, 46, 58], cmyk: [0, 100, 80, 5], base10: 13446714 },
@@ -4237,6 +4247,7 @@ const languages: Language[] = [
 		countryCode: "ir",
 		flag: {
 			image: "https://crowdin.com/images/flags/ku.png",
+			emoji: "🇮🇷",
 			primaryColor: { hex: "#278E43", rgb: [39, 138, 65], cmyk: [72, 0, 53, 46], base10: 2591297 },
 			flagColors: [
 				{ hex: "#ED2024", rgb: [237, 32, 36], cmyk: [0, 87, 85, 7], base10: 15540260 },
@@ -4266,6 +4277,7 @@ const languages: Language[] = [
 		countryCode: "ir",
 		flag: {
 			image: "https://crowdin.com/images/flags/kmr.png",
+			emoji: "🇮🇷",
 			primaryColor: { hex: "#278E43", rgb: [39, 138, 65], cmyk: [72, 0, 53, 46], base10: 2591297 },
 			flagColors: [
 				{ hex: "#ED2024", rgb: [237, 32, 36], cmyk: [0, 87, 85, 7], base10: 15540260 },
@@ -4375,6 +4387,7 @@ const languages: Language[] = [
 		countryCode: "va",
 		flag: {
 			image: "https://crowdin.com/images/flags/la-LA.png",
+			emoji: "🇻🇦",
 			primaryColor: { hex: "#FFE000", rgb: [255, 224, 0], cmyk: [0, 12, 100, 0], base10: 16769024 },
 			flagColors: [
 				{ hex: "#FFE000", rgb: [255, 224, 0], cmyk: [0, 12, 100, 0], base10: 16769024 },
@@ -5540,6 +5553,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/os.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#EF4135", rgb: [250, 60, 50], cmyk: [0, 76, 80, 2], base10: 16399410 },
 			flagColors: [
 				{ hex: "#FFFFFF", rgb: [255, 255, 255], cmyk: [0, 0, 0, 0], base10: 16777215 },
@@ -5651,6 +5665,7 @@ const languages: Language[] = [
 		countryCode: "ir",
 		flag: {
 			image: "https://crowdin.com/images/flags/fa.png",
+			emoji: "🇮🇷",
 			primaryColor: { hex: "#DA0000", rgb: [218, 0, 0], cmyk: [0, 100, 100, 15], base10: 14286848 },
 			flagColors: [
 				{ hex: "#239F40", rgb: [35, 159, 64], cmyk: [100, 0, 67, 23], base10: 2334528 },
@@ -6071,6 +6086,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/sah.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#1199FF", rgb: [17, 153, 255], cmyk: [93, 40, 0, 0], base10: 1153535 },
 			flagColors: [
 				{ hex: "#1199FF", rgb: [17, 153, 255], cmyk: [93, 40, 0, 0], base10: 1153535 },
@@ -6572,6 +6588,7 @@ const languages: Language[] = [
 		countryCode: "ir",
 		flag: {
 			image: "https://crowdin.com/images/flags/ckb.png",
+			emoji: "🇮🇷",
 			primaryColor: { hex: "#278E43", rgb: [39, 138, 65], cmyk: [72, 0, 53, 46], base10: 2591297 },
 			flagColors: [
 				{ hex: "#ED2024", rgb: [237, 32, 36], cmyk: [0, 87, 85, 7], base10: 15540260 },
@@ -7372,6 +7389,7 @@ const languages: Language[] = [
 		countryCode: "tz",
 		flag: {
 			image: "https://crowdin.com/images/flags/sw-TZ.png",
+			emoji: "🇹🇿",
 			primaryColor: { hex: "#00A3DD", rgb: [0, 163, 221], cmyk: [100, 26, 0, 13], base10: 41949 },
 			flagColors: [
 				{ hex: "#1EB53A", rgb: [30, 181, 58], cmyk: [68, 0, 100, 0], base10: 2012474 },
@@ -7399,6 +7417,7 @@ const languages: Language[] = [
 		countryCode: "sz",
 		flag: {
 			image: "https://crowdin.com/images/flags/ss.png",
+			emoji: "🇸🇿",
 			primaryColor: { hex: "#3E5EB9", rgb: [62, 94, 185], cmyk: [66, 49, 0, 27], base10: 4087481 },
 			flagColors: [
 				{ hex: "#3E5EB9", rgb: [62, 94, 185], cmyk: [77, 0, 3, 0], base10: 4087481 },
@@ -7476,6 +7495,7 @@ const languages: Language[] = [
 		countryCode: "sy",
 		flag: {
 			image: "https://crowdin.com/images/flags/syc.png",
+			emoji: "🇸🇾",
 			primaryColor: { hex: "#CE1126", rgb: [206, 17, 38], cmyk: [0, 92, 82, 19], base10: 13504806 },
 			flagColors: [
 				{ hex: "#CE1126", rgb: [206, 17, 38], cmyk: [0, 90, 76, 0], base10: 13504806 },
@@ -7632,6 +7652,7 @@ const languages: Language[] = [
 		countryCode: "ru",
 		flag: {
 			image: "https://crowdin.com/images/flags/tt-RU.png",
+			emoji: "🇷🇺",
 			primaryColor: { hex: "#008000", rgb: [0, 128, 0], cmyk: [100, 0, 100, 50], base10: 32768 },
 			flagColors: [
 				{ hex: "#008000", rgb: [0, 128, 0], cmyk: [100, 0, 100, 50], base10: 32768 },
