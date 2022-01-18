@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# [2.0.4](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.3...2.0.4) - (18-01-2022)
+
+## Bug Fixes
+
+- Correct country names and codes ([40e69fe](https://github.com/Bas950/Language-Flag-Colors/commit/40e69fe1a94098ec1e62861570313a3c0fa1b3c2))
+- **getEmoji:** Try to find a language with an emoji first ([9a598b5](https://github.com/Bas950/Language-Flag-Colors/commit/9a598b57b995269db92a796b116e076685825c0c))
+- Remove incorrect emojis/add more accurate ones ([1f1aac1](https://github.com/Bas950/Language-Flag-Colors/commit/1f1aac1c981f8de7203d0fe95632cdbf0a91176c))
+
 # [2.0.3](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.2...2.0.3) - (17-01-2022)
 
 ## Bug Fixes
