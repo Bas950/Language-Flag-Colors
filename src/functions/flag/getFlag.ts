@@ -6,7 +6,7 @@ import findLanguage from "../findLanguage";
  * @param country The country, country code, language locale, ISO code or name to find the flag of
  * @returns The flag object of the language, or `null` if it is not found
  */
-export default function getFlag(country: string) {
+export function getFlag(country: string) {
 	const language =
 		languages.find(l => l.country.toLowerCase() === country.toLowerCase()) ??
 		languages.find(l => l.countryCode.toLowerCase() === country.toLowerCase()) ??

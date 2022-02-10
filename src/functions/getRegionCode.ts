@@ -6,7 +6,7 @@ import findLanguage from "./findLanguage";
  * @returns The language's region code, `null` if no language is found
  * or `undefined` if the language doesn't have a region
  */
-export default function getRegionCode(lang: string) {
+export function getRegionCode(lang: string) {
 	const language = findLanguage(lang);
 	return language ? language.regionCode : null;
 }

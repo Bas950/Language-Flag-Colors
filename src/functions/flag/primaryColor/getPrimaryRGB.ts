@@ -5,7 +5,7 @@ import findLanguage from "../../findLanguage";
  * @param lang The locale, ISO code or name of the language to find the color of
  * @returns The RGB array of colors of the language, or `null` if it is not found
  */
-export default function getPrimaryRGB(lang: string) {
+export function getPrimaryRGB(lang: string) {
 	const language = findLanguage(lang);
 	return language?.flag.primaryColor.rgb ?? null;
 }

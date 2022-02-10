@@ -1,73 +1,38 @@
-import getBase10FlagColors from "./functions/flag/flagColors/getBase10FlagColors";
-import getCMYKFlagColors from "./functions/flag/flagColors/getCMYKFlagColors";
-import getFlagColors from "./functions/flag/flagColors/getFlagColors";
-import getHexFlagColors from "./functions/flag/flagColors/getHexFlagColors";
-import getRGBFlagColors from "./functions/flag/flagColors/getRGBFlagColors";
-import getEmoji from "./functions/flag/getEmoji";
-import getFlag from "./functions/flag/getFlag";
-import getImage from "./functions/flag/getImage";
-import getPrimaryBase10 from "./functions/flag/primaryColor/getPrimaryBase10";
-import getPrimaryCMYK from "./functions/flag/primaryColor/getPrimaryCMYK";
-import getPrimaryColor from "./functions/flag/primaryColor/getPrimaryColor";
-import getPrimaryHex from "./functions/flag/primaryColor/getPrimaryHex";
-import getPrimaryRGB from "./functions/flag/primaryColor/getPrimaryRGB";
-import getCountry from "./functions/getCountry";
-import getCountryCode from "./functions/getCountryCode";
-import getCountryLanguages from "./functions/getCountryLanguages";
-import getDirection from "./functions/getDirection";
-import getLanguage from "./functions/getLanguage";
-import getName from "./functions/getName";
-import getNativeName from "./functions/getNativeName";
-import getRegion from "./functions/getRegion";
-import getRegionCode from "./functions/getRegionCode";
-import getRegionLanguages from "./functions/getRegionLanguages";
-import getAndroidCode from "./functions/ids/getAndroidCode";
-import getGlottolog from "./functions/ids/getGlottolog";
-import getIds from "./functions/ids/getIds";
-import getISO_639_1 from "./functions/ids/getISO_639_1";
-import getISO_639_2 from "./functions/ids/getISO_639_2";
-import getISO_639_3 from "./functions/ids/getISO_639_3";
-import getLocale from "./functions/ids/getLocale";
-import getOSXCode from "./functions/ids/getOSXCode";
-import getOSXLocale from "./functions/ids/getOSXLocale";
+export * from "./functions/flag/flagColors/getBase10FlagColors";
+export * from "./functions/flag/flagColors/getCMYKFlagColors";
+export * from "./functions/flag/flagColors/getFlagColors";
+export * from "./functions/flag/flagColors/getHexFlagColors";
+export * from "./functions/flag/flagColors/getRGBFlagColors";
+export * from "./functions/flag/getEmoji";
+export * from "./functions/flag/getFlag";
+export * from "./functions/flag/getImage";
+export * from "./functions/flag/primaryColor/getPrimaryBase10";
+export * from "./functions/flag/primaryColor/getPrimaryCMYK";
+export * from "./functions/flag/primaryColor/getPrimaryColor";
+export * from "./functions/flag/primaryColor/getPrimaryHex";
+export * from "./functions/flag/primaryColor/getPrimaryRGB";
+export * from "./functions/getCountry";
+export * from "./functions/getCountryCode";
+export * from "./functions/getCountryLanguages";
+export * from "./functions/getDirection";
+export * from "./functions/getLanguage";
+export * from "./functions/getName";
+export * from "./functions/getNativeName";
+export * from "./functions/getRegion";
+export * from "./functions/getRegionCode";
+export * from "./functions/getRegionLanguages";
+export * from "./functions/ids/getAndroidCode";
+export * from "./functions/ids/getGlottolog";
+export * from "./functions/ids/getIds";
+export * from "./functions/ids/getISO_639_1";
+export * from "./functions/ids/getISO_639_2";
+export * from "./functions/ids/getISO_639_3";
+export * from "./functions/ids/getLocale";
+export * from "./functions/ids/getOSXCode";
+export * from "./functions/ids/getOSXLocale";
 import languages from "./languages";
 
 export default languages;
-
-export {
-	getLanguage,
-	getName,
-	getNativeName,
-	getIds,
-	getLocale,
-	getISO_639_1,
-	getISO_639_2,
-	getISO_639_3,
-	getAndroidCode,
-	getOSXCode,
-	getOSXLocale,
-	getGlottolog,
-	getDirection,
-	getCountry,
-	getCountryCode,
-	getCountryLanguages,
-	getFlag,
-	getImage,
-	getEmoji,
-	getPrimaryColor,
-	getPrimaryHex,
-	getPrimaryRGB,
-	getPrimaryCMYK,
-	getPrimaryBase10,
-	getFlagColors,
-	getHexFlagColors,
-	getRGBFlagColors,
-	getCMYKFlagColors,
-	getBase10FlagColors,
-	getRegion,
-	getRegionCode,
-	getRegionLanguages
-};
 
 export interface Language {
 	name: string;
