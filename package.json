@@ -1,18 +1,23 @@
 {
 	"name": "language-flag-colors",
 	"version": "2.0.4",
-	"main": "bin/index.js",
 	"repository": "https://github.com/Bas950/Language-Flag-Colors.git",
 	"author": "Bas950 <me@bas950.com>",
 	"license": "MIT",
 	"files": [
 		"bin"
 	],
+	"main": "bin/index.js",
+	"module": "bin/index.mjs",
 	"types": "bin/index.d.ts",
 	"scripts": {
 		"test": "jest",
-		"build": "rimraf bin && tsc && yarn test",
-		"build:prod": "yarn build && rimraf bin/tests",
+		"clean": "rimraf bin",
+		"clean:tests": "rimraf bin/tests",
+		"build:cjs": "tsc",
+		"build:esm": "tsc --module esnext && mv ./bin/index.js ./bin/index.mjs",
+		"build": "yarn clean && yarn build:esm && yarn build:cjs && yarn test",
+		"build:prod": "yarn build && yarn clean:tests",
 		"changelog": "git cliff --output CHANGELOG.md"
 	},
 	"keywords": [
