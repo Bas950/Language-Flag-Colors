@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# [2.1.0](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.4...2.1.0) - (19-06-2022)
+
+## Features
+
+- Add support for ESM (#13) ([ebcc496](https://github.com/Bas950/Language-Flag-Colors/commit/ebcc496f8cc34b74f78817e2dbff260a440cdd5e))
+
+## Refactor
+
+- Use named exports ([70cb958](https://github.com/Bas950/Language-Flag-Colors/commit/70cb958227b32e0e29d7368d034c521040e18502))
+
 # [2.0.4](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.3...2.0.4) - (18-01-2022)
 
 ## Bug Fixes
