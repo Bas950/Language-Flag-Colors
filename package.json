@@ -14,6 +14,7 @@
 		"test": "jest",
 		"clean": "rimraf bin",
 		"clean:tests": "rimraf bin/tests",
+		"build:ci": "tsc --noEmit",
 		"build:cjs": "tsc",
 		"build:esm": "tsc --module esnext && mv ./bin/index.js ./bin/index.mjs",
 		"build": "yarn clean && yarn build:esm && yarn build:cjs && yarn test",
