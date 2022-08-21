@@ -125,4 +125,16 @@ describe("findLanguage()", () => {
 	test("Finding the language of a language given its name", () => {
 		expect(findLanguage("english")).toStrictEqual(EN);
 	});
+
+	test("Finding the language of a language given its osxCode", () => {
+		expect(findLanguage("en.lproj")).toStrictEqual(EN);
+	});
+
+	test("Finding the language of a language given its osxLocale", () => {
+		expect(findLanguage("ar_BH")).toStrictEqual(BH);
+	});
+
+	test("Finding the language of a language given its android code", () => {
+		expect(findLanguage("ar-rBH")).toStrictEqual(BH);
+	});
 });
