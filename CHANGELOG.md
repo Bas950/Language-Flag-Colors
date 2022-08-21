@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# [2.1.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.1.0...2.1.1) - (21-08-2022)
+
+## Features
+
+- Allow osx locale/code and android code when searching for a language ([cc3904d](https://github.com/Bas950/Language-Flag-Colors/commit/cc3904d0475b749fe64e9e1030303c6e9a1a81db))
+
 # [2.1.0](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.4...2.1.0) - (19-06-2022)
 
 ## Features
@@ -125,8 +131,7 @@ All notable changes to this project will be documented in this file.
 
 - Fix installation script ([1145812](https://github.com/Bas950/Language-Flag-Colors/commit/11458121e174bb7b381300d4fa5bca241211849f))
 
-# [1.0.0]
-(https://github.com/Bas950/Language-Flag-Colors/tree/1.0.0 - (23-10-2021)
+# [1.0.0](https://github.com/Bas950/Language-Flag-Colors/tree/1.0.0) - (23-10-2021)
 
 ## Features
 
