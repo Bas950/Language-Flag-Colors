@@ -1,5 +1,12 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
+
+# [2.1.2](https://github.com/Bas950/Language-Flag-Colors/compare/2.1.1...2.1.2) - (20-09-2022)
+
+## Refactor
+
+- Use gen-esm-wrapper for esm compatibility ([f5dec65](https://github.com/Bas950/Language-Flag-Colors/commit/f5dec6541e247c7a01779a4eef7ed9b2509f0e06))
 
 # [2.1.1](https://github.com/Bas950/Language-Flag-Colors/compare/2.1.0...2.1.1) - (21-08-2022)
 
@@ -17,18 +24,13 @@ All notable changes to this project will be documented in this file.
 
 - Use named exports ([70cb958](https://github.com/Bas950/Language-Flag-Colors/commit/70cb958227b32e0e29d7368d034c521040e18502))
 
-# [2.0.4](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.3...2.0.4) - (18-01-2022)
+# [2.0.4](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.2...2.0.4) - (18-01-2022)
 
 ## Bug Fixes
 
 - Correct country names and codes ([40e69fe](https://github.com/Bas950/Language-Flag-Colors/commit/40e69fe1a94098ec1e62861570313a3c0fa1b3c2))
 - **getEmoji:** Try to find a language with an emoji first ([9a598b5](https://github.com/Bas950/Language-Flag-Colors/commit/9a598b57b995269db92a796b116e076685825c0c))
 - Remove incorrect emojis/add more accurate ones ([1f1aac1](https://github.com/Bas950/Language-Flag-Colors/commit/1f1aac1c981f8de7203d0fe95632cdbf0a91176c))
-
-# [2.0.3](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.2...2.0.3) - (17-01-2022)
-
-## Bug Fixes
-
 - Add ALL missing emojis (sorry) ([201419d](https://github.com/Bas950/Language-Flag-Colors/commit/201419dc2ec056aff36908ab33149dcad2739e0d))
 
 # [2.0.2](https://github.com/Bas950/Language-Flag-Colors/compare/2.0.1...2.0.2) - (17-01-2022)
@@ -131,10 +133,11 @@ All notable changes to this project will be documented in this file.
 
 - Fix installation script ([1145812](https://github.com/Bas950/Language-Flag-Colors/commit/11458121e174bb7b381300d4fa5bca241211849f))
 
-# [1.0.0](https://github.com/Bas950/Language-Flag-Colors/tree/1.0.0) - (23-10-2021)
+# [1.0.0]
+
+(https://github.com/Bas950/Language-Flag-Colors/tree/1.0.0 - (23-10-2021)
 
 ## Features
 
 - Add keywords ([42ffb76](https://github.com/Bas950/Language-Flag-Colors/commit/42ffb7604156287c9703296579114a37fa788007))
 - Add languages and functions ([2201bd2](https://github.com/Bas950/Language-Flag-Colors/commit/2201bd2cc4a1b57b834bb34cad1706c21e5ba598))
-
