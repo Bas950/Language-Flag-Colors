@@ -1,3 +1,6 @@
+# THIS PACKAGE HAS BEEN MOVED TO [Bas950/Packages](https://github.com/Bas950/packages/tree/main/packages/Language-Flag-Colors)
+
+
 # Language-Flag-Colors [![Version](https://img.shields.io/npm/v/language-flag-colors.svg)](https://www.npmjs.com/package/language-flag-colors)
 
 A package with the color of every language's flag
